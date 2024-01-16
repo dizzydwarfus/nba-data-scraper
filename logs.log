@@ -176,3 +176,2045 @@
 2024-01-16 01:13:18,256 - player_scraper_logger - INFO - Averaged 6.01 seconds per letter
 2024-01-16 01:13:18,256 - player_scraper_logger - WARNING - 
 ------------------------------------------------------------------------------------------------------
+2024-01-16 01:19:56,269 - player_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Player Info!-------------------------------------
+2024-01-16 01:19:56,490 - player_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/b/
+2024-01-16 01:19:56,821 - player_scraper_logger - INFO - Scraped letter b | 499 players
+2024-01-16 01:19:56,824 - player_scraper_logger - INFO - Scraping players data for letter b
+2024-01-16 01:19:57,027 - player_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/b/
+2024-01-16 01:19:57,346 - player_scraper_logger - INFO - Scraped letter b | 499 players
+2024-01-16 01:19:57,348 - player_scraper_logger - INFO - Concatenated letter b | 499 players
+2024-01-16 01:19:57,348 - player_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 01:20:01,363 - player_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Player Info!-------------------------------------
+2024-01-16 01:20:01,364 - player_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-16 01:20:01,365 - player_scraper_logger - INFO - Total players scraped: 499
+2024-01-16 01:20:01,365 - player_scraper_logger - INFO - Total lag time: 4 seconds | 0.07 minutes | 0.0 hours
+2024-01-16 01:20:01,366 - player_scraper_logger - INFO - Failed letters: 0 out of 1 letters
+2024-01-16 01:20:01,367 - player_scraper_logger - INFO - Time elapsed: 5.098042726516724 seconds | 0.08 minutes | 0.0 hours
+2024-01-16 01:20:01,367 - player_scraper_logger - INFO - Averaged 5.1 seconds per letter
+2024-01-16 01:20:01,368 - player_scraper_logger - WARNING - 
+------------------------------------------------------------------------------------------------------
+2024-01-16 19:53:58,594 - player_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/players/['b']/
+2024-01-16 19:54:16,883 - player_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/b/
+2024-01-16 19:54:49,866 - player_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/b/
+2024-01-16 19:54:50,224 - player_scraper_logger - INFO - Scraped letter b | 499 players
+2024-01-16 19:55:53,835 - player_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/b/
+2024-01-16 21:36:46,172 - player_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Player Info!-------------------------------------
+2024-01-16 21:36:46,402 - player_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/b/
+2024-01-16 21:36:46,777 - player_scraper_logger - INFO - Scraped letter b | 499 players
+2024-01-16 21:36:46,779 - player_scraper_logger - INFO - Scraping players data for letter b
+2024-01-16 21:36:46,984 - player_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/b/
+2024-01-16 21:36:47,322 - player_scraper_logger - INFO - Scraped letter b | 499 players
+2024-01-16 21:36:47,324 - player_scraper_logger - INFO - Concatenated letter b | 499 players
+2024-01-16 21:36:47,326 - player_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 21:36:51,342 - player_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Player Info!-------------------------------------
+2024-01-16 21:36:51,342 - player_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-16 21:36:51,342 - player_scraper_logger - INFO - Total players scraped: 499
+2024-01-16 21:36:51,343 - player_scraper_logger - INFO - Total lag time: 4 seconds | 0.07 minutes | 0.0 hours
+2024-01-16 21:36:51,343 - player_scraper_logger - INFO - Failed letters: 0 out of 1 letters
+2024-01-16 21:36:51,344 - player_scraper_logger - INFO - Time elapsed: 5.170216798782349 seconds | 0.09 minutes | 0.0 hours
+2024-01-16 21:36:51,345 - player_scraper_logger - INFO - Averaged 5.17 seconds per letter
+2024-01-16 21:36:51,346 - player_scraper_logger - WARNING - 
+------------------------------------------------------------------------------------------------------
+2024-01-16 21:37:05,217 - game_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Schedule Info!-------------------------------------
+2024-01-16 21:37:14,767 - game_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Schedule Info!-------------------------------------
+2024-01-16 21:37:14,768 - game_scraper_logger - INFO - Scraping schedule data for 2019-october
+2024-01-16 21:37:14,969 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2019_games-october.html#schedule
+2024-01-16 21:39:17,435 - game_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Schedule Info!-------------------------------------
+2024-01-16 21:39:17,436 - game_scraper_logger - INFO - Scraping schedule data for 2019-october
+2024-01-16 21:39:17,640 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2019_games-october.html#schedule
+2024-01-16 21:39:17,739 - game_scraper_logger - ERROR - No schedule data scraped. Please check your input parameters.
+2024-01-16 21:40:18,395 - game_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Schedule Info!-------------------------------------
+2024-01-16 21:40:18,395 - game_scraper_logger - INFO - Scraping schedule data for 2019-october
+2024-01-16 21:40:18,526 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2019_games-october.html#schedule
+2024-01-16 21:40:18,634 - game_scraper_logger - ERROR - No schedule data scraped. Please check your input parameters.
+2024-01-16 21:42:15,944 - game_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Schedule Info!-------------------------------------
+2024-01-16 21:42:15,945 - game_scraper_logger - INFO - Scraping schedule data for 2019-october
+2024-01-16 21:42:16,067 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2019_games-october.html#schedule
+2024-01-16 21:42:16,177 - game_scraper_logger - ERROR - No schedule data scraped. Please check your input parameters.
+2024-01-16 21:42:20,658 - player_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Player Info!-------------------------------------
+2024-01-16 21:42:20,862 - player_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/players/3242/
+2024-01-16 21:42:20,882 - player_scraper_logger - ERROR - Letter 3242 not found
+2024-01-16 21:42:20,883 - player_scraper_logger - ERROR - Failed to scrape letter 3242: 'bool' object has no attribute 'find_all'
+
+2024-01-16 21:42:20,883 - player_scraper_logger - INFO - Scraping players data for letter 3242
+2024-01-16 21:42:20,974 - player_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/players/3242/
+2024-01-16 21:42:20,993 - player_scraper_logger - ERROR - Letter 3242 not found
+2024-01-16 21:42:20,993 - player_scraper_logger - ERROR - Failed to scrape letter 3242: 'bool' object has no attribute 'find_all'
+
+2024-01-16 21:42:20,994 - player_scraper_logger - ERROR - No player data scraped. Please check your input parameters.
+2024-01-16 21:43:13,916 - game_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Schedule Info!-------------------------------------
+2024-01-16 21:43:13,916 - game_scraper_logger - INFO - Scraping schedule data for 2019-january
+2024-01-16 21:43:14,207 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2019_games-january.html#schedule
+2024-01-16 21:43:14,327 - game_scraper_logger - ERROR - No schedule data scraped. Please check your input parameters.
+2024-01-16 21:44:14,006 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2019_games-january.html#schedule
+2024-01-16 21:44:27,396 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2019_games-january.html#schedule
+2024-01-16 21:44:27,634 - game_scraper_logger - INFO - Successfully scraped schedule table.
+2024-01-16 21:44:55,724 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2019_games-january.html#schedule
+2024-01-16 21:44:55,912 - game_scraper_logger - INFO - Successfully scraped schedule table.
+2024-01-16 21:44:55,932 - game_scraper_logger - INFO - Successfully processed daily schedule.
+2024-01-16 21:45:55,214 - game_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Schedule Info!-------------------------------------
+2024-01-16 21:45:55,215 - game_scraper_logger - INFO - Scraping schedule data for 2019-january
+2024-01-16 21:45:55,327 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2019_games-january.html#schedule
+2024-01-16 21:45:55,496 - game_scraper_logger - ERROR - No schedule data scraped. Please check your input parameters.
+2024-01-16 21:46:56,397 - player_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Player Info!-------------------------------------
+2024-01-16 21:46:56,602 - player_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/players/3242/
+2024-01-16 21:46:56,624 - player_scraper_logger - ERROR - Letter 3242 not found
+2024-01-16 21:46:56,625 - player_scraper_logger - ERROR - Failed to scrape letter 3242: 'bool' object has no attribute 'find_all'
+
+2024-01-16 21:46:56,626 - player_scraper_logger - INFO - Scraping players data for letter 3242
+2024-01-16 21:46:56,825 - player_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/players/3242/
+2024-01-16 21:46:56,844 - player_scraper_logger - ERROR - Letter 3242 not found
+2024-01-16 21:46:56,845 - player_scraper_logger - ERROR - Failed to scrape letter 3242: 'bool' object has no attribute 'find_all'
+
+2024-01-16 21:46:56,846 - player_scraper_logger - ERROR - No player data scraped. Please check your input parameters.
+2024-01-16 21:47:13,780 - player_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Player Info!-------------------------------------
+2024-01-16 21:47:13,985 - player_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/players/3242/
+2024-01-16 21:47:14,005 - player_scraper_logger - ERROR - Letter 3242 not found
+2024-01-16 21:47:14,006 - player_scraper_logger - ERROR - Failed to scrape letter 3242: 'bool' object has no attribute 'find_all'
+
+2024-01-16 21:47:14,007 - player_scraper_logger - INFO - Scraping players data for letter 3242
+2024-01-16 21:47:14,201 - player_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/players/3242/
+2024-01-16 21:47:14,219 - player_scraper_logger - ERROR - Letter 3242 not found
+2024-01-16 21:47:14,220 - player_scraper_logger - ERROR - Failed to scrape letter 3242: 'bool' object has no attribute 'find_all'
+
+2024-01-16 21:47:14,221 - player_scraper_logger - ERROR - No player data scraped. Please check your input parameters.
+2024-01-16 21:48:29,336 - player_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Player Info!-------------------------------------
+2024-01-16 21:48:29,561 - player_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/players/3242/
+2024-01-16 21:48:29,584 - player_scraper_logger - ERROR - Letter 3242 not found
+2024-01-16 21:48:29,584 - player_scraper_logger - ERROR - Failed to scrape letter 3242: 'bool' object has no attribute 'find_all'
+
+2024-01-16 21:48:29,802 - player_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/players/3242/
+2024-01-16 21:48:29,820 - player_scraper_logger - ERROR - Letter 3242 not found
+2024-01-16 21:48:29,821 - player_scraper_logger - ERROR - Failed to scrape letter 3242: 'bool' object has no attribute 'find_all'
+
+2024-01-16 21:48:29,822 - player_scraper_logger - ERROR - No player data scraped. Please check your input parameters.
+2024-01-16 21:49:22,423 - player_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Player Info!-------------------------------------
+2024-01-16 21:49:22,671 - player_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/a/
+2024-01-16 21:49:22,836 - player_scraper_logger - INFO - Scraped letter a | 176 players
+2024-01-16 21:49:22,959 - player_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/a/
+2024-01-16 21:49:23,079 - player_scraper_logger - INFO - Scraped letter a | 176 players
+2024-01-16 21:50:29,637 - player_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Player Info!-------------------------------------
+2024-01-16 21:50:29,735 - player_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/a/
+2024-01-16 21:50:29,904 - player_scraper_logger - INFO - Scraped letter a | 176 players
+2024-01-16 21:50:30,290 - player_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/a/
+2024-01-16 21:50:30,436 - player_scraper_logger - INFO - Scraped letter a | 176 players
+2024-01-16 21:50:30,438 - player_scraper_logger - INFO - Concatenated letter a | 176 players
+2024-01-16 21:50:30,439 - player_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 21:50:35,451 - player_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Player Info!-------------------------------------
+2024-01-16 21:50:35,451 - player_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-16 21:50:35,452 - player_scraper_logger - INFO - Total players scraped: 176
+2024-01-16 21:50:35,452 - player_scraper_logger - INFO - Total lag time: 5 seconds | 0.08 minutes | 0.0 hours
+2024-01-16 21:50:35,453 - player_scraper_logger - INFO - Failed letters: 0 out of 1 letters
+2024-01-16 21:50:35,454 - player_scraper_logger - INFO - Time elapsed: 5.813948392868042 seconds | 0.1 minutes | 0.0 hours
+2024-01-16 21:50:35,454 - player_scraper_logger - INFO - Averaged 5.81 seconds per letter
+2024-01-16 21:50:35,455 - player_scraper_logger - WARNING - 
+------------------------------------------------------------------------------------------------------
+2024-01-16 21:51:43,817 - player_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Player Info!-------------------------------------
+2024-01-16 21:51:44,018 - player_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/a/
+2024-01-16 21:51:44,189 - player_scraper_logger - INFO - Scraped letter a | 176 players
+2024-01-16 21:51:44,192 - player_scraper_logger - INFO - Concatenated letter a | 176 players
+2024-01-16 21:51:44,192 - player_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 21:51:48,195 - player_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Player Info!-------------------------------------
+2024-01-16 21:51:48,195 - player_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-16 21:51:48,196 - player_scraper_logger - INFO - Total players scraped: 176
+2024-01-16 21:51:48,196 - player_scraper_logger - INFO - Total lag time: 4 seconds | 0.07 minutes | 0.0 hours
+2024-01-16 21:51:48,197 - player_scraper_logger - INFO - Failed letters: 0 out of 1 letters
+2024-01-16 21:51:48,198 - player_scraper_logger - INFO - Time elapsed: 4.377490997314453 seconds | 0.07 minutes | 0.0 hours
+2024-01-16 21:51:48,198 - player_scraper_logger - INFO - Averaged 4.38 seconds per letter
+2024-01-16 21:51:48,199 - player_scraper_logger - WARNING - 
+------------------------------------------------------------------------------------------------------
+2024-01-16 21:52:58,185 - player_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Player Info!-------------------------------------
+2024-01-16 21:52:58,377 - player_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/a/
+2024-01-16 21:52:58,504 - player_scraper_logger - INFO - Scraped letter a | 176 players
+2024-01-16 21:52:58,506 - player_scraper_logger - INFO - Concatenated letter a | 176 players
+2024-01-16 21:52:58,507 - player_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 21:53:03,518 - player_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Player Info!-------------------------------------
+2024-01-16 21:53:03,519 - player_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-16 21:53:03,519 - player_scraper_logger - INFO - Total players scraped: 176
+2024-01-16 21:53:03,520 - player_scraper_logger - INFO - Total lag time: 5 seconds | 0.08 minutes | 0.0 hours
+2024-01-16 21:53:03,521 - player_scraper_logger - INFO - Failed letters: 0 out of 1 letters
+2024-01-16 21:53:03,521 - player_scraper_logger - INFO - Time elapsed: 5.333257675170898 seconds | 0.09 minutes | 0.0 hours
+2024-01-16 21:53:03,522 - player_scraper_logger - INFO - Averaged 5.33 seconds per letter
+2024-01-16 21:53:03,522 - player_scraper_logger - WARNING - 
+------------------------------------------------------------------------------------------------------
+2024-01-16 21:53:17,516 - game_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Schedule Info!-------------------------------------
+2024-01-16 21:53:17,516 - game_scraper_logger - INFO - Scraping schedule data for 2019-january
+2024-01-16 21:53:17,733 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2019_games-january.html#schedule
+2024-01-16 21:53:17,936 - game_scraper_logger - INFO - Successfully scraped schedule table.
+2024-01-16 21:53:17,956 - game_scraper_logger - INFO - Successfully processed daily schedule.
+2024-01-16 21:53:17,957 - game_scraper_logger - INFO - Cycle lag time: 3
+2024-01-16 21:53:20,972 - game_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Schedule Info!-------------------------------------
+2024-01-16 21:53:20,973 - game_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-16 21:53:20,973 - game_scraper_logger - INFO - Total schedule page scraped: 1
+2024-01-16 21:53:20,974 - game_scraper_logger - INFO - Total lag time: 3 seconds | 0.05 minutes | 0.0 hours
+2024-01-16 21:53:20,974 - game_scraper_logger - INFO - Failed Schedule Pages: 0 out of 1 schedule pages
+2024-01-16 21:53:20,975 - game_scraper_logger - INFO - Time elapsed: 3.456636428833008 seconds | 0.06 minutes | 0.0 hours
+2024-01-16 21:53:20,976 - game_scraper_logger - INFO - Averaged 3.46 seconds per schedule page
+2024-01-16 21:53:20,976 - game_scraper_logger - WARNING - 
+------------------------------------------------------------------------------------------------------
+2024-01-16 21:54:24,014 - game_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Schedule Info!-------------------------------------
+2024-01-16 21:54:24,015 - game_scraper_logger - INFO - Scraping schedule data for 2019-october
+2024-01-16 21:54:24,245 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2019_games-october.html#schedule
+2024-01-16 21:54:24,407 - game_scraper_logger - INFO - Successfully scraped schedule table.
+2024-01-16 21:54:24,418 - game_scraper_logger - INFO - Successfully processed daily schedule.
+2024-01-16 21:54:24,418 - game_scraper_logger - INFO - Cycle lag time: 3
+2024-01-16 21:54:27,422 - game_scraper_logger - INFO - Scraping schedule data for 2019-january
+2024-01-16 21:54:27,532 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2019_games-january.html#schedule
+2024-01-16 21:54:27,728 - game_scraper_logger - INFO - Successfully scraped schedule table.
+2024-01-16 21:54:27,746 - game_scraper_logger - INFO - Successfully processed daily schedule.
+2024-01-16 21:54:27,746 - game_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 21:54:31,761 - game_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Schedule Info!-------------------------------------
+2024-01-16 21:54:31,762 - game_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-16 21:54:31,762 - game_scraper_logger - INFO - Total schedule page scraped: 2
+2024-01-16 21:54:31,763 - game_scraper_logger - INFO - Total lag time: 7 seconds | 0.12 minutes | 0.0 hours
+2024-01-16 21:54:31,763 - game_scraper_logger - INFO - Failed Schedule Pages: 0 out of 2 schedule pages
+2024-01-16 21:54:31,765 - game_scraper_logger - INFO - Time elapsed: 7.7472968101501465 seconds | 0.13 minutes | 0.0 hours
+2024-01-16 21:54:31,765 - game_scraper_logger - INFO - Averaged 3.87 seconds per schedule page
+2024-01-16 21:54:31,766 - game_scraper_logger - WARNING - 
+------------------------------------------------------------------------------------------------------
+2024-01-16 21:54:56,410 - game_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Schedule Info!-------------------------------------
+2024-01-16 21:54:56,411 - game_scraper_logger - INFO - Scraping schedule data for 2019-july
+2024-01-16 21:54:56,600 - game_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/leagues/NBA_2019_games-july.html#schedule
+2024-01-16 21:54:56,620 - game_scraper_logger - ERROR - No games found for 2019-july
+2024-01-16 21:54:56,621 - game_scraper_logger - INFO - Scraping schedule data for 2019-january
+2024-01-16 21:54:56,735 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2019_games-january.html#schedule
+2024-01-16 21:54:56,926 - game_scraper_logger - INFO - Successfully scraped schedule table.
+2024-01-16 21:54:56,945 - game_scraper_logger - INFO - Successfully processed daily schedule.
+2024-01-16 21:54:56,946 - game_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 21:55:00,955 - game_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Schedule Info!-------------------------------------
+2024-01-16 21:55:00,955 - game_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-16 21:55:00,956 - game_scraper_logger - INFO - Total schedule page scraped: 1
+2024-01-16 21:55:00,956 - game_scraper_logger - INFO - Total lag time: 4 seconds | 0.07 minutes | 0.0 hours
+2024-01-16 21:55:00,957 - game_scraper_logger - INFO - Failed Schedule Pages: 1 out of 1 schedule pages
+2024-01-16 21:55:00,958 - game_scraper_logger - INFO - Time elapsed: 4.5450239181518555 seconds | 0.08 minutes | 0.0 hours
+2024-01-16 21:55:00,958 - game_scraper_logger - INFO - Averaged 4.55 seconds per schedule page
+2024-01-16 21:55:00,959 - game_scraper_logger - WARNING - 
+------------------------------------------------------------------------------------------------------
+2024-01-16 21:58:34,147 - player_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Player Info!-------------------------------------
+2024-01-16 21:58:34,255 - player_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/a/
+2024-01-16 21:58:34,414 - player_scraper_logger - INFO - Scraped letter a | 176 players
+2024-01-16 21:58:34,416 - player_scraper_logger - INFO - Concatenated letter a | 176 players
+2024-01-16 21:58:34,417 - player_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 21:58:39,651 - player_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/players/2/
+2024-01-16 21:58:39,669 - player_scraper_logger - ERROR - Letter 2 not found
+2024-01-16 21:58:39,670 - player_scraper_logger - ERROR - Failed to scrape letter 2: 'bool' object has no attribute 'find_all'
+
+2024-01-16 21:58:39,874 - player_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/players/1/
+2024-01-16 21:58:39,892 - player_scraper_logger - ERROR - Letter 1 not found
+2024-01-16 21:58:39,893 - player_scraper_logger - ERROR - Failed to scrape letter 1: 'bool' object has no attribute 'find_all'
+
+2024-01-16 21:58:39,895 - player_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Player Info!-------------------------------------
+2024-01-16 21:58:39,895 - player_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-16 21:58:39,896 - player_scraper_logger - INFO - Total players scraped: 176
+2024-01-16 21:58:39,897 - player_scraper_logger - INFO - Total lag time: 5 seconds | 0.08 minutes | 0.0 hours
+2024-01-16 21:58:39,897 - player_scraper_logger - INFO - Failed letters: 2 out of 3 letters
+2024-01-16 21:58:39,898 - player_scraper_logger - INFO - Time elapsed: 5.748511552810669 seconds | 0.1 minutes | 0.0 hours
+2024-01-16 21:58:39,898 - player_scraper_logger - INFO - Averaged 1.92 seconds per letter
+------------------------------------------------------------------------------------------------------
+2024-01-16 22:00:14,920 - game_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Schedule Info!-------------------------------------
+2024-01-16 22:00:14,920 - game_scraper_logger - INFO - Scraping schedule data for 2019-july
+2024-01-16 22:00:15,171 - game_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/leagues/NBA_2019_games-july.html#schedule
+2024-01-16 22:00:15,190 - game_scraper_logger - ERROR - No games found for 2019-july
+2024-01-16 22:00:15,192 - game_scraper_logger - INFO - Scraping schedule data for 2019-january
+2024-01-16 22:00:15,309 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2019_games-january.html#schedule
+2024-01-16 22:00:15,494 - game_scraper_logger - INFO - Successfully scraped schedule table.
+2024-01-16 22:00:15,514 - game_scraper_logger - INFO - Successfully processed daily schedule.
+2024-01-16 22:00:15,514 - game_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 22:00:19,519 - game_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Schedule Info!-------------------------------------
+2024-01-16 22:00:19,519 - game_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-16 22:00:19,520 - game_scraper_logger - INFO - Total schedule page scraped: 1
+2024-01-16 22:00:19,520 - game_scraper_logger - INFO - Total lag time: 4 seconds | 0.07 minutes | 0.0 hours
+2024-01-16 22:00:19,521 - game_scraper_logger - INFO - Failed Schedule Pages: 1 out of 1 schedule pages
+2024-01-16 22:00:19,522 - game_scraper_logger - INFO - Time elapsed: 4.598691940307617 seconds | 0.08 minutes | 0.0 hours
+2024-01-16 22:00:19,522 - game_scraper_logger - INFO - Averaged 4.6 seconds per schedule page
+2024-01-16 22:00:19,523 - game_scraper_logger - WARNING - 
+------------------------------------------------------------------------------------------------------
+2024-01-16 22:04:09,698 - game_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Schedule Info!-------------------------------------
+2024-01-16 22:04:09,698 - game_scraper_logger - INFO - Scraping schedule data for 2019-july
+2024-01-16 22:04:09,906 - game_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/leagues/NBA_2019_games-july.html#schedule
+2024-01-16 22:04:09,927 - game_scraper_logger - ERROR - No games found for 2019-july
+2024-01-16 22:04:09,928 - game_scraper_logger - INFO - Scraping schedule data for 2019-january
+2024-01-16 22:04:10,158 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2019_games-january.html#schedule
+2024-01-16 22:04:10,375 - game_scraper_logger - INFO - Successfully scraped schedule table.
+2024-01-16 22:04:10,399 - game_scraper_logger - INFO - Successfully processed daily schedule.
+2024-01-16 22:04:10,399 - game_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 22:04:14,405 - game_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Schedule Info!-------------------------------------
+2024-01-16 22:04:14,406 - game_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-16 22:04:14,406 - game_scraper_logger - INFO - Total schedule page scraped: 2
+2024-01-16 22:04:14,407 - game_scraper_logger - INFO - Total lag time: 4 seconds | 0.07 minutes | 0.0 hours
+2024-01-16 22:04:14,407 - game_scraper_logger - INFO - Failed Schedule Pages: 1 out of 2 schedule pages
+2024-01-16 22:04:14,408 - game_scraper_logger - INFO - Time elapsed: 4.708215951919556 seconds | 0.08 minutes | 0.0 hours
+2024-01-16 22:04:14,408 - game_scraper_logger - INFO - Averaged 2.35 seconds per schedule page
+2024-01-16 22:04:14,409 - game_scraper_logger - WARNING - 
+------------------------------------------------------------------------------------------------------
+2024-01-16 22:12:42,130 - player_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Player Info!-------------------------------------
+2024-01-16 22:12:42,445 - player_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/a/
+2024-01-16 22:12:42,605 - player_scraper_logger - INFO - Scraped letter a | 176 players
+2024-01-16 22:12:42,607 - player_scraper_logger - INFO - Concatenated letter a | 176 players
+2024-01-16 22:12:42,608 - player_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 22:12:47,828 - player_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/players/2/
+2024-01-16 22:12:47,848 - player_scraper_logger - ERROR - Letter 2 not found
+2024-01-16 22:12:47,849 - player_scraper_logger - ERROR - Failed to scrape letter 2: 'bool' object has no attribute 'find_all'
+
+2024-01-16 22:12:48,088 - player_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/players/1/
+2024-01-16 22:12:48,108 - player_scraper_logger - ERROR - Letter 1 not found
+2024-01-16 22:12:48,109 - player_scraper_logger - ERROR - Failed to scrape letter 1: 'bool' object has no attribute 'find_all'
+
+2024-01-16 22:12:48,110 - player_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Player Info!-------------------------------------
+2024-01-16 22:12:48,111 - player_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-16 22:12:48,112 - player_scraper_logger - INFO - Total players scraped: 176
+2024-01-16 22:12:48,113 - player_scraper_logger - INFO - Total lag time: 5 seconds | 0.08 minutes | 0.0 hours
+2024-01-16 22:12:48,113 - player_scraper_logger - INFO - Failed letters: 2 out of 3 letters
+2024-01-16 22:12:48,114 - player_scraper_logger - INFO - Time elapsed: 5.979916095733643 seconds | 0.1 minutes | 0.0 hours
+2024-01-16 22:12:48,114 - player_scraper_logger - INFO - Averaged 1.99 seconds per letter
+------------------------------------------------------------------------------------------------------
+2024-01-16 23:07:43,345 - game_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Schedule Info!-------------------------------------
+2024-01-16 23:07:43,346 - game_scraper_logger - INFO - Scraping schedule data for 2019-july
+2024-01-16 23:07:43,574 - game_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/leagues/NBA_2019_games-july.html#schedule
+2024-01-16 23:07:43,594 - game_scraper_logger - ERROR - No games found for 2019-july
+2024-01-16 23:07:43,595 - game_scraper_logger - INFO - Scraping schedule data for 2019-january
+2024-01-16 23:07:43,805 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2019_games-january.html#schedule
+2024-01-16 23:07:44,006 - game_scraper_logger - INFO - Successfully scraped schedule table.
+2024-01-16 23:07:44,031 - game_scraper_logger - INFO - Successfully processed daily schedule.
+2024-01-16 23:07:44,033 - game_scraper_logger - INFO - Cycle lag time: 3
+2024-01-16 23:07:47,047 - game_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Schedule Info!-------------------------------------
+2024-01-16 23:07:47,048 - game_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-16 23:07:47,050 - game_scraper_logger - INFO - Total schedule page scraped: 2
+2024-01-16 23:07:47,050 - game_scraper_logger - INFO - Total lag time: 3 seconds | 0.05 minutes | 0.0 hours
+2024-01-16 23:07:47,051 - game_scraper_logger - INFO - Failed Schedule Pages: 1 out of 2 schedule pages
+2024-01-16 23:07:47,052 - game_scraper_logger - INFO - Time elapsed: 3.7015254497528076 seconds | 0.06 minutes | 0.0 hours
+2024-01-16 23:07:47,053 - game_scraper_logger - INFO - Averaged 1.85 seconds per schedule page
+2024-01-16 23:07:47,054 - game_scraper_logger - WARNING - 
+------------------------------------------------------------------------------------------------------
+2024-01-16 23:18:00,631 - game_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Schedule Info!-------------------------------------
+2024-01-16 23:18:00,632 - game_scraper_logger - INFO - Scraping schedule data for 2019-july
+2024-01-16 23:18:00,893 - game_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/leagues/NBA_2019_games-july.html#schedule
+2024-01-16 23:18:00,911 - game_scraper_logger - ERROR - No games found for 2019-july
+2024-01-16 23:18:00,911 - game_scraper_logger - INFO - Scraping schedule data for 2019-january
+2024-01-16 23:18:01,103 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2019_games-january.html#schedule
+2024-01-16 23:18:01,366 - game_scraper_logger - INFO - Successfully scraped schedule table.
+2024-01-16 23:18:01,386 - game_scraper_logger - INFO - Successfully processed daily schedule.
+2024-01-16 23:18:01,386 - game_scraper_logger - INFO - Cycle lag time: 3
+2024-01-16 23:18:04,393 - game_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Schedule Info!-------------------------------------
+2024-01-16 23:18:04,393 - game_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-16 23:18:04,394 - game_scraper_logger - INFO - Total schedule page scraped: 2
+2024-01-16 23:18:04,394 - game_scraper_logger - INFO - Total lag time: 3 seconds | 0.05 minutes | 0.0 hours
+2024-01-16 23:18:04,395 - game_scraper_logger - INFO - Failed Schedule Pages: 1 out of 2 schedule pages
+2024-01-16 23:18:04,395 - game_scraper_logger - INFO - Time elapsed: 3.7619500160217285 seconds | 0.06 minutes | 0.0 hours
+2024-01-16 23:18:04,396 - game_scraper_logger - INFO - Averaged 1.88 seconds per schedule page
+2024-01-16 23:18:04,396 - game_scraper_logger - WARNING - 
+------------------------------------------------------------------------------------------------------
+2024-01-16 23:37:51,358 - game_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Schedule Info!-------------------------------------
+2024-01-16 23:37:51,358 - game_scraper_logger - INFO - Scraping schedule data for 2019-july
+2024-01-16 23:37:51,577 - game_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/leagues/NBA_2019_games-july.html#schedule
+2024-01-16 23:37:51,598 - game_scraper_logger - ERROR - No games found for 2019-july
+2024-01-16 23:37:51,599 - game_scraper_logger - INFO - Scraping schedule data for 2019-january
+2024-01-16 23:37:52,171 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2019_games-january.html#schedule
+2024-01-16 23:37:52,403 - game_scraper_logger - INFO - Successfully scraped schedule table.
+2024-01-16 23:37:52,424 - game_scraper_logger - INFO - Successfully processed daily schedule.
+2024-01-16 23:37:52,424 - game_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:37:56,435 - game_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Schedule Info!-------------------------------------
+2024-01-16 23:37:56,435 - game_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-16 23:37:56,436 - game_scraper_logger - INFO - Total schedule page scraped: 2
+2024-01-16 23:37:56,437 - game_scraper_logger - INFO - Total lag time: 4 seconds | 0.07 minutes | 0.0 hours
+2024-01-16 23:37:56,437 - game_scraper_logger - INFO - Failed Schedule Pages: 1 out of 2 schedule pages
+2024-01-16 23:37:56,438 - game_scraper_logger - INFO - Time elapsed: 5.076779365539551 seconds | 0.08 minutes | 0.0 hours
+2024-01-16 23:37:56,439 - game_scraper_logger - INFO - Averaged 2.54 seconds per schedule page
+2024-01-16 23:37:56,439 - game_scraper_logger - WARNING - 
+------------------------------------------------------------------------------------------------------
+2024-01-16 23:39:22,504 - game_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Schedule Info!-------------------------------------
+2024-01-16 23:39:22,505 - game_scraper_logger - INFO - Scraping schedule data for 2019-january
+2024-01-16 23:39:22,724 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2019_games-january.html#schedule
+2024-01-16 23:39:22,967 - game_scraper_logger - INFO - Successfully scraped schedule table.
+2024-01-16 23:39:22,989 - game_scraper_logger - INFO - Successfully processed daily schedule.
+2024-01-16 23:39:22,990 - game_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:39:27,002 - game_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Schedule Info!-------------------------------------
+2024-01-16 23:39:27,003 - game_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-16 23:39:27,004 - game_scraper_logger - INFO - Total schedule page scraped: 1
+2024-01-16 23:39:27,004 - game_scraper_logger - INFO - Total lag time: 4 seconds | 0.07 minutes | 0.0 hours
+2024-01-16 23:39:27,005 - game_scraper_logger - INFO - Failed Schedule Pages: 0 out of 1 schedule pages
+2024-01-16 23:39:27,006 - game_scraper_logger - INFO - Time elapsed: 4.497641324996948 seconds | 0.07 minutes | 0.0 hours
+2024-01-16 23:39:27,006 - game_scraper_logger - INFO - Averaged 4.5 seconds per schedule page
+2024-01-16 23:39:27,006 - game_scraper_logger - WARNING - 
+------------------------------------------------------------------------------------------------------
+2024-01-16 23:41:22,626 - game_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Schedule Info!-------------------------------------
+2024-01-16 23:41:22,627 - game_scraper_logger - INFO - Scraping schedule data for 2019-january
+2024-01-16 23:41:22,833 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2019_games-january.html#schedule
+2024-01-16 23:41:23,086 - game_scraper_logger - INFO - Successfully scraped schedule table.
+2024-01-16 23:41:23,107 - game_scraper_logger - INFO - Successfully processed daily schedule.
+2024-01-16 23:41:23,108 - game_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:41:27,111 - game_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Schedule Info!-------------------------------------
+2024-01-16 23:41:27,112 - game_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-16 23:41:27,112 - game_scraper_logger - INFO - Total schedule page scraped: 1
+2024-01-16 23:41:27,113 - game_scraper_logger - INFO - Total lag time: 4 seconds | 0.07 minutes | 0.0 hours
+2024-01-16 23:41:27,114 - game_scraper_logger - INFO - Failed Schedule Pages: 0 out of 1 schedule pages
+2024-01-16 23:41:27,114 - game_scraper_logger - INFO - Time elapsed: 4.484899044036865 seconds | 0.07 minutes | 0.0 hours
+2024-01-16 23:41:27,114 - game_scraper_logger - INFO - Averaged 4.48 seconds per schedule page
+2024-01-16 23:41:27,115 - game_scraper_logger - WARNING - 
+------------------------------------------------------------------------------------------------------
+2024-01-16 23:43:47,355 - game_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Schedule Info!-------------------------------------
+2024-01-16 23:43:47,355 - game_scraper_logger - INFO - Scraping schedule data for 2019-january
+2024-01-16 23:43:47,601 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2019_games-january.html#schedule
+2024-01-16 23:43:47,841 - game_scraper_logger - INFO - Successfully scraped schedule table.
+2024-01-16 23:43:47,864 - game_scraper_logger - INFO - Successfully processed daily schedule.
+2024-01-16 23:43:47,864 - game_scraper_logger - INFO - Cycle lag time: 3
+2024-01-16 23:43:50,866 - game_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Schedule Info!-------------------------------------
+2024-01-16 23:43:50,866 - game_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-16 23:43:50,867 - game_scraper_logger - INFO - Total schedule page scraped: 1
+2024-01-16 23:43:50,867 - game_scraper_logger - INFO - Total lag time: 3 seconds | 0.05 minutes | 0.0 hours
+2024-01-16 23:43:50,868 - game_scraper_logger - INFO - Failed Schedule Pages: 0 out of 1 schedule pages
+2024-01-16 23:43:50,869 - game_scraper_logger - INFO - Time elapsed: 3.511173963546753 seconds | 0.06 minutes | 0.0 hours
+2024-01-16 23:43:50,869 - game_scraper_logger - INFO - Averaged 3.51 seconds per schedule page
+2024-01-16 23:43:50,870 - game_scraper_logger - WARNING - 
+------------------------------------------------------------------------------------------------------
+2024-01-16 23:44:17,029 - shots_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Shot Locations!-------------------------------------
+
+2024-01-16 23:44:17,031 - shots_scraper_logger - INFO - Scraping TOR on 2019-01-01: game_id 201901011930UTATOR
+2024-01-16 23:44:17,344 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901010TOR.html
+2024-01-16 23:44:17,401 - shots_scraper_logger - INFO - Successfully processed 201901011930UTATOR shots!
+
+2024-01-16 23:44:17,401 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:44:22,414 - shots_scraper_logger - INFO - Scraping MIL on 2019-01-01: game_id 201901012000DETMIL
+2024-01-16 23:44:22,676 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901010MIL.html
+2024-01-16 23:44:22,730 - shots_scraper_logger - INFO - Successfully processed 201901012000DETMIL shots!
+
+2024-01-16 23:44:22,731 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:44:26,737 - shots_scraper_logger - INFO - Scraping DEN on 2019-01-01: game_id 201901012100NYKDEN
+2024-01-16 23:44:26,988 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901010DEN.html
+2024-01-16 23:44:27,044 - shots_scraper_logger - INFO - Successfully processed 201901012100NYKDEN shots!
+
+2024-01-16 23:44:27,045 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:44:31,048 - shots_scraper_logger - INFO - Scraping SAC on 2019-01-01: game_id 201901012100PORSAC
+2024-01-16 23:44:31,281 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901010SAC.html
+2024-01-16 23:44:31,335 - shots_scraper_logger - INFO - Successfully processed 201901012100PORSAC shots!
+
+2024-01-16 23:44:31,336 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:44:35,341 - shots_scraper_logger - INFO - Scraping LAC on 2019-01-01: game_id 201901012230PHILAC
+2024-01-16 23:44:35,614 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901010LAC.html
+2024-01-16 23:44:35,666 - shots_scraper_logger - INFO - Successfully processed 201901012230PHILAC shots!
+
+2024-01-16 23:44:35,668 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:44:39,682 - shots_scraper_logger - INFO - Scraping CHH on 2019-01-02: game_id 201901021900DALCHH
+2024-01-16 23:44:39,874 - shots_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020CHH.html
+2024-01-16 23:44:39,893 - shots_scraper_logger - ERROR - No shots found for 2019-01
+2024-01-16 23:44:39,893 - shots_scraper_logger - INFO - Scraping CLE on 2019-01-02: game_id 201901021900MIACLE
+2024-01-16 23:44:40,108 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020CLE.html
+2024-01-16 23:44:40,155 - shots_scraper_logger - INFO - Successfully processed 201901021900MIACLE shots!
+
+2024-01-16 23:44:40,156 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:44:45,160 - shots_scraper_logger - INFO - Scraping WAS on 2019-01-02: game_id 201901021900ATLWAS
+2024-01-16 23:44:45,376 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020WAS.html
+2024-01-16 23:44:45,491 - shots_scraper_logger - INFO - Successfully processed 201901021900ATLWAS shots!
+
+2024-01-16 23:44:45,492 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:44:49,499 - shots_scraper_logger - INFO - Scraping BKN on 2019-01-02: game_id 201901021930NOPBKN
+2024-01-16 23:44:49,689 - shots_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020BKN.html
+2024-01-16 23:44:49,708 - shots_scraper_logger - ERROR - No shots found for 2019-01
+2024-01-16 23:44:49,708 - shots_scraper_logger - INFO - Scraping BOS on 2019-01-02: game_id 201901022000MINBOS
+2024-01-16 23:44:49,942 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020BOS.html
+2024-01-16 23:44:49,990 - shots_scraper_logger - INFO - Successfully processed 201901022000MINBOS shots!
+
+2024-01-16 23:44:49,991 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:44:55,001 - shots_scraper_logger - INFO - Scraping CHI on 2019-01-02: game_id 201901022000ORLCHI
+2024-01-16 23:44:55,218 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020CHI.html
+2024-01-16 23:44:55,268 - shots_scraper_logger - INFO - Successfully processed 201901022000ORLCHI shots!
+
+2024-01-16 23:44:55,269 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:45:00,284 - shots_scraper_logger - INFO - Scraping MEM on 2019-01-02: game_id 201901022000DETMEM
+2024-01-16 23:45:00,556 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020MEM.html
+2024-01-16 23:45:00,607 - shots_scraper_logger - INFO - Successfully processed 201901022000DETMEM shots!
+
+2024-01-16 23:45:00,608 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:45:05,613 - shots_scraper_logger - INFO - Scraping PHX on 2019-01-02: game_id 201901022100PHIPHX
+2024-01-16 23:45:05,820 - shots_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020PHX.html
+2024-01-16 23:45:05,839 - shots_scraper_logger - ERROR - No shots found for 2019-01
+2024-01-16 23:45:05,840 - shots_scraper_logger - INFO - Scraping LAL on 2019-01-02: game_id 201901022230OKCLAL
+2024-01-16 23:45:06,072 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020LAL.html
+2024-01-16 23:45:06,135 - shots_scraper_logger - INFO - Successfully processed 201901022230OKCLAL shots!
+
+2024-01-16 23:45:06,135 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:45:10,140 - shots_scraper_logger - INFO - Scraping SAS on 2019-01-03: game_id 201901032000TORSAS
+2024-01-16 23:45:10,402 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901030SAS.html
+2024-01-16 23:45:10,455 - shots_scraper_logger - INFO - Successfully processed 201901032000TORSAS shots!
+
+2024-01-16 23:45:10,455 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:45:14,461 - shots_scraper_logger - INFO - Scraping SAC on 2019-01-03: game_id 201901032200DENSAC
+2024-01-16 23:45:14,691 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901030SAC.html
+2024-01-16 23:45:14,744 - shots_scraper_logger - INFO - Successfully processed 201901032200DENSAC shots!
+
+2024-01-16 23:45:14,745 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:45:19,749 - shots_scraper_logger - INFO - Scraping GSW on 2019-01-03: game_id 201901032230HOUGSW
+2024-01-16 23:45:19,980 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901030GSW.html
+2024-01-16 23:45:20,035 - shots_scraper_logger - INFO - Successfully processed 201901032230HOUGSW shots!
+
+2024-01-16 23:45:20,036 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:45:24,040 - shots_scraper_logger - INFO - Scraping CLE on 2019-01-04: game_id 201901041930UTACLE
+2024-01-16 23:45:24,267 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901040CLE.html
+2024-01-16 23:45:24,377 - shots_scraper_logger - INFO - Successfully processed 201901041930UTACLE shots!
+
+2024-01-16 23:45:24,378 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:45:28,381 - shots_scraper_logger - INFO - Scraping BOS on 2019-01-04: game_id 201901042000DALBOS
+2024-01-16 23:45:28,648 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901040BOS.html
+2024-01-16 23:45:28,704 - shots_scraper_logger - INFO - Successfully processed 201901042000DALBOS shots!
+
+2024-01-16 23:45:28,704 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:45:33,714 - shots_scraper_logger - INFO - Scraping CHI on 2019-01-04: game_id 201901042000INDCHI
+2024-01-16 23:45:33,944 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901040CHI.html
+2024-01-16 23:45:33,998 - shots_scraper_logger - INFO - Successfully processed 201901042000INDCHI shots!
+
+2024-01-16 23:45:33,999 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:45:38,010 - shots_scraper_logger - INFO - Scraping MEM on 2019-01-04: game_id 201901042000BKNMEM
+2024-01-16 23:45:38,229 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901040MEM.html
+2024-01-16 23:45:38,281 - shots_scraper_logger - INFO - Successfully processed 201901042000BKNMEM shots!
+
+2024-01-16 23:45:38,281 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:45:43,296 - shots_scraper_logger - INFO - Scraping MIA on 2019-01-04: game_id 201901042000WASMIA
+2024-01-16 23:45:43,506 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901040MIA.html
+2024-01-16 23:45:43,565 - shots_scraper_logger - INFO - Successfully processed 201901042000WASMIA shots!
+
+2024-01-16 23:45:43,566 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:45:48,577 - shots_scraper_logger - INFO - Scraping MIN on 2019-01-04: game_id 201901042000ORLMIN
+2024-01-16 23:45:48,960 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901040MIN.html
+2024-01-16 23:45:49,014 - shots_scraper_logger - INFO - Successfully processed 201901042000ORLMIN shots!
+
+2024-01-16 23:45:49,014 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:45:53,027 - shots_scraper_logger - INFO - Scraping MIL on 2019-01-04: game_id 201901042030ATLMIL
+2024-01-16 23:45:53,252 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901040MIL.html
+2024-01-16 23:45:53,303 - shots_scraper_logger - INFO - Successfully processed 201901042030ATLMIL shots!
+
+2024-01-16 23:45:53,304 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:45:57,307 - shots_scraper_logger - INFO - Scraping PHX on 2019-01-04: game_id 201901042100LACPHX
+2024-01-16 23:45:57,500 - shots_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901040PHX.html
+2024-01-16 23:45:57,518 - shots_scraper_logger - ERROR - No shots found for 2019-01
+2024-01-16 23:45:57,519 - shots_scraper_logger - INFO - Scraping LAL on 2019-01-04: game_id 201901042230NYKLAL
+2024-01-16 23:45:57,760 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901040LAL.html
+2024-01-16 23:45:57,813 - shots_scraper_logger - INFO - Successfully processed 201901042230NYKLAL shots!
+
+2024-01-16 23:45:57,814 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:46:01,815 - shots_scraper_logger - INFO - Scraping POR on 2019-01-04: game_id 201901042230OKCPOR
+2024-01-16 23:46:02,076 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901040POR.html
+2024-01-16 23:46:02,129 - shots_scraper_logger - INFO - Successfully processed 201901042230OKCPOR shots!
+
+2024-01-16 23:46:02,130 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:46:06,143 - shots_scraper_logger - INFO - Scraping DEN on 2019-01-05: game_id 201901051700CHHDEN
+2024-01-16 23:46:06,390 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901050DEN.html
+2024-01-16 23:46:06,498 - shots_scraper_logger - INFO - Successfully processed 201901051700CHHDEN shots!
+
+2024-01-16 23:46:06,499 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:46:11,510 - shots_scraper_logger - INFO - Scraping DET on 2019-01-05: game_id 201901051900UTADET
+2024-01-16 23:46:11,757 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901050DET.html
+2024-01-16 23:46:11,805 - shots_scraper_logger - INFO - Successfully processed 201901051900UTADET shots!
+
+2024-01-16 23:46:11,807 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:46:16,813 - shots_scraper_logger - INFO - Scraping PHI on 2019-01-05: game_id 201901051930DALPHI
+2024-01-16 23:46:17,032 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901050PHI.html
+2024-01-16 23:46:17,083 - shots_scraper_logger - INFO - Successfully processed 201901051930DALPHI shots!
+
+2024-01-16 23:46:17,083 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:46:22,088 - shots_scraper_logger - INFO - Scraping CLE on 2019-01-05: game_id 201901052000NOPCLE
+2024-01-16 23:46:22,313 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901050CLE.html
+2024-01-16 23:46:22,368 - shots_scraper_logger - INFO - Successfully processed 201901052000NOPCLE shots!
+
+2024-01-16 23:46:22,368 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:46:27,370 - shots_scraper_logger - INFO - Scraping MIL on 2019-01-05: game_id 201901052030TORMIL
+2024-01-16 23:46:27,621 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901050MIL.html
+2024-01-16 23:46:27,670 - shots_scraper_logger - INFO - Successfully processed 201901052030TORMIL shots!
+
+2024-01-16 23:46:27,670 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:46:31,675 - shots_scraper_logger - INFO - Scraping SAS on 2019-01-05: game_id 201901052030MEMSAS
+2024-01-16 23:46:31,905 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901050SAS.html
+2024-01-16 23:46:31,955 - shots_scraper_logger - INFO - Successfully processed 201901052030MEMSAS shots!
+
+2024-01-16 23:46:31,955 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:46:36,967 - shots_scraper_logger - INFO - Scraping POR on 2019-01-05: game_id 201901052200HOUPOR
+2024-01-16 23:46:37,213 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901050POR.html
+2024-01-16 23:46:37,268 - shots_scraper_logger - INFO - Successfully processed 201901052200HOUPOR shots!
+
+2024-01-16 23:46:37,268 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:46:41,279 - shots_scraper_logger - INFO - Scraping SAC on 2019-01-05: game_id 201901052200GSWSAC
+2024-01-16 23:46:41,553 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901050SAC.html
+2024-01-16 23:46:41,612 - shots_scraper_logger - INFO - Successfully processed 201901052200GSWSAC shots!
+
+2024-01-16 23:46:41,613 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:46:46,625 - shots_scraper_logger - INFO - Scraping CHI on 2019-01-06: game_id 201901061530BKNCHI
+2024-01-16 23:46:46,985 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901060CHI.html
+2024-01-16 23:46:47,033 - shots_scraper_logger - INFO - Successfully processed 201901061530BKNCHI shots!
+
+2024-01-16 23:46:47,033 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:46:52,039 - shots_scraper_logger - INFO - Scraping LAC on 2019-01-06: game_id 201901061530ORLLAC
+2024-01-16 23:46:52,245 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901060LAC.html
+2024-01-16 23:46:52,355 - shots_scraper_logger - INFO - Successfully processed 201901061530ORLLAC shots!
+
+2024-01-16 23:46:52,355 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:46:56,358 - shots_scraper_logger - INFO - Scraping MIN on 2019-01-06: game_id 201901061530LALMIN
+2024-01-16 23:46:56,584 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901060MIN.html
+2024-01-16 23:46:56,639 - shots_scraper_logger - INFO - Successfully processed 201901061530LALMIN shots!
+
+2024-01-16 23:46:56,640 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:47:00,650 - shots_scraper_logger - INFO - Scraping ATL on 2019-01-06: game_id 201901061800MIAATL
+2024-01-16 23:47:01,082 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901060ATL.html
+2024-01-16 23:47:01,135 - shots_scraper_logger - INFO - Successfully processed 201901061800MIAATL shots!
+
+2024-01-16 23:47:01,136 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:47:05,146 - shots_scraper_logger - INFO - Scraping OKC on 2019-01-06: game_id 201901061900WASOKC
+2024-01-16 23:47:05,442 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901060OKC.html
+2024-01-16 23:47:05,494 - shots_scraper_logger - INFO - Successfully processed 201901061900WASOKC shots!
+
+2024-01-16 23:47:05,495 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:47:09,502 - shots_scraper_logger - INFO - Scraping TOR on 2019-01-06: game_id 201901061930INDTOR
+2024-01-16 23:47:09,740 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901060TOR.html
+2024-01-16 23:47:09,793 - shots_scraper_logger - INFO - Successfully processed 201901061930INDTOR shots!
+
+2024-01-16 23:47:09,793 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:47:13,797 - shots_scraper_logger - INFO - Scraping PHX on 2019-01-06: game_id 201901062000CHHPHX
+2024-01-16 23:47:14,006 - shots_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901060PHX.html
+2024-01-16 23:47:14,025 - shots_scraper_logger - ERROR - No shots found for 2019-01
+2024-01-16 23:47:14,025 - shots_scraper_logger - INFO - Scraping DET on 2019-01-07: game_id 201901071900SASDET
+2024-01-16 23:47:14,240 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901070DET.html
+2024-01-16 23:47:14,290 - shots_scraper_logger - INFO - Successfully processed 201901071900SASDET shots!
+
+2024-01-16 23:47:14,290 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:47:18,297 - shots_scraper_logger - INFO - Scraping BOS on 2019-01-07: game_id 201901071930BKNBOS
+2024-01-16 23:47:18,517 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901070BOS.html
+2024-01-16 23:47:18,569 - shots_scraper_logger - INFO - Successfully processed 201901071930BKNBOS shots!
+
+2024-01-16 23:47:18,570 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:47:22,572 - shots_scraper_logger - INFO - Scraping HOU on 2019-01-07: game_id 201901072000DENHOU
+2024-01-16 23:47:22,827 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901070HOU.html
+2024-01-16 23:47:22,878 - shots_scraper_logger - INFO - Successfully processed 201901072000DENHOU shots!
+
+2024-01-16 23:47:22,878 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:47:27,887 - shots_scraper_logger - INFO - Scraping MIL on 2019-01-07: game_id 201901072000UTAMIL
+2024-01-16 23:47:28,101 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901070MIL.html
+2024-01-16 23:47:28,153 - shots_scraper_logger - INFO - Successfully processed 201901072000UTAMIL shots!
+
+2024-01-16 23:47:28,154 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:47:32,166 - shots_scraper_logger - INFO - Scraping NOP on 2019-01-07: game_id 201901072000MEMNOP
+2024-01-16 23:47:32,422 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901070NOP.html
+2024-01-16 23:47:32,533 - shots_scraper_logger - INFO - Successfully processed 201901072000MEMNOP shots!
+
+2024-01-16 23:47:32,533 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:47:36,534 - shots_scraper_logger - INFO - Scraping DAL on 2019-01-07: game_id 201901072030LALDAL
+2024-01-16 23:47:36,761 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901070DAL.html
+2024-01-16 23:47:36,813 - shots_scraper_logger - INFO - Successfully processed 201901072030LALDAL shots!
+
+2024-01-16 23:47:36,814 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:47:41,828 - shots_scraper_logger - INFO - Scraping POR on 2019-01-07: game_id 201901072200NYKPOR
+2024-01-16 23:47:42,058 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901070POR.html
+2024-01-16 23:47:42,109 - shots_scraper_logger - INFO - Successfully processed 201901072200NYKPOR shots!
+
+2024-01-16 23:47:42,109 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:47:47,111 - shots_scraper_logger - INFO - Scraping SAC on 2019-01-07: game_id 201901072200ORLSAC
+2024-01-16 23:47:47,340 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901070SAC.html
+2024-01-16 23:47:47,392 - shots_scraper_logger - INFO - Successfully processed 201901072200ORLSAC shots!
+
+2024-01-16 23:47:47,393 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:47:52,397 - shots_scraper_logger - INFO - Scraping CLE on 2019-01-08: game_id 201901081900INDCLE
+2024-01-16 23:47:52,770 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901080CLE.html
+2024-01-16 23:47:52,823 - shots_scraper_logger - INFO - Successfully processed 201901081900INDCLE shots!
+
+2024-01-16 23:47:52,824 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:47:56,826 - shots_scraper_logger - INFO - Scraping PHI on 2019-01-08: game_id 201901081900WASPHI
+2024-01-16 23:47:57,117 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901080PHI.html
+2024-01-16 23:47:57,168 - shots_scraper_logger - INFO - Successfully processed 201901081900WASPHI shots!
+
+2024-01-16 23:47:57,169 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:48:01,181 - shots_scraper_logger - INFO - Scraping MIA on 2019-01-08: game_id 201901081930DENMIA
+2024-01-16 23:48:01,458 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901080MIA.html
+2024-01-16 23:48:01,505 - shots_scraper_logger - INFO - Successfully processed 201901081930DENMIA shots!
+
+2024-01-16 23:48:01,506 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:48:05,508 - shots_scraper_logger - INFO - Scraping TOR on 2019-01-08: game_id 201901081930ATLTOR
+2024-01-16 23:48:05,737 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901080TOR.html
+2024-01-16 23:48:05,785 - shots_scraper_logger - INFO - Successfully processed 201901081930ATLTOR shots!
+
+2024-01-16 23:48:05,786 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:48:09,789 - shots_scraper_logger - INFO - Scraping OKC on 2019-01-08: game_id 201901082000MINOKC
+2024-01-16 23:48:09,998 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901080OKC.html
+2024-01-16 23:48:10,049 - shots_scraper_logger - INFO - Successfully processed 201901082000MINOKC shots!
+
+2024-01-16 23:48:10,049 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:48:15,058 - shots_scraper_logger - INFO - Scraping PHX on 2019-01-08: game_id 201901082100SACPHX
+2024-01-16 23:48:15,273 - shots_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901080PHX.html
+2024-01-16 23:48:15,346 - shots_scraper_logger - ERROR - No shots found for 2019-01
+2024-01-16 23:48:15,347 - shots_scraper_logger - INFO - Scraping GSW on 2019-01-08: game_id 201901082230NYKGSW
+2024-01-16 23:48:15,569 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901080GSW.html
+2024-01-16 23:48:15,619 - shots_scraper_logger - INFO - Successfully processed 201901082230NYKGSW shots!
+
+2024-01-16 23:48:15,619 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:48:19,634 - shots_scraper_logger - INFO - Scraping LAC on 2019-01-08: game_id 201901082230CHHLAC
+2024-01-16 23:48:19,868 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901080LAC.html
+2024-01-16 23:48:19,921 - shots_scraper_logger - INFO - Successfully processed 201901082230CHHLAC shots!
+
+2024-01-16 23:48:19,922 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:48:24,931 - shots_scraper_logger - INFO - Scraping BOS on 2019-01-09: game_id 201901091900INDBOS
+2024-01-16 23:48:25,171 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901090BOS.html
+2024-01-16 23:48:25,222 - shots_scraper_logger - INFO - Successfully processed 201901091900INDBOS shots!
+
+2024-01-16 23:48:25,223 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:48:29,233 - shots_scraper_logger - INFO - Scraping WAS on 2019-01-09: game_id 201901091900PHIWAS
+2024-01-16 23:48:29,478 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901090WAS.html
+2024-01-16 23:48:29,537 - shots_scraper_logger - INFO - Successfully processed 201901091900PHIWAS shots!
+
+2024-01-16 23:48:29,538 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:48:34,549 - shots_scraper_logger - INFO - Scraping BKN on 2019-01-09: game_id 201901091930ATLBKN
+2024-01-16 23:48:34,746 - shots_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901090BKN.html
+2024-01-16 23:48:34,764 - shots_scraper_logger - ERROR - No shots found for 2019-01
+2024-01-16 23:48:34,764 - shots_scraper_logger - INFO - Scraping HOU on 2019-01-09: game_id 201901092000MILHOU
+2024-01-16 23:48:35,040 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901090HOU.html
+2024-01-16 23:48:35,090 - shots_scraper_logger - INFO - Successfully processed 201901092000MILHOU shots!
+
+2024-01-16 23:48:35,091 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:48:39,105 - shots_scraper_logger - INFO - Scraping MEM on 2019-01-09: game_id 201901092000SASMEM
+2024-01-16 23:48:39,318 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901090MEM.html
+2024-01-16 23:48:39,370 - shots_scraper_logger - INFO - Successfully processed 201901092000SASMEM shots!
+
+2024-01-16 23:48:39,370 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:48:44,384 - shots_scraper_logger - INFO - Scraping NOP on 2019-01-09: game_id 201901092000CLENOP
+2024-01-16 23:48:44,624 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901090NOP.html
+2024-01-16 23:48:44,674 - shots_scraper_logger - INFO - Successfully processed 201901092000CLENOP shots!
+
+2024-01-16 23:48:44,675 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:48:49,680 - shots_scraper_logger - INFO - Scraping DAL on 2019-01-09: game_id 201901092030PHXDAL
+2024-01-16 23:48:49,904 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901090DAL.html
+2024-01-16 23:48:49,953 - shots_scraper_logger - INFO - Successfully processed 201901092030PHXDAL shots!
+
+2024-01-16 23:48:49,954 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:48:53,956 - shots_scraper_logger - INFO - Scraping UTA on 2019-01-09: game_id 201901092100ORLUTA
+2024-01-16 23:48:54,184 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901090UTA.html
+2024-01-16 23:48:54,294 - shots_scraper_logger - INFO - Successfully processed 201901092100ORLUTA shots!
+
+2024-01-16 23:48:54,294 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:48:58,310 - shots_scraper_logger - INFO - Scraping POR on 2019-01-09: game_id 201901092200CHIPOR
+2024-01-16 23:48:58,676 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901090POR.html
+2024-01-16 23:48:58,727 - shots_scraper_logger - INFO - Successfully processed 201901092200CHIPOR shots!
+
+2024-01-16 23:48:58,728 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:49:02,730 - shots_scraper_logger - INFO - Scraping LAL on 2019-01-09: game_id 201901092230DETLAL
+2024-01-16 23:49:02,946 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901090LAL.html
+2024-01-16 23:49:02,997 - shots_scraper_logger - INFO - Successfully processed 201901092230DETLAL shots!
+
+2024-01-16 23:49:02,998 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:49:07,006 - shots_scraper_logger - INFO - Scraping MIA on 2019-01-10: game_id 201901101900BOSMIA
+2024-01-16 23:49:07,227 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901100MIA.html
+2024-01-16 23:49:07,281 - shots_scraper_logger - INFO - Successfully processed 201901101900BOSMIA shots!
+
+2024-01-16 23:49:07,282 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:49:12,293 - shots_scraper_logger - INFO - Scraping DEN on 2019-01-10: game_id 201901102100LACDEN
+2024-01-16 23:49:12,504 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901100DEN.html
+2024-01-16 23:49:12,555 - shots_scraper_logger - INFO - Successfully processed 201901102100LACDEN shots!
+
+2024-01-16 23:49:12,556 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:49:16,571 - shots_scraper_logger - INFO - Scraping SAS on 2019-01-10: game_id 201901102130OKCSAS
+2024-01-16 23:49:16,812 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901100SAS.html
+2024-01-16 23:49:16,870 - shots_scraper_logger - INFO - Successfully processed 201901102130OKCSAS shots!
+
+2024-01-16 23:49:16,870 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:49:21,878 - shots_scraper_logger - INFO - Scraping SAC on 2019-01-10: game_id 201901102200DETSAC
+2024-01-16 23:49:22,112 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901100SAC.html
+2024-01-16 23:49:22,164 - shots_scraper_logger - INFO - Successfully processed 201901102200DETSAC shots!
+
+2024-01-16 23:49:22,165 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:49:27,175 - shots_scraper_logger - INFO - Scraping PHI on 2019-01-11: game_id 201901111900ATLPHI
+2024-01-16 23:49:27,408 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901110PHI.html
+2024-01-16 23:49:27,457 - shots_scraper_logger - INFO - Successfully processed 201901111900ATLPHI shots!
+
+2024-01-16 23:49:27,458 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:49:31,466 - shots_scraper_logger - INFO - Scraping WAS on 2019-01-11: game_id 201901111900MILWAS
+2024-01-16 23:49:31,739 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901110WAS.html
+2024-01-16 23:49:31,791 - shots_scraper_logger - INFO - Successfully processed 201901111900MILWAS shots!
+
+2024-01-16 23:49:31,791 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:49:35,806 - shots_scraper_logger - INFO - Scraping NYK on 2019-01-11: game_id 201901111930INDNYK
+2024-01-16 23:49:36,072 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901110NYK.html
+2024-01-16 23:49:36,185 - shots_scraper_logger - INFO - Successfully processed 201901111930INDNYK shots!
+
+2024-01-16 23:49:36,186 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:49:40,192 - shots_scraper_logger - INFO - Scraping TOR on 2019-01-11: game_id 201901111930BKNTOR
+2024-01-16 23:49:40,408 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901110TOR.html
+2024-01-16 23:49:40,464 - shots_scraper_logger - INFO - Successfully processed 201901111930BKNTOR shots!
+
+2024-01-16 23:49:40,465 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:49:45,478 - shots_scraper_logger - INFO - Scraping HOU on 2019-01-11: game_id 201901112000CLEHOU
+2024-01-16 23:49:45,704 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901110HOU.html
+2024-01-16 23:49:45,759 - shots_scraper_logger - INFO - Successfully processed 201901112000CLEHOU shots!
+
+2024-01-16 23:49:45,759 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:49:50,760 - shots_scraper_logger - INFO - Scraping MIN on 2019-01-11: game_id 201901112000DALMIN
+2024-01-16 23:49:50,976 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901110MIN.html
+2024-01-16 23:49:51,030 - shots_scraper_logger - INFO - Successfully processed 201901112000DALMIN shots!
+
+2024-01-16 23:49:51,031 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:49:55,035 - shots_scraper_logger - INFO - Scraping POR on 2019-01-11: game_id 201901112200CHHPOR
+2024-01-16 23:49:55,261 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901110POR.html
+2024-01-16 23:49:55,314 - shots_scraper_logger - INFO - Successfully processed 201901112200CHHPOR shots!
+
+2024-01-16 23:49:55,314 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:49:59,329 - shots_scraper_logger - INFO - Scraping UTA on 2019-01-11: game_id 201901112200LALUTA
+2024-01-16 23:49:59,616 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901110UTA.html
+2024-01-16 23:49:59,667 - shots_scraper_logger - INFO - Successfully processed 201901112200LALUTA shots!
+
+2024-01-16 23:49:59,667 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:50:03,677 - shots_scraper_logger - INFO - Scraping GSW on 2019-01-11: game_id 201901112230CHIGSW
+2024-01-16 23:50:03,905 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901110GSW.html
+2024-01-16 23:50:03,953 - shots_scraper_logger - INFO - Successfully processed 201901112230CHIGSW shots!
+
+2024-01-16 23:50:03,954 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:50:07,964 - shots_scraper_logger - INFO - Scraping LAC on 2019-01-12: game_id 201901121530DETLAC
+2024-01-16 23:50:08,191 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901120LAC.html
+2024-01-16 23:50:08,241 - shots_scraper_logger - INFO - Successfully processed 201901121530DETLAC shots!
+
+2024-01-16 23:50:08,241 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:50:13,242 - shots_scraper_logger - INFO - Scraping MIA on 2019-01-12: game_id 201901121700MEMMIA
+2024-01-16 23:50:13,476 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901120MIA.html
+2024-01-16 23:50:13,523 - shots_scraper_logger - INFO - Successfully processed 201901121700MEMMIA shots!
+
+2024-01-16 23:50:13,524 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:50:18,527 - shots_scraper_logger - INFO - Scraping ORL on 2019-01-12: game_id 201901121900BOSORL
+2024-01-16 23:50:18,765 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901120ORL.html
+2024-01-16 23:50:18,870 - shots_scraper_logger - INFO - Successfully processed 201901121900BOSORL shots!
+
+2024-01-16 23:50:18,871 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:50:22,881 - shots_scraper_logger - INFO - Scraping MIN on 2019-01-12: game_id 201901122000NOPMIN
+2024-01-16 23:50:23,143 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901120MIN.html
+2024-01-16 23:50:23,193 - shots_scraper_logger - INFO - Successfully processed 201901122000NOPMIN shots!
+
+2024-01-16 23:50:23,193 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:50:27,209 - shots_scraper_logger - INFO - Scraping OKC on 2019-01-12: game_id 201901122000SASOKC
+2024-01-16 23:50:27,429 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901120OKC.html
+2024-01-16 23:50:27,479 - shots_scraper_logger - INFO - Successfully processed 201901122000SASOKC shots!
+
+2024-01-16 23:50:27,479 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:50:31,490 - shots_scraper_logger - INFO - Scraping PHX on 2019-01-12: game_id 201901122100DENPHX
+2024-01-16 23:50:31,683 - shots_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901120PHX.html
+2024-01-16 23:50:31,701 - shots_scraper_logger - ERROR - No shots found for 2019-01
+2024-01-16 23:50:31,702 - shots_scraper_logger - INFO - Scraping SAC on 2019-01-12: game_id 201901122200CHHSAC
+2024-01-16 23:50:31,916 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901120SAC.html
+2024-01-16 23:50:31,967 - shots_scraper_logger - INFO - Successfully processed 201901122200CHHSAC shots!
+
+2024-01-16 23:50:31,967 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:50:36,980 - shots_scraper_logger - INFO - Scraping UTA on 2019-01-12: game_id 201901122200CHIUTA
+2024-01-16 23:50:37,200 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901120UTA.html
+2024-01-16 23:50:37,249 - shots_scraper_logger - INFO - Successfully processed 201901122200CHIUTA shots!
+
+2024-01-16 23:50:37,250 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:50:41,251 - shots_scraper_logger - INFO - Scraping NYK on 2019-01-13: game_id 201901131300PHINYK
+2024-01-16 23:50:41,507 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901130NYK.html
+2024-01-16 23:50:41,556 - shots_scraper_logger - INFO - Successfully processed 201901131300PHINYK shots!
+
+2024-01-16 23:50:41,557 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:50:45,566 - shots_scraper_logger - INFO - Scraping WAS on 2019-01-13: game_id 201901131300TORWAS
+2024-01-16 23:50:45,786 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901130WAS.html
+2024-01-16 23:50:45,841 - shots_scraper_logger - INFO - Successfully processed 201901131300TORWAS shots!
+
+2024-01-16 23:50:45,842 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:50:50,856 - shots_scraper_logger - INFO - Scraping ATL on 2019-01-13: game_id 201901131530MILATL
+2024-01-16 23:50:51,105 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901130ATL.html
+2024-01-16 23:50:51,155 - shots_scraper_logger - INFO - Successfully processed 201901131530MILATL shots!
+
+2024-01-16 23:50:51,156 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:50:55,167 - shots_scraper_logger - INFO - Scraping ORL on 2019-01-13: game_id 201901131800HOUORL
+2024-01-16 23:50:55,408 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901130ORL.html
+2024-01-16 23:50:55,463 - shots_scraper_logger - INFO - Successfully processed 201901131800HOUORL shots!
+
+2024-01-16 23:50:55,463 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:50:59,465 - shots_scraper_logger - INFO - Scraping DAL on 2019-01-13: game_id 201901131900GSWDAL
+2024-01-16 23:50:59,683 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901130DAL.html
+2024-01-16 23:50:59,800 - shots_scraper_logger - INFO - Successfully processed 201901131900GSWDAL shots!
+
+2024-01-16 23:50:59,801 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:51:03,809 - shots_scraper_logger - INFO - Scraping DEN on 2019-01-13: game_id 201901132000PORDEN
+2024-01-16 23:51:04,024 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901130DEN.html
+2024-01-16 23:51:04,075 - shots_scraper_logger - INFO - Successfully processed 201901132000PORDEN shots!
+
+2024-01-16 23:51:04,076 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:51:09,084 - shots_scraper_logger - INFO - Scraping LAL on 2019-01-13: game_id 201901132130CLELAL
+2024-01-16 23:51:09,347 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901130LAL.html
+2024-01-16 23:51:09,399 - shots_scraper_logger - INFO - Successfully processed 201901132130CLELAL shots!
+
+2024-01-16 23:51:09,399 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:51:13,415 - shots_scraper_logger - INFO - Scraping BKN on 2019-01-14: game_id 201901141930BOSBKN
+2024-01-16 23:51:13,622 - shots_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901140BKN.html
+2024-01-16 23:51:13,641 - shots_scraper_logger - ERROR - No shots found for 2019-01
+2024-01-16 23:51:13,641 - shots_scraper_logger - INFO - Scraping HOU on 2019-01-14: game_id 201901142000MEMHOU
+2024-01-16 23:51:13,868 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901140HOU.html
+2024-01-16 23:51:13,916 - shots_scraper_logger - INFO - Successfully processed 201901142000MEMHOU shots!
+
+2024-01-16 23:51:13,917 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:51:17,925 - shots_scraper_logger - INFO - Scraping SAS on 2019-01-14: game_id 201901142030CHHSAS
+2024-01-16 23:51:18,227 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901140SAS.html
+2024-01-16 23:51:18,276 - shots_scraper_logger - INFO - Successfully processed 201901142030CHHSAS shots!
+
+2024-01-16 23:51:18,276 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:51:22,284 - shots_scraper_logger - INFO - Scraping UTA on 2019-01-14: game_id 201901142100DETUTA
+2024-01-16 23:51:22,498 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901140UTA.html
+2024-01-16 23:51:22,547 - shots_scraper_logger - INFO - Successfully processed 201901142100DETUTA shots!
+
+2024-01-16 23:51:22,547 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:51:27,555 - shots_scraper_logger - INFO - Scraping SAC on 2019-01-14: game_id 201901142200PORSAC
+2024-01-16 23:51:27,782 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901140SAC.html
+2024-01-16 23:51:27,830 - shots_scraper_logger - INFO - Successfully processed 201901142200PORSAC shots!
+
+2024-01-16 23:51:27,831 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:51:32,842 - shots_scraper_logger - INFO - Scraping LAC on 2019-01-14: game_id 201901142230NOPLAC
+2024-01-16 23:51:33,077 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901140LAC.html
+2024-01-16 23:51:33,127 - shots_scraper_logger - INFO - Successfully processed 201901142230NOPLAC shots!
+
+2024-01-16 23:51:33,127 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:51:38,132 - shots_scraper_logger - INFO - Scraping IND on 2019-01-15: game_id 201901151900PHXIND
+2024-01-16 23:51:38,362 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901150IND.html
+2024-01-16 23:51:38,415 - shots_scraper_logger - INFO - Successfully processed 201901151900PHXIND shots!
+
+2024-01-16 23:51:38,415 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:51:42,426 - shots_scraper_logger - INFO - Scraping PHI on 2019-01-15: game_id 201901151900MINPHI
+2024-01-16 23:51:42,682 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901150PHI.html
+2024-01-16 23:51:42,802 - shots_scraper_logger - INFO - Successfully processed 201901151900MINPHI shots!
+
+2024-01-16 23:51:42,803 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:51:46,817 - shots_scraper_logger - INFO - Scraping ATL on 2019-01-15: game_id 201901151930OKCATL
+2024-01-16 23:51:47,041 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901150ATL.html
+2024-01-16 23:51:47,094 - shots_scraper_logger - INFO - Successfully processed 201901151930OKCATL shots!
+
+2024-01-16 23:51:47,095 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:51:51,101 - shots_scraper_logger - INFO - Scraping MIL on 2019-01-15: game_id 201901152000MIAMIL
+2024-01-16 23:51:51,323 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901150MIL.html
+2024-01-16 23:51:51,374 - shots_scraper_logger - INFO - Successfully processed 201901152000MIAMIL shots!
+
+2024-01-16 23:51:51,374 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:51:55,381 - shots_scraper_logger - INFO - Scraping DEN on 2019-01-15: game_id 201901152100GSWDEN
+2024-01-16 23:51:55,610 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901150DEN.html
+2024-01-16 23:51:55,659 - shots_scraper_logger - INFO - Successfully processed 201901152100GSWDEN shots!
+
+2024-01-16 23:51:55,660 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:52:00,671 - shots_scraper_logger - INFO - Scraping LAL on 2019-01-15: game_id 201901152230CHILAL
+2024-01-16 23:52:00,907 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901150LAL.html
+2024-01-16 23:52:00,957 - shots_scraper_logger - INFO - Successfully processed 201901152230CHILAL shots!
+
+2024-01-16 23:52:00,958 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:52:04,968 - shots_scraper_logger - INFO - Scraping DET on 2019-01-16: game_id 201901161900ORLDET
+2024-01-16 23:52:05,197 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901160DET.html
+2024-01-16 23:52:05,248 - shots_scraper_logger - INFO - Successfully processed 201901161900ORLDET shots!
+
+2024-01-16 23:52:05,249 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:52:10,251 - shots_scraper_logger - INFO - Scraping BOS on 2019-01-16: game_id 201901162000TORBOS
+2024-01-16 23:52:10,508 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901160BOS.html
+2024-01-16 23:52:10,560 - shots_scraper_logger - INFO - Successfully processed 201901162000TORBOS shots!
+
+2024-01-16 23:52:10,561 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:52:14,564 - shots_scraper_logger - INFO - Scraping HOU on 2019-01-16: game_id 201901162000BKNHOU
+2024-01-16 23:52:14,778 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901160HOU.html
+2024-01-16 23:52:14,834 - shots_scraper_logger - INFO - Successfully processed 201901162000BKNHOU shots!
+
+2024-01-16 23:52:14,835 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:52:19,837 - shots_scraper_logger - INFO - Scraping MEM on 2019-01-16: game_id 201901162000MILMEM
+2024-01-16 23:52:20,089 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901160MEM.html
+2024-01-16 23:52:20,139 - shots_scraper_logger - INFO - Successfully processed 201901162000MILMEM shots!
+
+2024-01-16 23:52:20,140 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:52:24,154 - shots_scraper_logger - INFO - Scraping DAL on 2019-01-16: game_id 201901162030SASDAL
+2024-01-16 23:52:24,377 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901160DAL.html
+2024-01-16 23:52:24,487 - shots_scraper_logger - INFO - Successfully processed 201901162030SASDAL shots!
+
+2024-01-16 23:52:24,487 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:52:29,502 - shots_scraper_logger - INFO - Scraping POR on 2019-01-16: game_id 201901162200CLEPOR
+2024-01-16 23:52:29,722 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901160POR.html
+2024-01-16 23:52:29,772 - shots_scraper_logger - INFO - Successfully processed 201901162200CLEPOR shots!
+
+2024-01-16 23:52:29,773 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:52:34,775 - shots_scraper_logger - INFO - Scraping GSW on 2019-01-16: game_id 201901162230NOPGSW
+2024-01-16 23:52:35,010 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901160GSW.html
+2024-01-16 23:52:35,064 - shots_scraper_logger - INFO - Successfully processed 201901162230NOPGSW shots!
+
+2024-01-16 23:52:35,065 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:52:40,074 - shots_scraper_logger - INFO - Scraping LAC on 2019-01-16: game_id 201901162230UTALAC
+2024-01-16 23:52:40,294 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901160LAC.html
+2024-01-16 23:52:40,344 - shots_scraper_logger - INFO - Successfully processed 201901162230UTALAC shots!
+
+2024-01-16 23:52:40,345 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:52:45,349 - shots_scraper_logger - INFO - Scraping WAS on 2019-01-17: game_id 201901171500NYKWAS
+2024-01-16 23:52:45,579 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901170WAS.html
+2024-01-16 23:52:45,629 - shots_scraper_logger - INFO - Successfully processed 201901171500NYKWAS shots!
+
+2024-01-16 23:52:45,630 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:52:49,631 - shots_scraper_logger - INFO - Scraping CHH on 2019-01-17: game_id 201901171900SACCHH
+2024-01-16 23:52:49,940 - shots_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901170CHH.html
+2024-01-16 23:52:49,958 - shots_scraper_logger - ERROR - No shots found for 2019-01
+2024-01-16 23:52:49,959 - shots_scraper_logger - INFO - Scraping IND on 2019-01-17: game_id 201901171900PHIIND
+2024-01-16 23:52:50,198 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901170IND.html
+2024-01-16 23:52:50,250 - shots_scraper_logger - INFO - Successfully processed 201901171900PHIIND shots!
+
+2024-01-16 23:52:50,251 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:52:55,260 - shots_scraper_logger - INFO - Scraping TOR on 2019-01-17: game_id 201901171930PHXTOR
+2024-01-16 23:52:55,497 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901170TOR.html
+2024-01-16 23:52:55,545 - shots_scraper_logger - INFO - Successfully processed 201901171930PHXTOR shots!
+
+2024-01-16 23:52:55,546 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:52:59,554 - shots_scraper_logger - INFO - Scraping DEN on 2019-01-17: game_id 201901172100CHIDEN
+2024-01-16 23:52:59,784 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901170DEN.html
+2024-01-16 23:52:59,839 - shots_scraper_logger - INFO - Successfully processed 201901172100CHIDEN shots!
+
+2024-01-16 23:52:59,840 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:53:03,855 - shots_scraper_logger - INFO - Scraping OKC on 2019-01-17: game_id 201901172130LALOKC
+2024-01-16 23:53:04,071 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901170OKC.html
+2024-01-16 23:53:04,187 - shots_scraper_logger - INFO - Successfully processed 201901172130LALOKC shots!
+
+2024-01-16 23:53:04,188 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:53:09,204 - shots_scraper_logger - INFO - Scraping BOS on 2019-01-18: game_id 201901181900MEMBOS
+2024-01-16 23:53:09,431 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901180BOS.html
+2024-01-16 23:53:09,479 - shots_scraper_logger - INFO - Successfully processed 201901181900MEMBOS shots!
+
+2024-01-16 23:53:09,480 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:53:14,493 - shots_scraper_logger - INFO - Scraping DET on 2019-01-18: game_id 201901181900MIADET
+2024-01-16 23:53:14,735 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901180DET.html
+2024-01-16 23:53:14,784 - shots_scraper_logger - INFO - Successfully processed 201901181900MIADET shots!
+
+2024-01-16 23:53:14,785 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:53:18,792 - shots_scraper_logger - INFO - Scraping ORL on 2019-01-18: game_id 201901181900BKNORL
+2024-01-16 23:53:19,030 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901180ORL.html
+2024-01-16 23:53:19,085 - shots_scraper_logger - INFO - Successfully processed 201901181900BKNORL shots!
+
+2024-01-16 23:53:19,086 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:53:24,095 - shots_scraper_logger - INFO - Scraping MIN on 2019-01-18: game_id 201901182000SASMIN
+2024-01-16 23:53:24,398 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901180MIN.html
+2024-01-16 23:53:24,449 - shots_scraper_logger - INFO - Successfully processed 201901182000SASMIN shots!
+
+2024-01-16 23:53:24,449 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:53:29,457 - shots_scraper_logger - INFO - Scraping UTA on 2019-01-18: game_id 201901182100CLEUTA
+2024-01-16 23:53:29,683 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901180UTA.html
+2024-01-16 23:53:29,733 - shots_scraper_logger - INFO - Successfully processed 201901182100CLEUTA shots!
+
+2024-01-16 23:53:29,734 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:53:34,747 - shots_scraper_logger - INFO - Scraping LAC on 2019-01-18: game_id 201901182230GSWLAC
+2024-01-16 23:53:34,964 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901180LAC.html
+2024-01-16 23:53:35,016 - shots_scraper_logger - INFO - Successfully processed 201901182230GSWLAC shots!
+
+2024-01-16 23:53:35,017 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:53:39,031 - shots_scraper_logger - INFO - Scraping POR on 2019-01-18: game_id 201901182230NOPPOR
+2024-01-16 23:53:39,268 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901180POR.html
+2024-01-16 23:53:39,318 - shots_scraper_logger - INFO - Successfully processed 201901182230NOPPOR shots!
+
+2024-01-16 23:53:39,319 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:53:43,330 - shots_scraper_logger - INFO - Scraping PHI on 2019-01-19: game_id 201901191530OKCPHI
+2024-01-16 23:53:43,551 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901190PHI.html
+2024-01-16 23:53:43,600 - shots_scraper_logger - INFO - Successfully processed 201901191530OKCPHI shots!
+
+2024-01-16 23:53:43,601 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:53:48,615 - shots_scraper_logger - INFO - Scraping CHH on 2019-01-19: game_id 201901191700PHXCHH
+2024-01-16 23:53:48,802 - shots_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901190CHH.html
+2024-01-16 23:53:48,820 - shots_scraper_logger - ERROR - No shots found for 2019-01
+2024-01-16 23:53:48,821 - shots_scraper_logger - INFO - Scraping DET on 2019-01-19: game_id 201901191900SACDET
+2024-01-16 23:53:49,050 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901190DET.html
+2024-01-16 23:53:49,157 - shots_scraper_logger - INFO - Successfully processed 201901191900SACDET shots!
+
+2024-01-16 23:53:49,158 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:53:54,163 - shots_scraper_logger - INFO - Scraping IND on 2019-01-19: game_id 201901191900DALIND
+2024-01-16 23:53:54,390 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901190IND.html
+2024-01-16 23:53:54,441 - shots_scraper_logger - INFO - Successfully processed 201901191900DALIND shots!
+
+2024-01-16 23:53:54,442 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:53:58,446 - shots_scraper_logger - INFO - Scraping ORL on 2019-01-19: game_id 201901191900MILORL
+2024-01-16 23:53:58,660 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901190ORL.html
+2024-01-16 23:53:58,710 - shots_scraper_logger - INFO - Successfully processed 201901191900MILORL shots!
+
+2024-01-16 23:53:58,710 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:54:02,715 - shots_scraper_logger - INFO - Scraping ATL on 2019-01-19: game_id 201901191930BOSATL
+2024-01-16 23:54:02,950 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901190ATL.html
+2024-01-16 23:54:03,002 - shots_scraper_logger - INFO - Successfully processed 201901191930BOSATL shots!
+
+2024-01-16 23:54:03,002 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:54:07,010 - shots_scraper_logger - INFO - Scraping TOR on 2019-01-19: game_id 201901191930MEMTOR
+2024-01-16 23:54:07,254 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901190TOR.html
+2024-01-16 23:54:07,307 - shots_scraper_logger - INFO - Successfully processed 201901191930MEMTOR shots!
+
+2024-01-16 23:54:07,307 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:54:12,313 - shots_scraper_logger - INFO - Scraping CHI on 2019-01-19: game_id 201901192000MIACHI
+2024-01-16 23:54:12,555 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901190CHI.html
+2024-01-16 23:54:12,608 - shots_scraper_logger - INFO - Successfully processed 201901192000MIACHI shots!
+
+2024-01-16 23:54:12,609 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:54:17,613 - shots_scraper_logger - INFO - Scraping HOU on 2019-01-19: game_id 201901192030LALHOU
+2024-01-16 23:54:17,825 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901190HOU.html
+2024-01-16 23:54:17,878 - shots_scraper_logger - INFO - Successfully processed 201901192030LALHOU shots!
+
+2024-01-16 23:54:17,879 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:54:21,880 - shots_scraper_logger - INFO - Scraping DEN on 2019-01-19: game_id 201901192200CLEDEN
+2024-01-16 23:54:22,101 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901190DEN.html
+2024-01-16 23:54:22,148 - shots_scraper_logger - INFO - Successfully processed 201901192200CLEDEN shots!
+
+2024-01-16 23:54:22,149 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:54:27,151 - shots_scraper_logger - INFO - Scraping IND on 2019-01-20: game_id 201901201800CHHIND
+2024-01-16 23:54:27,380 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901200IND.html
+2024-01-16 23:54:27,429 - shots_scraper_logger - INFO - Successfully processed 201901201800CHHIND shots!
+
+2024-01-16 23:54:27,430 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:54:31,445 - shots_scraper_logger - INFO - Scraping MIN on 2019-01-20: game_id 201901201900PHXMIN
+2024-01-16 23:54:31,665 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901200MIN.html
+2024-01-16 23:54:31,778 - shots_scraper_logger - INFO - Successfully processed 201901201900PHXMIN shots!
+
+2024-01-16 23:54:31,779 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:54:35,789 - shots_scraper_logger - INFO - Scraping SAS on 2019-01-20: game_id 201901201900LACSAS
+2024-01-16 23:54:36,130 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901200SAS.html
+2024-01-16 23:54:36,181 - shots_scraper_logger - INFO - Successfully processed 201901201900LACSAS shots!
+
+2024-01-16 23:54:36,181 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:54:40,194 - shots_scraper_logger - INFO - Scraping NYK on 2019-01-21: game_id 201901211230OKCNYK
+2024-01-16 23:54:40,464 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901210NYK.html
+2024-01-16 23:54:40,516 - shots_scraper_logger - INFO - Successfully processed 201901211230OKCNYK shots!
+
+2024-01-16 23:54:40,517 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:54:45,527 - shots_scraper_logger - INFO - Scraping CLE on 2019-01-21: game_id 201901211300CHICLE
+2024-01-16 23:54:45,753 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901210CLE.html
+2024-01-16 23:54:45,802 - shots_scraper_logger - INFO - Successfully processed 201901211300CHICLE shots!
+
+2024-01-16 23:54:45,803 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:54:50,815 - shots_scraper_logger - INFO - Scraping MIL on 2019-01-21: game_id 201901211400DALMIL
+2024-01-16 23:54:51,048 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901210MIL.html
+2024-01-16 23:54:51,098 - shots_scraper_logger - INFO - Successfully processed 201901211400DALMIL shots!
+
+2024-01-16 23:54:51,098 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:54:56,102 - shots_scraper_logger - INFO - Scraping WAS on 2019-01-21: game_id 201901211400DETWAS
+2024-01-16 23:54:56,764 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901210WAS.html
+2024-01-16 23:54:56,815 - shots_scraper_logger - INFO - Successfully processed 201901211400DETWAS shots!
+
+2024-01-16 23:54:56,816 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:55:01,825 - shots_scraper_logger - INFO - Scraping ATL on 2019-01-21: game_id 201901211500ORLATL
+2024-01-16 23:55:02,053 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901210ATL.html
+2024-01-16 23:55:02,103 - shots_scraper_logger - INFO - Successfully processed 201901211500ORLATL shots!
+
+2024-01-16 23:55:02,103 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:55:07,112 - shots_scraper_logger - INFO - Scraping BKN on 2019-01-21: game_id 201901211530SACBKN
+2024-01-16 23:55:07,429 - shots_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901210BKN.html
+2024-01-16 23:55:07,447 - shots_scraper_logger - ERROR - No shots found for 2019-01
+2024-01-16 23:55:07,448 - shots_scraper_logger - INFO - Scraping MEM on 2019-01-21: game_id 201901211730NOPMEM
+2024-01-16 23:55:08,712 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901210MEM.html
+2024-01-16 23:55:08,761 - shots_scraper_logger - INFO - Successfully processed 201901211730NOPMEM shots!
+
+2024-01-16 23:55:08,762 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:55:13,775 - shots_scraper_logger - INFO - Scraping BOS on 2019-01-21: game_id 201901211800MIABOS
+2024-01-16 23:55:14,029 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901210BOS.html
+2024-01-16 23:55:14,082 - shots_scraper_logger - INFO - Successfully processed 201901211800MIABOS shots!
+
+2024-01-16 23:55:14,082 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:55:18,083 - shots_scraper_logger - INFO - Scraping PHI on 2019-01-21: game_id 201901212000HOUPHI
+2024-01-16 23:55:19,408 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901210PHI.html
+2024-01-16 23:55:19,516 - shots_scraper_logger - INFO - Successfully processed 201901212000HOUPHI shots!
+
+2024-01-16 23:55:19,516 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:55:23,524 - shots_scraper_logger - INFO - Scraping UTA on 2019-01-21: game_id 201901212100PORUTA
+2024-01-16 23:55:23,733 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901210UTA.html
+2024-01-16 23:55:23,785 - shots_scraper_logger - INFO - Successfully processed 201901212100PORUTA shots!
+
+2024-01-16 23:55:23,785 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:55:27,790 - shots_scraper_logger - INFO - Scraping LAL on 2019-01-21: game_id 201901212230GSWLAL
+2024-01-16 23:55:27,998 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901210LAL.html
+2024-01-16 23:55:28,050 - shots_scraper_logger - INFO - Successfully processed 201901212230GSWLAL shots!
+
+2024-01-16 23:55:28,050 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:55:32,056 - shots_scraper_logger - INFO - Scraping TOR on 2019-01-22: game_id 201901221900SACTOR
+2024-01-16 23:55:32,759 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901220TOR.html
+2024-01-16 23:55:32,810 - shots_scraper_logger - INFO - Successfully processed 201901221900SACTOR shots!
+
+2024-01-16 23:55:32,811 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:55:36,815 - shots_scraper_logger - INFO - Scraping OKC on 2019-01-22: game_id 201901222000POROKC
+2024-01-16 23:55:37,032 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901220OKC.html
+2024-01-16 23:55:37,082 - shots_scraper_logger - INFO - Successfully processed 201901222000POROKC shots!
+
+2024-01-16 23:55:37,082 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:55:42,097 - shots_scraper_logger - INFO - Scraping DAL on 2019-01-22: game_id 201901222030LACDAL
+2024-01-16 23:55:42,527 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901220DAL.html
+2024-01-16 23:55:42,577 - shots_scraper_logger - INFO - Successfully processed 201901222030LACDAL shots!
+
+2024-01-16 23:55:42,578 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:55:47,582 - shots_scraper_logger - INFO - Scraping PHX on 2019-01-22: game_id 201901222100MINPHX
+2024-01-16 23:55:47,810 - shots_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901220PHX.html
+2024-01-16 23:55:47,831 - shots_scraper_logger - ERROR - No shots found for 2019-01
+2024-01-16 23:55:47,832 - shots_scraper_logger - INFO - Scraping IND on 2019-01-23: game_id 201901231900TORIND
+2024-01-16 23:55:48,047 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901230IND.html
+2024-01-16 23:55:48,103 - shots_scraper_logger - INFO - Successfully processed 201901231900TORIND shots!
+
+2024-01-16 23:55:48,103 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:55:52,106 - shots_scraper_logger - INFO - Scraping BOS on 2019-01-23: game_id 201901231930CLEBOS
+2024-01-16 23:55:52,324 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901230BOS.html
+2024-01-16 23:55:52,375 - shots_scraper_logger - INFO - Successfully processed 201901231930CLEBOS shots!
+
+2024-01-16 23:55:52,376 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:55:57,379 - shots_scraper_logger - INFO - Scraping BKN on 2019-01-23: game_id 201901231930ORLBKN
+2024-01-16 23:55:58,762 - shots_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901230BKN.html
+2024-01-16 23:55:58,781 - shots_scraper_logger - ERROR - No shots found for 2019-01
+2024-01-16 23:55:58,782 - shots_scraper_logger - INFO - Scraping MIA on 2019-01-23: game_id 201901231930LACMIA
+2024-01-16 23:55:59,217 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901230MIA.html
+2024-01-16 23:55:59,325 - shots_scraper_logger - INFO - Successfully processed 201901231930LACMIA shots!
+
+2024-01-16 23:55:59,326 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:56:04,340 - shots_scraper_logger - INFO - Scraping NYK on 2019-01-23: game_id 201901231930HOUNYK
+2024-01-16 23:56:04,836 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901230NYK.html
+2024-01-16 23:56:04,887 - shots_scraper_logger - INFO - Successfully processed 201901231930HOUNYK shots!
+
+2024-01-16 23:56:04,888 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:56:08,902 - shots_scraper_logger - INFO - Scraping CHI on 2019-01-23: game_id 201901232000ATLCHI
+2024-01-16 23:56:09,146 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901230CHI.html
+2024-01-16 23:56:09,195 - shots_scraper_logger - INFO - Successfully processed 201901232000ATLCHI shots!
+
+2024-01-16 23:56:09,195 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:56:14,204 - shots_scraper_logger - INFO - Scraping MEM on 2019-01-23: game_id 201901232000CHHMEM
+2024-01-16 23:56:14,441 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901230MEM.html
+2024-01-16 23:56:14,490 - shots_scraper_logger - INFO - Successfully processed 201901232000CHHMEM shots!
+
+2024-01-16 23:56:14,491 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:56:18,503 - shots_scraper_logger - INFO - Scraping NOP on 2019-01-23: game_id 201901232000DETNOP
+2024-01-16 23:56:18,753 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901230NOP.html
+2024-01-16 23:56:18,804 - shots_scraper_logger - INFO - Successfully processed 201901232000DETNOP shots!
+
+2024-01-16 23:56:18,804 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:56:23,810 - shots_scraper_logger - INFO - Scraping PHI on 2019-01-23: game_id 201901232000SASPHI
+2024-01-16 23:56:24,083 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901230PHI.html
+2024-01-16 23:56:24,133 - shots_scraper_logger - INFO - Successfully processed 201901232000SASPHI shots!
+
+2024-01-16 23:56:24,134 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:56:28,138 - shots_scraper_logger - INFO - Scraping UTA on 2019-01-23: game_id 201901232230DENUTA
+2024-01-16 23:56:28,416 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901230UTA.html
+2024-01-16 23:56:28,465 - shots_scraper_logger - INFO - Successfully processed 201901232230DENUTA shots!
+
+2024-01-16 23:56:28,466 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:56:32,480 - shots_scraper_logger - INFO - Scraping OKC on 2019-01-24: game_id 201901242000NOPOKC
+2024-01-16 23:56:32,700 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901240OKC.html
+2024-01-16 23:56:32,751 - shots_scraper_logger - INFO - Successfully processed 201901242000NOPOKC shots!
+
+2024-01-16 23:56:32,752 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:56:37,766 - shots_scraper_logger - INFO - Scraping WAS on 2019-01-24: game_id 201901242000GSWWAS
+2024-01-16 23:56:38,010 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901240WAS.html
+2024-01-16 23:56:38,061 - shots_scraper_logger - INFO - Successfully processed 201901242000GSWWAS shots!
+
+2024-01-16 23:56:38,061 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:56:43,069 - shots_scraper_logger - INFO - Scraping PHX on 2019-01-24: game_id 201901242100PORPHX
+2024-01-16 23:56:43,997 - shots_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901240PHX.html
+2024-01-16 23:56:44,018 - shots_scraper_logger - ERROR - No shots found for 2019-01
+2024-01-16 23:56:44,018 - shots_scraper_logger - INFO - Scraping LAL on 2019-01-24: game_id 201901242230MINLAL
+2024-01-16 23:56:44,229 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901240LAL.html
+2024-01-16 23:56:44,348 - shots_scraper_logger - INFO - Successfully processed 201901242230MINLAL shots!
+
+2024-01-16 23:56:44,349 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:56:49,356 - shots_scraper_logger - INFO - Scraping ORL on 2019-01-25: game_id 201901251900WASORL
+2024-01-16 23:56:49,587 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901250ORL.html
+2024-01-16 23:56:49,637 - shots_scraper_logger - INFO - Successfully processed 201901251900WASORL shots!
+
+2024-01-16 23:56:49,638 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:56:54,644 - shots_scraper_logger - INFO - Scraping BKN on 2019-01-25: game_id 201901251930NYKBKN
+2024-01-16 23:56:54,835 - shots_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901250BKN.html
+2024-01-16 23:56:54,855 - shots_scraper_logger - ERROR - No shots found for 2019-01
+2024-01-16 23:56:54,855 - shots_scraper_logger - INFO - Scraping CLE on 2019-01-25: game_id 201901251930MIACLE
+2024-01-16 23:56:55,200 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901250CLE.html
+2024-01-16 23:56:55,249 - shots_scraper_logger - INFO - Successfully processed 201901251930MIACLE shots!
+
+2024-01-16 23:56:55,250 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:56:59,254 - shots_scraper_logger - INFO - Scraping CHI on 2019-01-25: game_id 201901252000LACCHI
+2024-01-16 23:56:59,584 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901250CHI.html
+2024-01-16 23:56:59,634 - shots_scraper_logger - INFO - Successfully processed 201901252000LACCHI shots!
+
+2024-01-16 23:56:59,635 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:57:03,645 - shots_scraper_logger - INFO - Scraping HOU on 2019-01-25: game_id 201901252000TORHOU
+2024-01-16 23:57:04,334 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901250HOU.html
+2024-01-16 23:57:04,385 - shots_scraper_logger - INFO - Successfully processed 201901252000TORHOU shots!
+
+2024-01-16 23:57:04,386 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:57:08,390 - shots_scraper_logger - INFO - Scraping MEM on 2019-01-25: game_id 201901252000SACMEM
+2024-01-16 23:57:09,779 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901250MEM.html
+2024-01-16 23:57:09,829 - shots_scraper_logger - INFO - Successfully processed 201901252000SACMEM shots!
+
+2024-01-16 23:57:09,830 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:57:13,830 - shots_scraper_logger - INFO - Scraping DAL on 2019-01-25: game_id 201901252030DETDAL
+2024-01-16 23:57:15,577 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901250DAL.html
+2024-01-16 23:57:15,625 - shots_scraper_logger - INFO - Successfully processed 201901252030DETDAL shots!
+
+2024-01-16 23:57:15,626 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:57:20,635 - shots_scraper_logger - INFO - Scraping MIL on 2019-01-25: game_id 201901252030CHHMIL
+2024-01-16 23:57:21,619 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901250MIL.html
+2024-01-16 23:57:21,669 - shots_scraper_logger - INFO - Successfully processed 201901252030CHHMIL shots!
+
+2024-01-16 23:57:21,670 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:57:25,673 - shots_scraper_logger - INFO - Scraping DEN on 2019-01-25: game_id 201901252100PHXDEN
+2024-01-16 23:57:25,939 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901250DEN.html
+2024-01-16 23:57:25,990 - shots_scraper_logger - INFO - Successfully processed 201901252100PHXDEN shots!
+
+2024-01-16 23:57:25,990 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:57:30,002 - shots_scraper_logger - INFO - Scraping UTA on 2019-01-25: game_id 201901252100MINUTA
+2024-01-16 23:57:30,230 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901250UTA.html
+2024-01-16 23:57:30,346 - shots_scraper_logger - INFO - Successfully processed 201901252100MINUTA shots!
+
+2024-01-16 23:57:30,347 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:57:34,349 - shots_scraper_logger - INFO - Scraping NOP on 2019-01-26: game_id 201901261800SASNOP
+2024-01-16 23:57:34,631 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901260NOP.html
+2024-01-16 23:57:34,686 - shots_scraper_logger - INFO - Successfully processed 201901261800SASNOP shots!
+
+2024-01-16 23:57:34,686 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:57:38,695 - shots_scraper_logger - INFO - Scraping MEM on 2019-01-26: game_id 201901262000INDMEM
+2024-01-16 23:57:39,188 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901260MEM.html
+2024-01-16 23:57:39,243 - shots_scraper_logger - INFO - Successfully processed 201901262000INDMEM shots!
+
+2024-01-16 23:57:39,244 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:57:44,259 - shots_scraper_logger - INFO - Scraping BOS on 2019-01-26: game_id 201901262030GSWBOS
+2024-01-16 23:57:44,471 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901260BOS.html
+2024-01-16 23:57:44,529 - shots_scraper_logger - INFO - Successfully processed 201901262030GSWBOS shots!
+
+2024-01-16 23:57:44,530 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:57:48,534 - shots_scraper_logger - INFO - Scraping DEN on 2019-01-26: game_id 201901262100PHIDEN
+2024-01-16 23:57:50,903 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901260DEN.html
+2024-01-16 23:57:50,968 - shots_scraper_logger - INFO - Successfully processed 201901262100PHIDEN shots!
+
+2024-01-16 23:57:50,969 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:57:54,979 - shots_scraper_logger - INFO - Scraping POR on 2019-01-26: game_id 201901262200ATLPOR
+2024-01-16 23:57:56,108 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901260POR.html
+2024-01-16 23:57:56,161 - shots_scraper_logger - INFO - Successfully processed 201901262200ATLPOR shots!
+
+2024-01-16 23:57:56,161 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:58:01,171 - shots_scraper_logger - INFO - Scraping CHI on 2019-01-27: game_id 201901271530CLECHI
+2024-01-16 23:58:01,412 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901270CHI.html
+2024-01-16 23:58:01,462 - shots_scraper_logger - INFO - Successfully processed 201901271530CLECHI shots!
+
+2024-01-16 23:58:01,462 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:58:06,478 - shots_scraper_logger - INFO - Scraping LAC on 2019-01-27: game_id 201901271530SACLAC
+2024-01-16 23:58:06,702 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901270LAC.html
+2024-01-16 23:58:06,753 - shots_scraper_logger - INFO - Successfully processed 201901271530SACLAC shots!
+
+2024-01-16 23:58:06,754 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:58:11,760 - shots_scraper_logger - INFO - Scraping OKC on 2019-01-27: game_id 201901271800MILOKC
+2024-01-16 23:58:12,004 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901270OKC.html
+2024-01-16 23:58:12,058 - shots_scraper_logger - INFO - Successfully processed 201901271800MILOKC shots!
+
+2024-01-16 23:58:12,059 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:58:17,076 - shots_scraper_logger - INFO - Scraping DAL on 2019-01-27: game_id 201901271900TORDAL
+2024-01-16 23:58:17,308 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901270DAL.html
+2024-01-16 23:58:17,422 - shots_scraper_logger - INFO - Successfully processed 201901271900TORDAL shots!
+
+2024-01-16 23:58:17,423 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:58:21,430 - shots_scraper_logger - INFO - Scraping HOU on 2019-01-27: game_id 201901271900ORLHOU
+2024-01-16 23:58:21,688 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901270HOU.html
+2024-01-16 23:58:21,760 - shots_scraper_logger - INFO - Successfully processed 201901271900ORLHOU shots!
+
+2024-01-16 23:58:21,761 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:58:25,767 - shots_scraper_logger - INFO - Scraping MIN on 2019-01-27: game_id 201901271900UTAMIN
+2024-01-16 23:58:29,201 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901270MIN.html
+2024-01-16 23:58:29,250 - shots_scraper_logger - INFO - Successfully processed 201901271900UTAMIN shots!
+
+2024-01-16 23:58:29,251 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:58:33,261 - shots_scraper_logger - INFO - Scraping SAS on 2019-01-27: game_id 201901271900WASSAS
+2024-01-16 23:58:33,518 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901270SAS.html
+2024-01-16 23:58:33,570 - shots_scraper_logger - INFO - Successfully processed 201901271900WASSAS shots!
+
+2024-01-16 23:58:33,571 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:58:38,580 - shots_scraper_logger - INFO - Scraping NYK on 2019-01-27: game_id 201901271930MIANYK
+2024-01-16 23:58:38,986 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901270NYK.html
+2024-01-16 23:58:39,036 - shots_scraper_logger - INFO - Successfully processed 201901271930MIANYK shots!
+
+2024-01-16 23:58:39,036 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:58:43,045 - shots_scraper_logger - INFO - Scraping LAL on 2019-01-27: game_id 201901272130PHXLAL
+2024-01-16 23:58:43,447 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901270LAL.html
+2024-01-16 23:58:43,501 - shots_scraper_logger - INFO - Successfully processed 201901272130PHXLAL shots!
+
+2024-01-16 23:58:43,501 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:58:47,508 - shots_scraper_logger - INFO - Scraping CHH on 2019-01-28: game_id 201901281900NYKCHH
+2024-01-16 23:58:47,800 - shots_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901280CHH.html
+2024-01-16 23:58:47,818 - shots_scraper_logger - ERROR - No shots found for 2019-01
+2024-01-16 23:58:47,819 - shots_scraper_logger - INFO - Scraping IND on 2019-01-28: game_id 201901281900GSWIND
+2024-01-16 23:58:51,143 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901280IND.html
+2024-01-16 23:58:51,196 - shots_scraper_logger - INFO - Successfully processed 201901281900GSWIND shots!
+
+2024-01-16 23:58:51,197 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:58:56,199 - shots_scraper_logger - INFO - Scraping BOS on 2019-01-28: game_id 201901281930BKNBOS
+2024-01-16 23:58:56,964 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901280BOS.html
+2024-01-16 23:58:57,017 - shots_scraper_logger - INFO - Successfully processed 201901281930BKNBOS shots!
+
+2024-01-16 23:58:57,018 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:59:01,033 - shots_scraper_logger - INFO - Scraping MEM on 2019-01-28: game_id 201901282000DENMEM
+2024-01-16 23:59:04,337 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901280MEM.html
+2024-01-16 23:59:04,386 - shots_scraper_logger - INFO - Successfully processed 201901282000DENMEM shots!
+
+2024-01-16 23:59:04,387 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:59:08,392 - shots_scraper_logger - INFO - Scraping LAC on 2019-01-28: game_id 201901282230ATLLAC
+2024-01-16 23:59:08,626 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901280LAC.html
+2024-01-16 23:59:08,738 - shots_scraper_logger - INFO - Successfully processed 201901282230ATLLAC shots!
+
+2024-01-16 23:59:08,739 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:59:12,747 - shots_scraper_logger - INFO - Scraping CLE on 2019-01-29: game_id 201901291900WASCLE
+2024-01-16 23:59:14,003 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901290CLE.html
+2024-01-16 23:59:14,054 - shots_scraper_logger - INFO - Successfully processed 201901291900WASCLE shots!
+
+2024-01-16 23:59:14,054 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:59:18,062 - shots_scraper_logger - INFO - Scraping DET on 2019-01-29: game_id 201901291900MILDET
+2024-01-16 23:59:18,658 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901290DET.html
+2024-01-16 23:59:18,713 - shots_scraper_logger - INFO - Successfully processed 201901291900MILDET shots!
+
+2024-01-16 23:59:18,713 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 23:59:23,724 - shots_scraper_logger - INFO - Scraping ORL on 2019-01-29: game_id 201901291900OKCORL
+2024-01-16 23:59:24,401 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901290ORL.html
+2024-01-16 23:59:24,455 - shots_scraper_logger - INFO - Successfully processed 201901291900OKCORL shots!
+
+2024-01-16 23:59:24,455 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:59:28,459 - shots_scraper_logger - INFO - Scraping BKN on 2019-01-29: game_id 201901291930CHIBKN
+2024-01-16 23:59:28,969 - shots_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901290BKN.html
+2024-01-16 23:59:28,991 - shots_scraper_logger - ERROR - No shots found for 2019-01
+2024-01-16 23:59:28,992 - shots_scraper_logger - INFO - Scraping HOU on 2019-01-29: game_id 201901292000NOPHOU
+2024-01-16 23:59:32,131 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901290HOU.html
+2024-01-16 23:59:32,183 - shots_scraper_logger - INFO - Successfully processed 201901292000NOPHOU shots!
+
+2024-01-16 23:59:32,184 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:59:36,197 - shots_scraper_logger - INFO - Scraping SAS on 2019-01-29: game_id 201901292030PHXSAS
+2024-01-16 23:59:48,174 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901290SAS.html
+2024-01-16 23:59:48,226 - shots_scraper_logger - INFO - Successfully processed 201901292030PHXSAS shots!
+
+2024-01-16 23:59:48,226 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:59:52,231 - shots_scraper_logger - INFO - Scraping LAL on 2019-01-29: game_id 201901292230PHILAL
+2024-01-16 23:59:52,641 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901290LAL.html
+2024-01-16 23:59:52,697 - shots_scraper_logger - INFO - Successfully processed 201901292230PHILAL shots!
+
+2024-01-16 23:59:52,697 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-16 23:59:56,711 - shots_scraper_logger - INFO - Scraping BOS on 2019-01-30: game_id 201901301930CHHBOS
+2024-01-16 23:59:58,420 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901300BOS.html
+2024-01-16 23:59:58,473 - shots_scraper_logger - INFO - Successfully processed 201901301930CHHBOS shots!
+
+2024-01-16 23:59:58,473 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:00:02,478 - shots_scraper_logger - INFO - Scraping MIA on 2019-01-30: game_id 201901301930CHIMIA
+2024-01-17 00:00:03,230 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901300MIA.html
+2024-01-17 00:00:03,280 - shots_scraper_logger - INFO - Successfully processed 201901301930CHIMIA shots!
+
+2024-01-17 00:00:03,281 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:00:07,296 - shots_scraper_logger - INFO - Scraping NYK on 2019-01-30: game_id 201901301930DALNYK
+2024-01-17 00:00:08,089 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901300NYK.html
+2024-01-17 00:00:08,212 - shots_scraper_logger - INFO - Successfully processed 201901301930DALNYK shots!
+
+2024-01-17 00:00:08,213 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-17 00:00:13,218 - shots_scraper_logger - INFO - Scraping MIN on 2019-01-30: game_id 201901302000MEMMIN
+2024-01-17 00:00:52,546 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901300MIN.html
+2024-01-17 00:00:52,597 - shots_scraper_logger - INFO - Successfully processed 201901302000MEMMIN shots!
+
+2024-01-17 00:00:52,598 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:00:56,610 - shots_scraper_logger - INFO - Scraping NOP on 2019-01-30: game_id 201901302000DENNOP
+2024-01-17 00:00:57,085 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901300NOP.html
+2024-01-17 00:00:57,135 - shots_scraper_logger - INFO - Successfully processed 201901302000DENNOP shots!
+
+2024-01-17 00:00:57,136 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-17 00:01:02,143 - shots_scraper_logger - INFO - Scraping WAS on 2019-01-30: game_id 201901302000INDWAS
+2024-01-17 00:01:02,559 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901300WAS.html
+2024-01-17 00:01:02,609 - shots_scraper_logger - INFO - Successfully processed 201901302000INDWAS shots!
+
+2024-01-17 00:01:02,610 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-17 00:01:07,610 - shots_scraper_logger - INFO - Scraping SAC on 2019-01-30: game_id 201901302200ATLSAC
+2024-01-17 00:01:11,638 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901300SAC.html
+2024-01-17 00:01:11,689 - shots_scraper_logger - INFO - Successfully processed 201901302200ATLSAC shots!
+
+2024-01-17 00:01:11,690 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:01:15,695 - shots_scraper_logger - INFO - Scraping POR on 2019-01-30: game_id 201901302230UTAPOR
+2024-01-17 00:01:19,612 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901300POR.html
+2024-01-17 00:01:19,661 - shots_scraper_logger - INFO - Successfully processed 201901302230UTAPOR shots!
+
+2024-01-17 00:01:19,662 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-17 00:01:24,671 - shots_scraper_logger - INFO - Scraping DET on 2019-01-31: game_id 201901311900DALDET
+2024-01-17 00:01:24,909 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901310DET.html
+2024-01-17 00:01:24,961 - shots_scraper_logger - INFO - Successfully processed 201901311900DALDET shots!
+
+2024-01-17 00:01:24,961 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:01:28,977 - shots_scraper_logger - INFO - Scraping ORL on 2019-01-31: game_id 201901311900INDORL
+2024-01-17 00:01:29,791 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901310ORL.html
+2024-01-17 00:01:29,841 - shots_scraper_logger - INFO - Successfully processed 201901311900INDORL shots!
+
+2024-01-17 00:01:29,842 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-17 00:01:34,857 - shots_scraper_logger - INFO - Scraping TOR on 2019-01-31: game_id 201901312000MILTOR
+2024-01-17 00:01:35,992 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901310TOR.html
+2024-01-17 00:01:36,042 - shots_scraper_logger - INFO - Successfully processed 201901312000MILTOR shots!
+
+2024-01-17 00:01:36,043 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:01:40,044 - shots_scraper_logger - INFO - Scraping SAS on 2019-01-31: game_id 201901312030BKNSAS
+2024-01-17 00:01:40,635 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901310SAS.html
+2024-01-17 00:01:40,750 - shots_scraper_logger - INFO - Successfully processed 201901312030BKNSAS shots!
+
+2024-01-17 00:01:40,751 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-17 00:01:45,766 - shots_scraper_logger - INFO - Scraping GSW on 2019-01-31: game_id 201901312230PHIGSW
+2024-01-17 00:01:45,976 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901310GSW.html
+2024-01-17 00:01:46,027 - shots_scraper_logger - INFO - Successfully processed 201901312230PHIGSW shots!
+
+2024-01-17 00:01:46,028 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:01:50,042 - shots_scraper_logger - INFO - Scraping LAC on 2019-01-31: game_id 201901312230LALLAC
+2024-01-17 00:01:50,362 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901310LAC.html
+2024-01-17 00:01:50,418 - shots_scraper_logger - INFO - Successfully processed 201901312230LALLAC shots!
+
+2024-01-17 00:01:50,419 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-17 00:01:55,480 - shots_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Shot Locations!-------------------------------------
+2024-01-17 00:01:55,481 - shots_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-17 00:01:55,482 - shots_scraper_logger - INFO - Total lag time: 900 seconds | 15.0 minutes | 0.25 hours
+2024-01-17 00:01:55,482 - shots_scraper_logger - INFO - Failed games: 18 games out of 221 games
+2024-01-17 00:01:55,482 - shots_scraper_logger - INFO - Time elapsed: 1058.452433347702 seconds | 17.64 minutes | 0.29 hours
+2024-01-17 00:01:55,483 - shots_scraper_logger - INFO - Averaged 4.79 seconds per game
+2024-01-17 00:01:55,484 - shots_scraper_logger - WARNING - 
+------------------------------------------------------------------------------------------------------
+2024-01-17 00:12:50,253 - game_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/leagues/NBA_['2019']_games-['january'].html#schedule
+2024-01-17 00:12:50,272 - game_scraper_logger - ERROR - No games found for ['2019']-['january']
+2024-01-17 00:12:50,273 - game_scraper_logger - ERROR - Failed to get schedule table from BeautifulSoup object
+2024-01-17 00:13:01,622 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2019_games-january.html#schedule
+2024-01-17 00:13:01,814 - game_scraper_logger - INFO - Successfully scraped schedule table.
+2024-01-17 00:15:43,755 - player_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Player Info!-------------------------------------
+2024-01-17 00:15:44,035 - player_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/a/
+2024-01-17 00:15:44,214 - player_scraper_logger - INFO - Scraped letter a | 176 players
+2024-01-17 00:15:44,216 - player_scraper_logger - INFO - Concatenated letter a | 176 players
+2024-01-17 00:15:44,217 - player_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:15:48,551 - player_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/players/2/
+2024-01-17 00:15:48,570 - player_scraper_logger - ERROR - Letter 2 not found
+2024-01-17 00:15:48,570 - player_scraper_logger - ERROR - Failed to scrape letter 2: 'bool' object has no attribute 'find_all'
+
+2024-01-17 00:15:55,533 - player_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/players/1/
+2024-01-17 00:15:55,553 - player_scraper_logger - ERROR - Letter 1 not found
+2024-01-17 00:15:55,554 - player_scraper_logger - ERROR - Failed to scrape letter 1: 'bool' object has no attribute 'find_all'
+
+2024-01-17 00:15:55,556 - player_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Player Info!-------------------------------------
+2024-01-17 00:15:55,557 - player_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-17 00:15:55,557 - player_scraper_logger - INFO - Total players scraped: 176
+2024-01-17 00:15:55,558 - player_scraper_logger - INFO - Total lag time: 4 seconds | 0.07 minutes | 0.0 hours
+2024-01-17 00:15:55,558 - player_scraper_logger - INFO - Failed letters: 2 out of 3 letters
+2024-01-17 00:15:55,559 - player_scraper_logger - INFO - Time elapsed: 11.801759719848633 seconds | 0.2 minutes | 0.0 hours
+2024-01-17 00:15:55,560 - player_scraper_logger - INFO - Averaged 3.93 seconds per letter
+------------------------------------------------------------------------------------------------------
+2024-01-17 00:22:19,232 - shots_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Shot Locations!-------------------------------------
+
+2024-01-17 00:22:19,234 - shots_scraper_logger - INFO - Scraping TOR on 2019-01-01: game_id 201901011930UTATOR
+2024-01-17 00:22:20,944 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901010TOR.html
+2024-01-17 00:22:21,003 - shots_scraper_logger - INFO - Successfully processed 201901011930UTATOR shots!
+
+2024-01-17 00:22:21,004 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:22:25,013 - shots_scraper_logger - INFO - Scraping MIL on 2019-01-01: game_id 201901012000DETMIL
+2024-01-17 00:22:25,471 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901010MIL.html
+2024-01-17 00:22:25,523 - shots_scraper_logger - INFO - Successfully processed 201901012000DETMIL shots!
+
+2024-01-17 00:22:25,523 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:22:29,526 - shots_scraper_logger - INFO - Scraping DEN on 2019-01-01: game_id 201901012100NYKDEN
+2024-01-17 00:22:29,752 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901010DEN.html
+2024-01-17 00:22:29,805 - shots_scraper_logger - INFO - Successfully processed 201901012100NYKDEN shots!
+
+2024-01-17 00:22:29,806 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:22:33,820 - shots_scraper_logger - INFO - Scraping SAC on 2019-01-01: game_id 201901012100PORSAC
+2024-01-17 00:22:34,059 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901010SAC.html
+2024-01-17 00:22:34,118 - shots_scraper_logger - INFO - Successfully processed 201901012100PORSAC shots!
+
+2024-01-17 00:22:34,119 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-17 00:22:39,121 - shots_scraper_logger - INFO - Scraping LAC on 2019-01-01: game_id 201901012230PHILAC
+2024-01-17 00:22:39,373 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901010LAC.html
+2024-01-17 00:22:39,425 - shots_scraper_logger - INFO - Successfully processed 201901012230PHILAC shots!
+
+2024-01-17 00:22:39,426 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-17 00:22:44,440 - shots_scraper_logger - INFO - Scraping CHH on 2019-01-02: game_id 201901021900DALCHH
+2024-01-17 00:22:44,630 - shots_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020CHH.html
+2024-01-17 00:22:44,649 - shots_scraper_logger - ERROR - No shots found for 2019-01
+2024-01-17 00:22:44,650 - shots_scraper_logger - INFO - Scraping CLE on 2019-01-02: game_id 201901021900MIACLE
+2024-01-17 00:22:44,990 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020CLE.html
+2024-01-17 00:22:45,100 - shots_scraper_logger - INFO - Successfully processed 201901021900MIACLE shots!
+
+2024-01-17 00:22:45,100 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:22:49,105 - shots_scraper_logger - INFO - Scraping WAS on 2019-01-02: game_id 201901021900ATLWAS
+2024-01-17 00:22:49,353 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020WAS.html
+2024-01-17 00:22:49,407 - shots_scraper_logger - INFO - Successfully processed 201901021900ATLWAS shots!
+
+2024-01-17 00:22:49,407 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-17 00:22:54,418 - shots_scraper_logger - INFO - Scraping BKN on 2019-01-02: game_id 201901021930NOPBKN
+2024-01-17 00:22:54,634 - shots_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020BKN.html
+2024-01-17 00:22:54,652 - shots_scraper_logger - ERROR - No shots found for 2019-01
+2024-01-17 00:22:54,653 - shots_scraper_logger - INFO - Scraping BOS on 2019-01-02: game_id 201901022000MINBOS
+2024-01-17 00:22:54,945 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020BOS.html
+2024-01-17 00:22:54,996 - shots_scraper_logger - INFO - Successfully processed 201901022000MINBOS shots!
+
+2024-01-17 00:22:54,997 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:22:59,007 - shots_scraper_logger - INFO - Scraping CHI on 2019-01-02: game_id 201901022000ORLCHI
+2024-01-17 00:22:59,223 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020CHI.html
+2024-01-17 00:22:59,274 - shots_scraper_logger - INFO - Successfully processed 201901022000ORLCHI shots!
+
+2024-01-17 00:22:59,275 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-17 00:23:04,288 - shots_scraper_logger - INFO - Scraping MEM on 2019-01-02: game_id 201901022000DETMEM
+2024-01-17 00:23:04,534 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020MEM.html
+2024-01-17 00:23:04,583 - shots_scraper_logger - INFO - Successfully processed 201901022000DETMEM shots!
+
+2024-01-17 00:23:04,584 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-17 00:23:09,587 - shots_scraper_logger - INFO - Scraping PHX on 2019-01-02: game_id 201901022100PHIPHX
+2024-01-17 00:23:09,857 - shots_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020PHX.html
+2024-01-17 00:23:09,876 - shots_scraper_logger - ERROR - No shots found for 2019-01
+2024-01-17 00:23:09,876 - shots_scraper_logger - INFO - Scraping LAL on 2019-01-02: game_id 201901022230OKCLAL
+2024-01-17 00:23:10,331 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020LAL.html
+2024-01-17 00:23:10,383 - shots_scraper_logger - INFO - Successfully processed 201901022230OKCLAL shots!
+
+2024-01-17 00:23:10,384 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:23:14,392 - shots_scraper_logger - INFO - Scraping SAS on 2019-01-03: game_id 201901032000TORSAS
+2024-01-17 00:23:14,637 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901030SAS.html
+2024-01-17 00:23:14,688 - shots_scraper_logger - INFO - Successfully processed 201901032000TORSAS shots!
+
+2024-01-17 00:23:14,689 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:23:18,704 - shots_scraper_logger - INFO - Scraping SAC on 2019-01-03: game_id 201901032200DENSAC
+2024-01-17 00:23:18,928 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901030SAC.html
+2024-01-17 00:23:18,983 - shots_scraper_logger - INFO - Successfully processed 201901032200DENSAC shots!
+
+2024-01-17 00:23:18,984 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:23:23,000 - shots_scraper_logger - INFO - Scraping GSW on 2019-01-03: game_id 201901032230HOUGSW
+2024-01-17 00:23:23,272 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901030GSW.html
+2024-01-17 00:23:23,397 - shots_scraper_logger - INFO - Successfully processed 201901032230HOUGSW shots!
+
+2024-01-17 00:23:23,398 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:23:27,413 - shots_scraper_logger - INFO - Scraping CLE on 2019-01-04: game_id 201901041930UTACLE
+2024-01-17 00:23:27,635 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901040CLE.html
+2024-01-17 00:23:27,685 - shots_scraper_logger - INFO - Successfully processed 201901041930UTACLE shots!
+
+2024-01-17 00:23:27,685 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:23:31,692 - shots_scraper_logger - INFO - Scraping BOS on 2019-01-04: game_id 201901042000DALBOS
+2024-01-17 00:23:31,986 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901040BOS.html
+2024-01-17 00:23:32,037 - shots_scraper_logger - INFO - Successfully processed 201901042000DALBOS shots!
+
+2024-01-17 00:23:32,037 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:23:36,045 - shots_scraper_logger - INFO - Scraping CHI on 2019-01-04: game_id 201901042000INDCHI
+2024-01-17 00:23:37,148 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901040CHI.html
+2024-01-17 00:23:37,203 - shots_scraper_logger - INFO - Successfully processed 201901042000INDCHI shots!
+
+2024-01-17 00:23:37,204 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-17 00:23:42,213 - shots_scraper_logger - INFO - Scraping MEM on 2019-01-04: game_id 201901042000BKNMEM
+2024-01-17 00:23:42,455 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901040MEM.html
+2024-01-17 00:23:42,509 - shots_scraper_logger - INFO - Successfully processed 201901042000BKNMEM shots!
+
+2024-01-17 00:23:42,510 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:23:46,522 - shots_scraper_logger - INFO - Scraping MIA on 2019-01-04: game_id 201901042000WASMIA
+2024-01-17 00:23:46,746 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901040MIA.html
+2024-01-17 00:23:46,802 - shots_scraper_logger - INFO - Successfully processed 201901042000WASMIA shots!
+
+2024-01-17 00:23:46,803 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-17 00:23:51,810 - shots_scraper_logger - INFO - Scraping MIN on 2019-01-04: game_id 201901042000ORLMIN
+2024-01-17 00:23:52,039 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901040MIN.html
+2024-01-17 00:23:52,089 - shots_scraper_logger - INFO - Successfully processed 201901042000ORLMIN shots!
+
+2024-01-17 00:23:52,091 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-17 00:23:57,093 - shots_scraper_logger - INFO - Scraping MIL on 2019-01-04: game_id 201901042030ATLMIL
+2024-01-17 00:23:57,318 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901040MIL.html
+2024-01-17 00:23:57,370 - shots_scraper_logger - INFO - Successfully processed 201901042030ATLMIL shots!
+
+2024-01-17 00:23:57,371 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-17 00:24:02,376 - shots_scraper_logger - INFO - Scraping PHX on 2019-01-04: game_id 201901042100LACPHX
+2024-01-17 00:24:02,625 - shots_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901040PHX.html
+2024-01-17 00:24:02,643 - shots_scraper_logger - ERROR - No shots found for 2019-01
+2024-01-17 00:24:02,643 - shots_scraper_logger - INFO - Scraping LAL on 2019-01-04: game_id 201901042230NYKLAL
+2024-01-17 00:24:02,956 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901040LAL.html
+2024-01-17 00:24:03,009 - shots_scraper_logger - INFO - Successfully processed 201901042230NYKLAL shots!
+
+2024-01-17 00:24:03,010 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:24:07,026 - shots_scraper_logger - INFO - Scraping POR on 2019-01-04: game_id 201901042230OKCPOR
+2024-01-17 00:24:07,539 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901040POR.html
+2024-01-17 00:24:07,696 - shots_scraper_logger - INFO - Successfully processed 201901042230OKCPOR shots!
+
+2024-01-17 00:24:07,696 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-17 00:24:12,703 - shots_scraper_logger - INFO - Scraping DEN on 2019-01-05: game_id 201901051700CHHDEN
+2024-01-17 00:24:12,940 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901050DEN.html
+2024-01-17 00:24:12,991 - shots_scraper_logger - INFO - Successfully processed 201901051700CHHDEN shots!
+
+2024-01-17 00:24:12,992 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:24:16,996 - shots_scraper_logger - INFO - Scraping DET on 2019-01-05: game_id 201901051900UTADET
+2024-01-17 00:24:17,205 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901050DET.html
+2024-01-17 00:24:17,258 - shots_scraper_logger - INFO - Successfully processed 201901051900UTADET shots!
+
+2024-01-17 00:24:17,258 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:24:21,261 - shots_scraper_logger - INFO - Scraping PHI on 2019-01-05: game_id 201901051930DALPHI
+2024-01-17 00:24:22,332 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901050PHI.html
+2024-01-17 00:24:22,383 - shots_scraper_logger - INFO - Successfully processed 201901051930DALPHI shots!
+
+2024-01-17 00:24:22,384 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-17 00:24:27,385 - shots_scraper_logger - INFO - Scraping CLE on 2019-01-05: game_id 201901052000NOPCLE
+2024-01-17 00:24:27,776 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901050CLE.html
+2024-01-17 00:24:27,829 - shots_scraper_logger - INFO - Successfully processed 201901052000NOPCLE shots!
+
+2024-01-17 00:24:27,829 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-17 00:24:32,830 - shots_scraper_logger - INFO - Scraping MIL on 2019-01-05: game_id 201901052030TORMIL
+2024-01-17 00:24:33,056 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901050MIL.html
+2024-01-17 00:24:33,106 - shots_scraper_logger - INFO - Successfully processed 201901052030TORMIL shots!
+
+2024-01-17 00:24:33,107 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-17 00:24:38,115 - shots_scraper_logger - INFO - Scraping SAS on 2019-01-05: game_id 201901052030MEMSAS
+2024-01-17 00:24:38,336 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901050SAS.html
+2024-01-17 00:24:38,388 - shots_scraper_logger - INFO - Successfully processed 201901052030MEMSAS shots!
+
+2024-01-17 00:24:38,389 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:24:42,396 - shots_scraper_logger - INFO - Scraping POR on 2019-01-05: game_id 201901052200HOUPOR
+2024-01-17 00:24:42,621 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901050POR.html
+2024-01-17 00:24:42,672 - shots_scraper_logger - INFO - Successfully processed 201901052200HOUPOR shots!
+
+2024-01-17 00:24:42,673 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-17 00:24:47,680 - shots_scraper_logger - INFO - Scraping SAC on 2019-01-05: game_id 201901052200GSWSAC
+2024-01-17 00:24:47,913 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901050SAC.html
+2024-01-17 00:24:47,967 - shots_scraper_logger - INFO - Successfully processed 201901052200GSWSAC shots!
+
+2024-01-17 00:24:47,967 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:24:51,972 - shots_scraper_logger - INFO - Scraping CHI on 2019-01-06: game_id 201901061530BKNCHI
+2024-01-17 00:24:52,346 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901060CHI.html
+2024-01-17 00:24:52,469 - shots_scraper_logger - INFO - Successfully processed 201901061530BKNCHI shots!
+
+2024-01-17 00:24:52,470 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:24:56,478 - shots_scraper_logger - INFO - Scraping LAC on 2019-01-06: game_id 201901061530ORLLAC
+2024-01-17 00:24:56,668 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901060LAC.html
+2024-01-17 00:24:56,722 - shots_scraper_logger - INFO - Successfully processed 201901061530ORLLAC shots!
+
+2024-01-17 00:24:56,723 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:25:00,726 - shots_scraper_logger - INFO - Scraping MIN on 2019-01-06: game_id 201901061530LALMIN
+2024-01-17 00:25:00,963 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901060MIN.html
+2024-01-17 00:25:01,019 - shots_scraper_logger - INFO - Successfully processed 201901061530LALMIN shots!
+
+2024-01-17 00:25:01,020 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-17 00:25:06,026 - shots_scraper_logger - INFO - Scraping ATL on 2019-01-06: game_id 201901061800MIAATL
+2024-01-17 00:25:06,259 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901060ATL.html
+2024-01-17 00:25:06,321 - shots_scraper_logger - INFO - Successfully processed 201901061800MIAATL shots!
+
+2024-01-17 00:25:06,322 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:25:10,337 - shots_scraper_logger - INFO - Scraping OKC on 2019-01-06: game_id 201901061900WASOKC
+2024-01-17 00:25:10,760 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901060OKC.html
+2024-01-17 00:25:10,813 - shots_scraper_logger - INFO - Successfully processed 201901061900WASOKC shots!
+
+2024-01-17 00:25:10,813 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:25:14,817 - shots_scraper_logger - INFO - Scraping TOR on 2019-01-06: game_id 201901061930INDTOR
+2024-01-17 00:25:15,607 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901060TOR.html
+2024-01-17 00:25:15,693 - shots_scraper_logger - INFO - Successfully processed 201901061930INDTOR shots!
+
+2024-01-17 00:25:15,693 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:25:19,702 - shots_scraper_logger - INFO - Scraping PHX on 2019-01-06: game_id 201901062000CHHPHX
+2024-01-17 00:25:20,046 - shots_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901060PHX.html
+2024-01-17 00:25:20,064 - shots_scraper_logger - ERROR - No shots found for 2019-01
+2024-01-17 00:25:20,065 - shots_scraper_logger - INFO - Scraping DET on 2019-01-07: game_id 201901071900SASDET
+2024-01-17 00:25:20,348 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901070DET.html
+2024-01-17 00:25:20,397 - shots_scraper_logger - INFO - Successfully processed 201901071900SASDET shots!
+
+2024-01-17 00:25:20,397 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-17 00:25:25,403 - shots_scraper_logger - INFO - Scraping BOS on 2019-01-07: game_id 201901071930BKNBOS
+2024-01-17 00:25:25,813 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901070BOS.html
+2024-01-17 00:25:25,863 - shots_scraper_logger - INFO - Successfully processed 201901071930BKNBOS shots!
+
+2024-01-17 00:25:25,864 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-17 00:25:30,875 - shots_scraper_logger - INFO - Scraping HOU on 2019-01-07: game_id 201901072000DENHOU
+2024-01-17 00:25:40,280 - shots_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Shot Locations!-------------------------------------
+
+2024-01-17 00:25:40,281 - shots_scraper_logger - INFO - Scraping TOR on 2019-01-01: game_id 201901011930UTATOR
+2024-01-17 00:25:40,464 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901010TOR.html
+2024-01-17 00:25:40,518 - shots_scraper_logger - INFO - Successfully processed 201901011930UTATOR shots!
+
+2024-01-17 00:25:40,519 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-17 00:25:45,525 - shots_scraper_logger - INFO - Scraping MIL on 2019-01-01: game_id 201901012000DETMIL
+2024-01-17 00:25:46,192 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901010MIL.html
+2024-01-17 00:25:46,332 - shots_scraper_logger - INFO - Successfully processed 201901012000DETMIL shots!
+
+2024-01-17 00:25:46,333 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-17 00:25:51,341 - shots_scraper_logger - INFO - Scraping DEN on 2019-01-01: game_id 201901012100NYKDEN
+2024-01-17 00:25:51,545 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901010DEN.html
+2024-01-17 00:25:51,605 - shots_scraper_logger - INFO - Successfully processed 201901012100NYKDEN shots!
+
+2024-01-17 00:25:51,606 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:25:55,607 - shots_scraper_logger - INFO - Scraping SAC on 2019-01-01: game_id 201901012100PORSAC
+2024-01-17 00:25:55,809 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901010SAC.html
+2024-01-17 00:25:55,868 - shots_scraper_logger - INFO - Successfully processed 201901012100PORSAC shots!
+
+2024-01-17 00:25:55,868 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:25:59,875 - shots_scraper_logger - INFO - Scraping LAC on 2019-01-01: game_id 201901012230PHILAC
+2024-01-17 00:26:00,055 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901010LAC.html
+2024-01-17 00:26:00,105 - shots_scraper_logger - INFO - Successfully processed 201901012230PHILAC shots!
+
+2024-01-17 00:26:00,106 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:26:04,120 - shots_scraper_logger - INFO - Scraping CHH on 2019-01-02: game_id 201901021900DALCHH
+2024-01-17 00:26:05,140 - shots_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020CHH.html
+2024-01-17 00:26:05,158 - shots_scraper_logger - ERROR - No shots found for 2019-01
+2024-01-17 00:26:05,158 - shots_scraper_logger - INFO - Scraping CLE on 2019-01-02: game_id 201901021900MIACLE
+2024-01-17 00:26:05,388 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020CLE.html
+2024-01-17 00:26:05,443 - shots_scraper_logger - INFO - Successfully processed 201901021900MIACLE shots!
+
+2024-01-17 00:26:05,443 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-17 00:26:10,444 - shots_scraper_logger - INFO - Scraping WAS on 2019-01-02: game_id 201901021900ATLWAS
+2024-01-17 00:26:10,637 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020WAS.html
+2024-01-17 00:26:10,688 - shots_scraper_logger - INFO - Successfully processed 201901021900ATLWAS shots!
+
+2024-01-17 00:26:10,688 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:26:14,695 - shots_scraper_logger - INFO - Scraping BKN on 2019-01-02: game_id 201901021930NOPBKN
+2024-01-17 00:26:14,904 - shots_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020BKN.html
+2024-01-17 00:26:14,925 - shots_scraper_logger - ERROR - No shots found for 2019-01
+2024-01-17 00:26:14,926 - shots_scraper_logger - INFO - Scraping BOS on 2019-01-02: game_id 201901022000MINBOS
+2024-01-17 00:26:15,125 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020BOS.html
+2024-01-17 00:26:15,174 - shots_scraper_logger - INFO - Successfully processed 201901022000MINBOS shots!
+
+2024-01-17 00:26:15,175 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:26:19,185 - shots_scraper_logger - INFO - Scraping CHI on 2019-01-02: game_id 201901022000ORLCHI
+2024-01-17 00:26:19,400 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020CHI.html
+2024-01-17 00:26:19,451 - shots_scraper_logger - INFO - Successfully processed 201901022000ORLCHI shots!
+
+2024-01-17 00:26:19,452 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-17 00:26:24,459 - shots_scraper_logger - INFO - Scraping MEM on 2019-01-02: game_id 201901022000DETMEM
+2024-01-17 00:26:24,699 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020MEM.html
+2024-01-17 00:26:24,833 - shots_scraper_logger - INFO - Successfully processed 201901022000DETMEM shots!
+
+2024-01-17 00:26:24,833 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:26:28,842 - shots_scraper_logger - INFO - Scraping PHX on 2019-01-02: game_id 201901022100PHIPHX
+2024-01-17 00:26:29,038 - shots_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020PHX.html
+2024-01-17 00:26:29,055 - shots_scraper_logger - ERROR - No shots found for 2019-01
+2024-01-17 00:26:29,056 - shots_scraper_logger - INFO - Scraping LAL on 2019-01-02: game_id 201901022230OKCLAL
+2024-01-17 00:26:29,143 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020LAL.html
+2024-01-17 00:26:29,208 - shots_scraper_logger - INFO - Successfully processed 201901022230OKCLAL shots!
+
+2024-01-17 00:26:29,208 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-17 00:26:34,222 - shots_scraper_logger - INFO - Scraping SAS on 2019-01-03: game_id 201901032000TORSAS
+2024-01-17 00:26:34,430 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901030SAS.html
+2024-01-17 00:26:34,483 - shots_scraper_logger - INFO - Successfully processed 201901032000TORSAS shots!
+
+2024-01-17 00:26:34,484 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-17 00:26:39,501 - shots_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Shot Locations!-------------------------------------
+2024-01-17 00:26:39,501 - shots_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-17 00:26:39,502 - shots_scraper_logger - INFO - Total lag time: 54 seconds | 0.9 minutes | 0.01 hours
+2024-01-17 00:26:39,502 - shots_scraper_logger - INFO - Failed games: 3 games out of 15 games
+2024-01-17 00:26:39,503 - shots_scraper_logger - INFO - Time elapsed: 59.221827030181885 seconds | 0.99 minutes | 0.02 hours
+2024-01-17 00:26:39,504 - shots_scraper_logger - INFO - Averaged 3.95 seconds per game
+2024-01-17 00:26:39,504 - shots_scraper_logger - WARNING - 
+------------------------------------------------------------------------------------------------------
+2024-01-17 00:28:03,680 - player_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Player Info!-------------------------------------
+2024-01-17 00:28:03,774 - player_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/a/
+2024-01-17 00:28:03,944 - player_scraper_logger - INFO - Scraped letter a | 176 players
+2024-01-17 00:28:03,946 - player_scraper_logger - INFO - Concatenated letter a | 176 players
+2024-01-17 00:28:03,946 - player_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:28:08,317 - player_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/players/2/
+2024-01-17 00:28:08,335 - player_scraper_logger - ERROR - Letter 2 not found
+2024-01-17 00:28:08,336 - player_scraper_logger - ERROR - Failed to scrape letter 2: 'bool' object has no attribute 'find_all'
+
+2024-01-17 00:28:08,689 - player_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/players/1/
+2024-01-17 00:28:08,707 - player_scraper_logger - ERROR - Letter 1 not found
+2024-01-17 00:28:08,708 - player_scraper_logger - ERROR - Failed to scrape letter 1: 'bool' object has no attribute 'find_all'
+
+2024-01-17 00:28:08,710 - player_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Player Info!-------------------------------------
+2024-01-17 00:28:08,711 - player_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-17 00:28:08,711 - player_scraper_logger - INFO - Total players scraped: 176
+2024-01-17 00:28:08,712 - player_scraper_logger - INFO - Total lag time: 4 seconds | 0.07 minutes | 0.0 hours
+2024-01-17 00:28:08,712 - player_scraper_logger - INFO - Failed letters: 2 out of 3 letters
+2024-01-17 00:28:08,713 - player_scraper_logger - INFO - Time elapsed: 5.030242204666138 seconds | 0.08 minutes | 0.0 hours
+2024-01-17 00:28:08,713 - player_scraper_logger - INFO - Averaged 1.68 seconds per letter
+------------------------------------------------------------------------------------------------------
+2024-01-17 00:28:08,725 - game_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Schedule Info!-------------------------------------
+2024-01-17 00:28:08,725 - game_scraper_logger - INFO - Scraping schedule data for 2019-january
+2024-01-17 00:28:08,951 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2019_games-january.html#schedule
+2024-01-17 00:28:09,162 - game_scraper_logger - ERROR - Failed to process daily schedule: can only concatenate str (not "list") to str
+2024-01-17 00:28:09,163 - game_scraper_logger - ERROR - No schedule data scraped. Please check your input parameters.
+2024-01-17 00:29:56,306 - player_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Player Info!-------------------------------------
+2024-01-17 00:29:56,761 - player_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/a/
+2024-01-17 00:29:56,934 - player_scraper_logger - INFO - Scraped letter a | 176 players
+2024-01-17 00:29:56,936 - player_scraper_logger - INFO - Concatenated letter a | 176 players
+2024-01-17 00:29:56,937 - player_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:30:00,940 - player_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Player Info!-------------------------------------
+2024-01-17 00:30:00,941 - player_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-17 00:30:00,941 - player_scraper_logger - INFO - Total players scraped: 176
+2024-01-17 00:30:00,942 - player_scraper_logger - INFO - Total lag time: 4 seconds | 0.07 minutes | 0.0 hours
+2024-01-17 00:30:00,943 - player_scraper_logger - INFO - Failed letters: 0 out of 1 letters
+2024-01-17 00:30:00,943 - player_scraper_logger - INFO - Time elapsed: 4.634052038192749 seconds | 0.08 minutes | 0.0 hours
+2024-01-17 00:30:00,944 - player_scraper_logger - INFO - Averaged 4.63 seconds per letter
+------------------------------------------------------------------------------------------------------
+2024-01-17 00:30:03,697 - game_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Schedule Info!-------------------------------------
+2024-01-17 00:30:03,697 - game_scraper_logger - INFO - Scraping schedule data for 2019-january
+2024-01-17 00:30:03,787 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2019_games-january.html#schedule
+2024-01-17 00:30:04,000 - game_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:30:08,011 - game_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Schedule Info!-------------------------------------
+2024-01-17 00:30:08,011 - game_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-17 00:30:08,012 - game_scraper_logger - INFO - Total schedule page scraped: 1
+2024-01-17 00:30:08,013 - game_scraper_logger - INFO - Total lag time: 4 seconds | 0.07 minutes | 0.0 hours
+2024-01-17 00:30:08,013 - game_scraper_logger - INFO - Failed Schedule Pages: 0 out of 1 schedule pages
+2024-01-17 00:30:08,014 - game_scraper_logger - INFO - Time elapsed: 4.313520908355713 seconds | 0.07 minutes | 0.0 hours
+2024-01-17 00:30:08,014 - game_scraper_logger - INFO - Averaged 4.31 seconds per schedule page
+2024-01-17 00:30:08,015 - game_scraper_logger - WARNING - 
+------------------------------------------------------------------------------------------------------
+2024-01-17 00:30:15,120 - shots_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Shot Locations!-------------------------------------
+
+2024-01-17 00:30:15,122 - shots_scraper_logger - INFO - Scraping TOR on 2019-01-01: game_id 201901011930UTATOR
+2024-01-17 00:30:15,212 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901010TOR.html
+2024-01-17 00:30:15,266 - shots_scraper_logger - INFO - Successfully processed 201901011930UTATOR shots!
+
+2024-01-17 00:30:15,267 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:30:19,273 - shots_scraper_logger - INFO - Scraping MIL on 2019-01-01: game_id 201901012000DETMIL
+2024-01-17 00:30:19,465 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901010MIL.html
+2024-01-17 00:30:19,519 - shots_scraper_logger - INFO - Successfully processed 201901012000DETMIL shots!
+
+2024-01-17 00:30:19,519 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:30:23,535 - shots_scraper_logger - INFO - Scraping DEN on 2019-01-01: game_id 201901012100NYKDEN
+2024-01-17 00:30:23,764 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901010DEN.html
+2024-01-17 00:30:23,817 - shots_scraper_logger - INFO - Successfully processed 201901012100NYKDEN shots!
+
+2024-01-17 00:30:23,818 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-17 00:30:28,821 - shots_scraper_logger - INFO - Scraping SAC on 2019-01-01: game_id 201901012100PORSAC
+2024-01-17 00:30:28,903 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901010SAC.html
+2024-01-17 00:30:28,961 - shots_scraper_logger - INFO - Successfully processed 201901012100PORSAC shots!
+
+2024-01-17 00:30:28,961 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-17 00:30:33,977 - shots_scraper_logger - INFO - Scraping LAC on 2019-01-01: game_id 201901012230PHILAC
+2024-01-17 00:30:34,203 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901010LAC.html
+2024-01-17 00:30:34,305 - shots_scraper_logger - INFO - Successfully processed 201901012230PHILAC shots!
+
+2024-01-17 00:30:34,306 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:30:38,313 - shots_scraper_logger - INFO - Scraping CHH on 2019-01-02: game_id 201901021900DALCHH
+2024-01-17 00:30:38,523 - shots_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020CHH.html
+2024-01-17 00:30:38,542 - shots_scraper_logger - ERROR - No shots found for 2019-01
+2024-01-17 00:30:38,543 - shots_scraper_logger - INFO - Scraping CLE on 2019-01-02: game_id 201901021900MIACLE
+2024-01-17 00:30:38,626 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020CLE.html
+2024-01-17 00:30:38,676 - shots_scraper_logger - INFO - Successfully processed 201901021900MIACLE shots!
+
+2024-01-17 00:30:38,676 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-17 00:30:43,691 - shots_scraper_logger - INFO - Scraping WAS on 2019-01-02: game_id 201901021900ATLWAS
+2024-01-17 00:30:43,904 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020WAS.html
+2024-01-17 00:30:43,963 - shots_scraper_logger - INFO - Successfully processed 201901021900ATLWAS shots!
+
+2024-01-17 00:30:43,964 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:30:47,972 - shots_scraper_logger - INFO - Scraping BKN on 2019-01-02: game_id 201901021930NOPBKN
+2024-01-17 00:30:48,187 - shots_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020BKN.html
+2024-01-17 00:30:48,205 - shots_scraper_logger - ERROR - No shots found for 2019-01
+2024-01-17 00:30:48,205 - shots_scraper_logger - INFO - Scraping BOS on 2019-01-02: game_id 201901022000MINBOS
+2024-01-17 00:30:48,292 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020BOS.html
+2024-01-17 00:30:48,344 - shots_scraper_logger - INFO - Successfully processed 201901022000MINBOS shots!
+
+2024-01-17 00:30:48,345 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-17 00:30:53,352 - shots_scraper_logger - INFO - Scraping CHI on 2019-01-02: game_id 201901022000ORLCHI
+2024-01-17 00:30:53,436 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020CHI.html
+2024-01-17 00:30:53,488 - shots_scraper_logger - INFO - Successfully processed 201901022000ORLCHI shots!
+
+2024-01-17 00:30:53,489 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-17 00:30:58,503 - shots_scraper_logger - INFO - Scraping MEM on 2019-01-02: game_id 201901022000DETMEM
+2024-01-17 00:30:58,746 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020MEM.html
+2024-01-17 00:30:58,797 - shots_scraper_logger - INFO - Successfully processed 201901022000DETMEM shots!
+
+2024-01-17 00:30:58,797 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:31:02,800 - shots_scraper_logger - INFO - Scraping PHX on 2019-01-02: game_id 201901022100PHIPHX
+2024-01-17 00:31:03,012 - shots_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020PHX.html
+2024-01-17 00:31:03,030 - shots_scraper_logger - ERROR - No shots found for 2019-01
+2024-01-17 00:31:03,030 - shots_scraper_logger - INFO - Scraping LAL on 2019-01-02: game_id 201901022230OKCLAL
+2024-01-17 00:31:03,296 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020LAL.html
+2024-01-17 00:31:03,347 - shots_scraper_logger - INFO - Successfully processed 201901022230OKCLAL shots!
+
+2024-01-17 00:31:03,347 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-17 00:31:08,348 - shots_scraper_logger - INFO - Scraping SAS on 2019-01-03: game_id 201901032000TORSAS
+2024-01-17 00:31:08,435 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901030SAS.html
+2024-01-17 00:31:08,485 - shots_scraper_logger - INFO - Successfully processed 201901032000TORSAS shots!
+
+2024-01-17 00:31:08,487 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-17 00:31:13,496 - shots_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Shot Locations!-------------------------------------
+2024-01-17 00:31:13,496 - shots_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-17 00:31:13,497 - shots_scraper_logger - INFO - Total lag time: 55 seconds | 0.92 minutes | 0.02 hours
+2024-01-17 00:31:45,572 - shots_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Shot Locations!-------------------------------------
+
+2024-01-17 00:31:45,574 - shots_scraper_logger - INFO - Scraping CHH on 2019-01-02: game_id 201901021900DALCHH
+2024-01-17 00:31:45,658 - shots_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020CHH.html
+2024-01-17 00:31:45,732 - shots_scraper_logger - ERROR - No shots found for 2019-01
+2024-01-17 00:31:45,732 - shots_scraper_logger - INFO - Scraping CLE on 2019-01-02: game_id 201901021900MIACLE
+2024-01-17 00:31:45,818 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020CLE.html
+2024-01-17 00:31:45,871 - shots_scraper_logger - INFO - Successfully processed 201901021900MIACLE shots!
+
+2024-01-17 00:31:45,872 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-17 00:31:50,874 - shots_scraper_logger - INFO - Scraping WAS on 2019-01-02: game_id 201901021900ATLWAS
+2024-01-17 00:31:50,960 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020WAS.html
+2024-01-17 00:31:51,013 - shots_scraper_logger - INFO - Successfully processed 201901021900ATLWAS shots!
+
+2024-01-17 00:31:51,014 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:31:55,027 - shots_scraper_logger - INFO - Scraping BKN on 2019-01-02: game_id 201901021930NOPBKN
+2024-01-17 00:31:55,211 - shots_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020BKN.html
+2024-01-17 00:31:55,228 - shots_scraper_logger - ERROR - No shots found for 2019-01
+2024-01-17 00:31:55,229 - shots_scraper_logger - INFO - Scraping BOS on 2019-01-02: game_id 201901022000MINBOS
+2024-01-17 00:31:55,405 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020BOS.html
+2024-01-17 00:31:55,458 - shots_scraper_logger - INFO - Successfully processed 201901022000MINBOS shots!
+
+2024-01-17 00:31:55,458 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:31:59,460 - shots_scraper_logger - INFO - Scraping CHI on 2019-01-02: game_id 201901022000ORLCHI
+2024-01-17 00:31:59,647 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020CHI.html
+2024-01-17 00:31:59,706 - shots_scraper_logger - INFO - Successfully processed 201901022000ORLCHI shots!
+
+2024-01-17 00:31:59,707 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-17 00:32:04,711 - shots_scraper_logger - INFO - Scraping MEM on 2019-01-02: game_id 201901022000DETMEM
+2024-01-17 00:32:04,955 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020MEM.html
+2024-01-17 00:32:05,005 - shots_scraper_logger - INFO - Successfully processed 201901022000DETMEM shots!
+
+2024-01-17 00:32:05,006 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:32:09,019 - shots_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Shot Locations!-------------------------------------
+2024-01-17 00:32:09,019 - shots_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-17 00:32:09,020 - shots_scraper_logger - INFO - Total lag time: 22 seconds | 0.37 minutes | 0.01 hours

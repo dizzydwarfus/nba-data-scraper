@@ -1,7 +1,7 @@
 # NBA Data Scraper
 
 ## Introduction
-NBA Data Scraper is a Python library designed to scrape player and game data from a specific basketball-related website. It is structured to handle requests efficiently and respectfully using rate limiting to avoid overloading the server and prevent IP blacklisting.
+NBA Data Scraper is a Python library designed to scrape game shots data from a specific basketball-related website ([Basketball Reference](https://www.sports-reference.com/bot-traffic.html])). It is structured to handle requests efficiently and respectfully using rate limiting to avoid overloading the server ([bot traffic](https://www.sports-reference.com/bot-traffic.html)). On that note, all use of data acquired should respect the website's [terms of use](https://www.sports-reference.com/data_use.html).
 
 ## 📂 Structure
 ```

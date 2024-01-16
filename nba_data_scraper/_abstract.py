@@ -10,10 +10,10 @@ class AbstractScraper(ABC):
         self.scrape_logger = Logger().scrape_logger
 
     @sleep_and_retry
-    # Adjust the rate limit as per the website's policy
-    @limits(calls=10, period=60)
+    # Adjust the rate limit as per the website's policy 20req/60sec
+    @limits(calls=20, period=60)
     def rate_limited_request(self, url: str, headers: dict = None):
-        """Rate limited request to the website.
+        """Rate limited request to the website. (20 requests/min)
 
         Args:
             url (str): URL to retrieve data from
