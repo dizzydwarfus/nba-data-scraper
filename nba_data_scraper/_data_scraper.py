@@ -4,12 +4,14 @@ import pandas as pd
 import time
 from typing import Union, List
 import numpy as np
+from .utils._logger import Logger
 
 
 class PlayerDataScraper(AbstractScraper):
     def __init__(self):
         super().__init__()
         self.base_url = "https://www.basketball-reference.com/players/"
+        self.scrape_logger = Logger(name='player_scraper_logger').scrape_logger
 
     def _get_players_html(self, letter: str):
         url = f"{self.base_url}{letter}/"
@@ -21,23 +23,23 @@ class PlayerDataScraper(AbstractScraper):
         else:
             return soup
 
-    def _scrape_letter(self, first_letter: str):
+    def _scrape_letter(self, letter: str):
         try:
             players_df = pd.read_html(
-                str(self._get_players_html(first_letter).find_all('table', id='players')[0]))[0]
+                str(self._get_players_html(letter).find_all('table', id='players')[0]))[0]
             self.scrape_logger.info(
-                f'Scraped letter {first_letter} | {len(players_df)} players')
+                f'Scraped letter {letter} | {len(players_df)} players')
             players_df = players_df.set_index('Player').reset_index()
             return players_df
 
         except Exception as e:
             self.scrape_logger.error(
-                f'Failed to scrape letter {first_letter}: {e}\n')
+                f'Failed to scrape letter {letter}: {e}\n')
             return None
 
-    def scrape(self, first_letter: Union[str, List[str]]):
-        if isinstance(first_letter, str):
-            first_letter = [first_letter]
+    def scrape(self, letter: Union[str, List[str]]):
+        if isinstance(letter, str):
+            letter = [letter]
 
         self.player_failed_letters = []
         players_df = pd.DataFrame()
@@ -45,9 +47,9 @@ class PlayerDataScraper(AbstractScraper):
         start_time = time.time()
 
         self.scrape_logger.warning(
-            '\n\n\n-------------------------------------Start of Scraping Player Info!-------------------------------------\n\n\n')
+            '\n-------------------------------------Start of Scraping Player Info!-------------------------------------')
 
-        for element in first_letter:
+        for element in letter:
             self._scrape_letter(letter=element)
             self.scrape_logger.info(
                 f"Scraping players data for letter {element}")
@@ -69,21 +71,32 @@ class PlayerDataScraper(AbstractScraper):
 
         players_df = players_df.set_index('Player').reset_index()
 
+        self.scrape_logger.warning(
+            '\n-------------------------------------End of Scraping Player Info!-------------------------------------')
+
+        # Scraping Statistics
+        self.scrape_logger.warning(
+            '\n-------------------------------------Scraping Summary-------------------------------------')
+        self.scrape_logger.info(
+            f'Total players scraped: {len(players_df)}')
         self.scrape_logger.info(
             f'Total lag time: {self.player_scraping_lag_time} seconds | {round(self.player_scraping_lag_time / 60, 2)} minutes | {round(self.player_scraping_lag_time / 3600, 2)} hours')
         self.scrape_logger.info(
-            f'Failed letters: {len(self.player_failed_letters)} out of {len(first_letter)} letters')
+            f'Failed letters: {len(self.player_failed_letters)} out of {len(letter)} letters')
         self.scrape_logger.info(
             f'Time elapsed: {time.time() - start_time} seconds | {round((time.time() - start_time) / 60, 2)} minutes | {round((time.time() - start_time) / 3600, 2)} hours')
         self.scrape_logger.info(
-            f'Averaged {round((time.time() - start_time) / len(first_letter), 2)} seconds per letter')
+            f'Averaged {round((time.time() - start_time) / len(letter), 2)} seconds per letter')
         self.scrape_logger.warning(
-            '\n\n\n-------------------------------------End of Scraping Player Info!-------------------------------------\n\n\n')
+            '\n------------------------------------------------------------------------------------------------------')
+
+        return players_df
 
 
 class GameDataScraper(AbstractScraper):
     def __init__(self):
         self.base_url = "https://www.basketball-reference.com/leagues/NBA_{year}_games-{month}.html#schedule"
+        self.scrape_logger = Logger(name='game_scraper_logger').scrape_logger
 
     def scrape(self, year: str, month: str, day: str, team: str):
         # Implementation for scraping game data

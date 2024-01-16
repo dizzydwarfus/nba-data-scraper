@@ -2,9 +2,9 @@ from ._data_scraper import PlayerDataScraper, GameDataScraper
 
 
 class NBAScraper:
-    def __init__(self, player_url, game_url):
-        self.player_scraper = PlayerDataScraper(player_url)
-        self.game_scraper = GameDataScraper(game_url)
+    def __init__(self,):
+        self.player_scraper = PlayerDataScraper()
+        self.game_scraper = GameDataScraper()
         self._all_letters = [chr(i) for i in range(ord('a'), ord('z') + 1)]
 
     def scrape_player_data(self, letter):

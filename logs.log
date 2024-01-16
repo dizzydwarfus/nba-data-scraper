@@ -1,0 +1,178 @@
+2024-01-16 00:58:07,927 - nba_data_scraper.utils._logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/b/
+2024-01-16 00:58:08,307 - nba_data_scraper.utils._logger - INFO - Scraped letter b | 499 players
+2024-01-16 00:59:41,125 - nba_data_scraper.utils._logger - WARNING - 
+
+
+-------------------------------------Start of Scraping Player Info!-------------------------------------
+
+
+
+2024-01-16 00:59:41,230 - nba_data_scraper.utils._logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/b/
+2024-01-16 00:59:41,582 - nba_data_scraper.utils._logger - INFO - Scraped letter b | 499 players
+2024-01-16 00:59:41,584 - nba_data_scraper.utils._logger - INFO - Scraping players data for letter b
+2024-01-16 00:59:41,698 - nba_data_scraper.utils._logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/b/
+2024-01-16 00:59:42,087 - nba_data_scraper.utils._logger - INFO - Scraped letter b | 499 players
+2024-01-16 00:59:42,089 - nba_data_scraper.utils._logger - INFO - Concatenated letter b | 499 players
+2024-01-16 00:59:42,089 - nba_data_scraper.utils._logger - INFO - Cycle lag time: 5
+2024-01-16 00:59:47,101 - nba_data_scraper.utils._logger - INFO - Total lag time: 5 seconds | 0.08 minutes | 0.0 hours
+2024-01-16 00:59:47,101 - nba_data_scraper.utils._logger - INFO - Failed letters: 0 out of 1 letters
+2024-01-16 00:59:47,102 - nba_data_scraper.utils._logger - INFO - Time elapsed: 5.97641658782959 seconds | 0.1 minutes | 0.0 hours
+2024-01-16 00:59:47,102 - nba_data_scraper.utils._logger - INFO - Averaged 5.98 seconds per letter
+2024-01-16 00:59:47,103 - nba_data_scraper.utils._logger - WARNING - 
+
+
+-------------------------------------End of Scraping Player Info!-------------------------------------
+
+
+
+2024-01-16 01:02:00,194 - nba_data_scraper.utils._logger - WARNING - 
+
+
+-------------------------------------Start of Scraping Player Info!-------------------------------------
+
+
+
+2024-01-16 01:02:00,430 - nba_data_scraper.utils._logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/a/
+2024-01-16 01:02:00,564 - nba_data_scraper.utils._logger - INFO - Scraped letter a | 176 players
+2024-01-16 01:02:00,565 - nba_data_scraper.utils._logger - INFO - Scraping players data for letter a
+2024-01-16 01:02:00,751 - nba_data_scraper.utils._logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/a/
+2024-01-16 01:02:00,952 - nba_data_scraper.utils._logger - INFO - Scraped letter a | 176 players
+2024-01-16 01:02:00,954 - nba_data_scraper.utils._logger - INFO - Concatenated letter a | 176 players
+2024-01-16 01:02:00,954 - nba_data_scraper.utils._logger - INFO - Cycle lag time: 4
+2024-01-16 01:02:05,247 - nba_data_scraper.utils._logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/b/
+2024-01-16 01:02:05,574 - nba_data_scraper.utils._logger - INFO - Scraped letter b | 499 players
+2024-01-16 01:02:05,576 - nba_data_scraper.utils._logger - INFO - Scraping players data for letter b
+2024-01-16 01:02:05,769 - nba_data_scraper.utils._logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/b/
+2024-01-16 01:02:06,152 - nba_data_scraper.utils._logger - INFO - Scraped letter b | 499 players
+2024-01-16 01:02:06,156 - nba_data_scraper.utils._logger - INFO - Concatenated letter b | 675 players
+2024-01-16 01:02:06,156 - nba_data_scraper.utils._logger - INFO - Cycle lag time: 5
+2024-01-16 01:02:11,171 - nba_data_scraper.utils._logger - INFO - Total lag time: 9 seconds | 0.15 minutes | 0.0 hours
+2024-01-16 01:02:11,172 - nba_data_scraper.utils._logger - INFO - Failed letters: 0 out of 2 letters
+2024-01-16 01:02:11,172 - nba_data_scraper.utils._logger - INFO - Time elapsed: 10.978147983551025 seconds | 0.18 minutes | 0.0 hours
+2024-01-16 01:02:11,173 - nba_data_scraper.utils._logger - INFO - Averaged 5.49 seconds per letter
+2024-01-16 01:02:11,174 - nba_data_scraper.utils._logger - WARNING - 
+
+
+-------------------------------------End of Scraping Player Info!-------------------------------------
+
+
+
+2024-01-16 01:02:45,963 - nba_data_scraper.utils._logger - WARNING - 
+
+
+-------------------------------------Start of Scraping Player Info!-------------------------------------
+
+
+
+2024-01-16 01:02:46,192 - nba_data_scraper.utils._logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/a/
+2024-01-16 01:02:46,354 - nba_data_scraper.utils._logger - INFO - Scraped letter a | 176 players
+2024-01-16 01:02:46,356 - nba_data_scraper.utils._logger - INFO - Scraping players data for letter a
+2024-01-16 01:02:46,539 - nba_data_scraper.utils._logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/a/
+2024-01-16 01:02:46,665 - nba_data_scraper.utils._logger - INFO - Scraped letter a | 176 players
+2024-01-16 01:02:46,666 - nba_data_scraper.utils._logger - INFO - Concatenated letter a | 176 players
+2024-01-16 01:02:46,667 - nba_data_scraper.utils._logger - INFO - Cycle lag time: 5
+2024-01-16 01:02:51,872 - nba_data_scraper.utils._logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/b/
+2024-01-16 01:02:52,203 - nba_data_scraper.utils._logger - INFO - Scraped letter b | 499 players
+2024-01-16 01:02:52,205 - nba_data_scraper.utils._logger - INFO - Scraping players data for letter b
+2024-01-16 01:02:52,302 - nba_data_scraper.utils._logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/b/
+2024-01-16 01:02:52,680 - nba_data_scraper.utils._logger - INFO - Scraped letter b | 499 players
+2024-01-16 01:02:52,683 - nba_data_scraper.utils._logger - INFO - Concatenated letter b | 675 players
+2024-01-16 01:02:52,684 - nba_data_scraper.utils._logger - INFO - Cycle lag time: 5
+2024-01-16 01:02:57,691 - nba_data_scraper.utils._logger - INFO - Total lag time: 10 seconds | 0.17 minutes | 0.0 hours
+2024-01-16 01:02:57,691 - nba_data_scraper.utils._logger - INFO - Failed letters: 0 out of 2 letters
+2024-01-16 01:02:57,692 - nba_data_scraper.utils._logger - INFO - Time elapsed: 11.729341506958008 seconds | 0.2 minutes | 0.0 hours
+2024-01-16 01:02:57,693 - nba_data_scraper.utils._logger - INFO - Averaged 5.87 seconds per letter
+2024-01-16 01:02:57,693 - nba_data_scraper.utils._logger - WARNING - 
+
+
+-------------------------------------End of Scraping Player Info!-------------------------------------
+
+
+
+2024-01-16 01:04:16,354 - nba_data_scraper.utils._logger - WARNING - 
+
+
+-------------------------------------Start of Scraping Player Info!-------------------------------------
+
+
+
+2024-01-16 01:04:16,542 - nba_data_scraper.utils._logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/a/
+2024-01-16 01:04:16,706 - nba_data_scraper.utils._logger - INFO - Scraped letter a | 176 players
+2024-01-16 01:04:16,707 - nba_data_scraper.utils._logger - INFO - Scraping players data for letter a
+2024-01-16 01:04:16,804 - nba_data_scraper.utils._logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/a/
+2024-01-16 01:04:16,944 - nba_data_scraper.utils._logger - INFO - Scraped letter a | 176 players
+2024-01-16 01:04:16,946 - nba_data_scraper.utils._logger - INFO - Concatenated letter a | 176 players
+2024-01-16 01:04:16,946 - nba_data_scraper.utils._logger - INFO - Cycle lag time: 4
+2024-01-16 01:04:21,049 - nba_data_scraper.utils._logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/b/
+2024-01-16 01:04:21,376 - nba_data_scraper.utils._logger - INFO - Scraped letter b | 499 players
+2024-01-16 01:04:21,378 - nba_data_scraper.utils._logger - INFO - Scraping players data for letter b
+2024-01-16 01:04:21,580 - nba_data_scraper.utils._logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/b/
+2024-01-16 01:04:21,958 - nba_data_scraper.utils._logger - INFO - Scraped letter b | 499 players
+2024-01-16 01:04:21,960 - nba_data_scraper.utils._logger - INFO - Concatenated letter b | 675 players
+2024-01-16 01:04:21,961 - nba_data_scraper.utils._logger - INFO - Cycle lag time: 5
+2024-01-16 01:04:26,969 - nba_data_scraper.utils._logger - WARNING - 
+
+
+-------------------------------------End of Scraping Player Info!-------------------------------------
+
+
+
+2024-01-16 01:04:26,970 - nba_data_scraper.utils._logger - WARNING - 
+
+
+-------------------------------------Scraping Summary-------------------------------------
+
+
+
+2024-01-16 01:04:26,970 - nba_data_scraper.utils._logger - INFO - Total players scraped: 675
+2024-01-16 01:04:26,971 - nba_data_scraper.utils._logger - INFO - Total lag time: 9 seconds | 0.15 minutes | 0.0 hours
+2024-01-16 01:04:26,971 - nba_data_scraper.utils._logger - INFO - Failed letters: 0 out of 2 letters
+2024-01-16 01:04:26,972 - nba_data_scraper.utils._logger - INFO - Time elapsed: 10.617845058441162 seconds | 0.18 minutes | 0.0 hours
+2024-01-16 01:04:26,973 - nba_data_scraper.utils._logger - INFO - Averaged 5.31 seconds per letter
+2024-01-16 01:11:42,899 - player_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Player Info!-------------------------------------
+
+2024-01-16 01:11:43,113 - player_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/a/
+2024-01-16 01:11:43,287 - player_scraper_logger - INFO - Scraped letter a | 176 players
+2024-01-16 01:11:43,289 - player_scraper_logger - INFO - Scraping players data for letter a
+2024-01-16 01:11:43,371 - player_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/a/
+2024-01-16 01:11:43,494 - player_scraper_logger - INFO - Scraped letter a | 176 players
+2024-01-16 01:11:43,496 - player_scraper_logger - INFO - Concatenated letter a | 176 players
+2024-01-16 01:11:43,497 - player_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 01:11:48,717 - player_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/b/
+2024-01-16 01:11:49,045 - player_scraper_logger - INFO - Scraped letter b | 499 players
+2024-01-16 01:11:49,047 - player_scraper_logger - INFO - Scraping players data for letter b
+2024-01-16 01:11:49,150 - player_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/b/
+2024-01-16 01:11:49,552 - player_scraper_logger - INFO - Scraped letter b | 499 players
+2024-01-16 01:11:49,555 - player_scraper_logger - INFO - Concatenated letter b | 675 players
+2024-01-16 01:11:49,555 - player_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 01:11:54,558 - player_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Player Info!-------------------------------------
+2024-01-16 01:11:54,558 - player_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+
+2024-01-16 01:11:54,559 - player_scraper_logger - INFO - Total players scraped: 675
+2024-01-16 01:11:54,560 - player_scraper_logger - INFO - Total lag time: 10 seconds | 0.17 minutes | 0.0 hours
+2024-01-16 01:11:54,560 - player_scraper_logger - INFO - Failed letters: 0 out of 2 letters
+2024-01-16 01:11:54,561 - player_scraper_logger - INFO - Time elapsed: 11.66177225112915 seconds | 0.19 minutes | 0.0 hours
+2024-01-16 01:11:54,561 - player_scraper_logger - INFO - Averaged 5.83 seconds per letter
+2024-01-16 01:13:12,248 - player_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Player Info!-------------------------------------
+2024-01-16 01:13:12,353 - player_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/b/
+2024-01-16 01:13:12,721 - player_scraper_logger - INFO - Scraped letter b | 499 players
+2024-01-16 01:13:12,724 - player_scraper_logger - INFO - Scraping players data for letter b
+2024-01-16 01:13:12,919 - player_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/b/
+2024-01-16 01:13:13,245 - player_scraper_logger - INFO - Scraped letter b | 499 players
+2024-01-16 01:13:13,247 - player_scraper_logger - INFO - Concatenated letter b | 499 players
+2024-01-16 01:13:13,248 - player_scraper_logger - INFO - Cycle lag time: 5
+2024-01-16 01:13:18,251 - player_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Player Info!-------------------------------------
+2024-01-16 01:13:18,252 - player_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-16 01:13:18,252 - player_scraper_logger - INFO - Total players scraped: 499
+2024-01-16 01:13:18,253 - player_scraper_logger - INFO - Total lag time: 5 seconds | 0.08 minutes | 0.0 hours
+2024-01-16 01:13:18,254 - player_scraper_logger - INFO - Failed letters: 0 out of 1 letters
+2024-01-16 01:13:18,255 - player_scraper_logger - INFO - Time elapsed: 6.006973505020142 seconds | 0.1 minutes | 0.0 hours
+2024-01-16 01:13:18,256 - player_scraper_logger - INFO - Averaged 6.01 seconds per letter
+2024-01-16 01:13:18,256 - player_scraper_logger - WARNING - 
+------------------------------------------------------------------------------------------------------

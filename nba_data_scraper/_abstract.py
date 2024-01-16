@@ -2,11 +2,12 @@ from ratelimit import limits, sleep_and_retry
 import requests
 import logging
 from abc import ABC, abstractmethod
+from nba_data_scraper.utils._logger import Logger
 
 
 class AbstractScraper(ABC):
     def __init__(self):
-        self.scrape_logger = logging.getLogger(__name__)
+        self.scrape_logger = Logger().scrape_logger
 
     @sleep_and_retry
     # Adjust the rate limit as per the website's policy
