@@ -23,15 +23,15 @@ class PlayerDataScraper(AbstractScraper):
         self.scrape_logger = Logger(name='player_scraper_logger').scrape_logger
 
     def _get_players_html(self, letter: str):
-        url = f"{self.base_url}{letter}/"
-        players = self.rate_limited_request(url)
-        soup = BeautifulSoup(players.content, "html.parser")
-
-        if soup.find('h1').text == 'Page Not Found (404 error)':
-            self.scrape_logger.error(f'Letter {letter} not found')
-            return False
-        else:
+        try:
+            url = f"{self.base_url}{letter}/"
+            players = self.rate_limited_request(url)
+            soup = BeautifulSoup(players.content, "html.parser")
             return soup
+
+        except Exception as e:
+            raise ValueError(
+                f'Invalid input of letter={letter}: {e}')
 
     def _scrape_letter(self, letter: str):
         try:
@@ -42,9 +42,14 @@ class PlayerDataScraper(AbstractScraper):
             players_df = players_df.set_index('Player').reset_index()
             return players_df
 
-        except Exception as e:
+        except ValueError as err:
             self.scrape_logger.error(
-                f'Failed to scrape letter {letter}: {e}\n')
+                f'Failed to scrape letter {letter}: {err}')
+            return None
+
+        except Exception as err:
+            self.scrape_logger.error(
+                f'Failed to scrape letter {letter}: {err}')
             return None
 
     def scrape(self, letter: Union[str, List[str]]):
@@ -61,7 +66,6 @@ class PlayerDataScraper(AbstractScraper):
 
         self.player_failed_letters = []
         players_df = pd.DataFrame()
-        self.player_scraping_lag_time = 0
         start_time = time.time()
 
         self.scrape_logger.warning(
@@ -77,12 +81,6 @@ class PlayerDataScraper(AbstractScraper):
             players_df = pd.concat([loop_players_df, players_df], axis=0)
             self.scrape_logger.info(
                 f'Concatenated letter {element} | {len(players_df)} players')
-
-            # Add a lag time between requests
-            lag = np.random.randint(4, 6)
-            self.player_scraping_lag_time += lag
-            self.scrape_logger.info(f'Cycle lag time: {lag}')
-            time.sleep(lag)
 
         if len(players_df) == 0:
             self.scrape_logger.error(
@@ -101,8 +99,6 @@ class PlayerDataScraper(AbstractScraper):
             '\n-------------------------------------Scraping Summary-------------------------------------')
         self.scrape_logger.info(
             f'Total players scraped: {len(players_df)}')
-        self.scrape_logger.info(
-            f'Total lag time: {self.player_scraping_lag_time} seconds | {round(self.player_scraping_lag_time / 60, 2)} minutes | {round(self.player_scraping_lag_time / 3600, 2)} hours')
         self.scrape_logger.info(
             f'Failed letters: {len(self.player_failed_letters)} out of {len(letter)} letters')
         self.scrape_logger.info(
@@ -126,12 +122,7 @@ class ScheduleDataScraper(AbstractScraper):
                 self.base_url.format(year=year, month=month))
             soup = BeautifulSoup(games.content, "html.parser")
 
-            if soup.find('h1').text == 'Page Not Found (404 error)':
-                self.scrape_logger.error(
-                    f'No games found for {year}-{month}')
-                return None
-            else:
-                return soup
+            return soup
 
         except Exception as e:
             self.scrape_logger.error(
@@ -188,10 +179,10 @@ class ScheduleDataScraper(AbstractScraper):
         if isinstance(month, str):
             month = [month]
 
+        pages_to_scrape = len(year) * len(month)
         start_time = time.time()
         schedule_df_list = []
         self.failed_dates = []
-        self.schedule_lag_time = 0
         self.scrape_logger.warning(
             '\n-------------------------------------Start of Scraping Schedule Info!-------------------------------------')
         for y in year:
@@ -218,11 +209,6 @@ class ScheduleDataScraper(AbstractScraper):
 
                 schedule_df_list.append(df)
 
-                lag = np.random.randint(3, 5)
-                self.schedule_lag_time += lag
-                self.scrape_logger.info(f'Cycle lag time: {lag}')
-                time.sleep(lag)
-
         if len(schedule_df_list) == 0:
             self.scrape_logger.error(
                 f'No schedule data scraped. Please check your input parameters.')
@@ -231,7 +217,6 @@ class ScheduleDataScraper(AbstractScraper):
 
         schedule_df = pd.concat(schedule_df_list, axis=0)
         time_taken = time.time() - start_time
-        pages_to_scrape = len(year) * len(month)
 
         self.scrape_logger.warning(
             '\n-------------------------------------End of Scraping Schedule Info!-------------------------------------')
@@ -241,8 +226,6 @@ class ScheduleDataScraper(AbstractScraper):
             '\n-------------------------------------Scraping Summary-------------------------------------')
         self.scrape_logger.info(
             f'Total schedule page scraped: {pages_to_scrape}')
-        self.scrape_logger.info(
-            f'Total lag time: {self.schedule_lag_time} seconds | {round(self.schedule_lag_time / 60, 2)} minutes | {round(self.schedule_lag_time / 3600, 2)} hours')
         self.scrape_logger.info(
             f'Failed Schedule Pages: {len(self.failed_dates)} out of {pages_to_scrape} schedule pages')
         self.scrape_logger.info(
@@ -262,23 +245,47 @@ class GameDataScraper(AbstractScraper):
             name='shots_scraper_logger').scrape_logger
         self.teams = TEAM_ABBS
 
+    def _get_team_abbreviations(self, team_name: str):
+        try:
+            return TEAM_ABBS[team_name]
+        except:
+            self.scrape_logger.error(
+                f'Failed to get team abbreviation for {team_name}')
+            return None
+
     def _request_soup_for_game(self, year: str, month: str, day: str, team: str):
         try:
             shots = self.rate_limited_request(
                 self.base_url.format(year=year, month=month, day=day, team=team))
             soup = BeautifulSoup(shots.content, "html.parser")
 
-            if soup.find('h1').text == 'Page Not Found (404 error)':
-                self.scrape_logger.error(
-                    f'No shots found for {year}-{month}')
-                return None
-            else:
-                return soup
+            return soup
 
         except Exception as e:
-            self.scrape_logger.error(
-                f'Failed to scrape shots for {team} on {year}-{month}-{day}: {e}\n')
-            return None
+            raise ValueError(
+                f'Invalid input of team={team}: {e}'
+            )
+
+    def _request_with_retry(self, year: str, month: str, day: str, team_name: str):
+
+        teams = self._get_team_abbreviations(team_name)
+
+        for team in teams:
+            try:
+                soup = self._request_soup_for_game(
+                    year=year, month=month, day=day, team=team)
+
+                return soup, team
+
+            except ValueError as err:
+                self.scrape_logger.error(
+                    f'Error occured for {team} on {year}-{month}-{day}: {err}')
+            except Exception as err:
+                self.scrape_logger.error(
+                    f'Error occurred for {team} on {year}-{month}-{day}: {err}')
+
+        self.scrape_logger.error("All team abbreviations exhausted")
+        return None
 
     def _get_shot_area(self, soup: BeautifulSoup):
         try:
@@ -360,24 +367,23 @@ class GameDataScraper(AbstractScraper):
         """
         df_list = []
         self.failed_games = []
-        self.shots_lag_time = 0
         start_time = time.time()
 
         self.scrape_logger.warning(
             '\n-------------------------------------Start of Scraping Shot Locations!-------------------------------------\n')
 
         for row in schedule_df.itertuples():
-            team = row.Home_short
+            team_name = row.Home
             date = row.Index
             year = '{:04d}'.format(date.year)
             month = '{:02d}'.format(date.month)
             day = '{:02d}'.format(date.day)
 
             self.scrape_logger.info(
-                f'Scraping {team} on {year}-{month}-{day}: game_id {row.game_id}')
+                f'Scraping {team_name} on {year}-{month}-{day}: game_id {row.game_id}')
 
-            test_soup = self._request_soup_for_game(
-                year=year, month=month, day=day, team=team)
+            test_soup, team_abbr = self._request_with_retry(
+                year=year, month=month, day=day, team_name=team_name)
 
             if test_soup is None:
                 self.failed_games.append(row.game_id)
@@ -406,11 +412,6 @@ class GameDataScraper(AbstractScraper):
             self.scrape_logger.info(
                 f'Successfully processed {row.game_id} shots!\n')
 
-            lag = np.random.randint(4, 6)
-            self.shots_lag_time += lag
-            self.scrape_logger.info(f'Cycle lag time: {lag}')
-            time.sleep(lag)
-
         if len(df_list) == 0:
             self.scrape_logger.error(
                 f'No shots data scraped. Please check your input parameters.')
@@ -428,8 +429,6 @@ class GameDataScraper(AbstractScraper):
         self.scrape_logger.warning(
             '\n-------------------------------------Scraping Summary-------------------------------------')
         self.scrape_logger.info(
-            f'Total lag time: {self.shots_lag_time} seconds | {round(self.shots_lag_time / 60, 2)} minutes | {round(self.shots_lag_time / 3600, 2)} hours')
-        self.scrape_logger.info(
             f'Failed games: {len(self.failed_games)} games out of {games_to_scrape} games')
         self.scrape_logger.info(
             f'Time elapsed: {time_taken} seconds | {round((time_taken) / 60, 2)} minutes | {round((time_taken) / 3600, 2)} hours')
@@ -439,6 +438,3 @@ class GameDataScraper(AbstractScraper):
             '\n------------------------------------------------------------------------------------------------------')
 
         return shots_df
-
-    # TODO: Set up retry on failed games using the available abbreviations specified in _constants.py
-    # Recreate game_id from failed games (filter on failed game_ids on schedule_df)

@@ -14,7 +14,7 @@ nba-data-scraper/
 │ │ └── _logger.py
 │ ├── _abstract.py
 │ ├── _data_scraper.py
-│ └── _scraper.py
+│ └── scraper.py
 │
 ├── tests/
 │ ├── init.py
@@ -43,14 +43,33 @@ pip install nba-data-scraper
 ## Usage
 ### Scrape Player Data
 ```python
-from nba-data-scraper._scraper import NBAScraper
-
+from nba_data_scraper import NBAScraper
 nba_scraper = NBAScraper()
-player_data = nba_scraper.scrape_player_data('a')  # Scrapes player data for the letter 'a'
+
+# Scrapes player data for the letter 'a'
+player_data = nba_scraper.scrape_player_data('a')  
 ```
+### Scrape Schedule Data
+```python
+# Scrapes games played in a specific year and month
+schedule_data = nba_scraper.scrape_schedule_data(year='2023', month='january') 
+
+# Scrapes games played in given list of years and months
+schedule_data = nba_scraper.scrape_schedule_data(year=['2022','2023'], month=['january','february'])
+
+# Scrapes all games played given a start and end year
+schedule_data = nba_scraper.scrape_all_schedule_data(start_year=2020, end_year=2021)
+```
+
 ### Scrape Game Data
 ```python
-game_data = nba_scraper.scrape_game_data('2024', '01', '15', 'LAL')  # Scrapes game data for a specific date and team
+# Scrapes Game Data for games played within a schedule
+
+## First: Scrape for schedule
+schedule_data = nba_scraper.scrape_schedule_data(year='2023', month='january')
+
+## Second: use return DataFrame as input to scrape_game_data method
+game_data = nba_scraper.scrape_game_data(schedule_df=schedule_data)
 ```
 
 ## Work in Progress
@@ -59,3 +78,4 @@ game_data = nba_scraper.scrape_game_data('2024', '01', '15', 'LAL')  # Scrapes g
 - Comprehensive tests in the tests/ folder.
 
 ## License
+See the [LICENSE](LICENSE) file for details.

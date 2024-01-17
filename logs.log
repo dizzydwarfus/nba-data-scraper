@@ -2218,3 +2218,583 @@
 2024-01-17 00:32:09,019 - shots_scraper_logger - WARNING - 
 -------------------------------------Scraping Summary-------------------------------------
 2024-01-17 00:32:09,020 - shots_scraper_logger - INFO - Total lag time: 22 seconds | 0.37 minutes | 0.01 hours
+2024-01-17 00:32:23,831 - player_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Player Info!-------------------------------------
+2024-01-17 00:32:23,919 - player_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/a/
+2024-01-17 00:32:24,092 - player_scraper_logger - INFO - Scraped letter a | 176 players
+2024-01-17 00:32:24,094 - player_scraper_logger - INFO - Concatenated letter a | 176 players
+2024-01-17 00:32:24,095 - player_scraper_logger - INFO - Cycle lag time: 5
+2024-01-17 00:32:29,101 - player_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Player Info!-------------------------------------
+2024-01-17 00:32:29,102 - player_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-17 00:32:29,102 - player_scraper_logger - INFO - Total players scraped: 176
+2024-01-17 00:32:29,103 - player_scraper_logger - INFO - Total lag time: 5 seconds | 0.08 minutes | 0.0 hours
+2024-01-17 00:32:29,104 - player_scraper_logger - INFO - Failed letters: 0 out of 1 letters
+2024-01-17 00:32:29,104 - player_scraper_logger - INFO - Time elapsed: 5.270050287246704 seconds | 0.09 minutes | 0.0 hours
+2024-01-17 00:32:29,105 - player_scraper_logger - INFO - Averaged 5.27 seconds per letter
+------------------------------------------------------------------------------------------------------
+2024-01-17 00:32:29,122 - game_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Schedule Info!-------------------------------------
+2024-01-17 00:32:29,123 - game_scraper_logger - INFO - Scraping schedule data for 2019-january
+2024-01-17 00:32:29,384 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2019_games-january.html#schedule
+2024-01-17 00:32:29,600 - game_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:32:33,607 - game_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Schedule Info!-------------------------------------
+2024-01-17 00:32:33,608 - game_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-17 00:32:33,608 - game_scraper_logger - INFO - Total schedule page scraped: 1
+2024-01-17 00:32:33,610 - game_scraper_logger - INFO - Total lag time: 4 seconds | 0.07 minutes | 0.0 hours
+2024-01-17 00:32:33,610 - game_scraper_logger - INFO - Failed Schedule Pages: 0 out of 1 schedule pages
+2024-01-17 00:32:33,611 - game_scraper_logger - INFO - Time elapsed: 4.485422134399414 seconds | 0.07 minutes | 0.0 hours
+2024-01-17 00:32:33,612 - game_scraper_logger - INFO - Averaged 4.49 seconds per schedule page
+2024-01-17 00:32:33,612 - game_scraper_logger - WARNING - 
+------------------------------------------------------------------------------------------------------
+2024-01-17 00:32:33,628 - shots_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Shot Locations!-------------------------------------
+
+2024-01-17 00:32:33,629 - shots_scraper_logger - INFO - Scraping CHH on 2019-01-02: game_id 201901021900DALCHH
+2024-01-17 00:32:33,933 - shots_scraper_logger - ERROR - Request failed at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020CHH.html
+2024-01-17 00:32:33,951 - shots_scraper_logger - ERROR - No shots found for 2019-01
+2024-01-17 00:32:33,952 - shots_scraper_logger - INFO - Scraping CLE on 2019-01-02: game_id 201901021900MIACLE
+2024-01-17 00:32:34,042 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020CLE.html
+2024-01-17 00:32:34,095 - shots_scraper_logger - INFO - Successfully processed 201901021900MIACLE shots!
+
+2024-01-17 00:32:34,096 - shots_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 00:32:38,104 - shots_scraper_logger - INFO - Scraping WAS on 2019-01-02: game_id 201901021900ATLWAS
+2024-01-17 00:32:38,309 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020WAS.html
+2024-01-17 00:32:38,362 - shots_scraper_logger - INFO - Successfully processed 201901021900ATLWAS shots!
+
+2024-01-17 00:32:38,363 - shots_scraper_logger - INFO - Cycle lag time: 5
+2024-01-17 00:32:43,377 - shots_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Shot Locations!-------------------------------------
+2024-01-17 00:32:43,378 - shots_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-17 00:32:43,378 - shots_scraper_logger - INFO - Total lag time: 9 seconds | 0.15 minutes | 0.0 hours
+2024-01-17 00:32:43,379 - shots_scraper_logger - INFO - Failed games: 1 games out of 3 games
+2024-01-17 00:32:43,379 - shots_scraper_logger - INFO - Time elapsed: 9.750083684921265 seconds | 0.16 minutes | 0.0 hours
+2024-01-17 00:32:43,380 - shots_scraper_logger - INFO - Averaged 3.25 seconds per game
+2024-01-17 00:32:43,381 - shots_scraper_logger - WARNING - 
+------------------------------------------------------------------------------------------------------
+2024-01-17 22:44:35,525 - player_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Player Info!-------------------------------------
+2024-01-17 22:44:35,754 - player_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/a/
+2024-01-17 22:44:36,020 - player_scraper_logger - INFO - Scraped letter a | 176 players
+2024-01-17 22:44:36,022 - player_scraper_logger - INFO - Concatenated letter a | 176 players
+2024-01-17 22:44:36,023 - player_scraper_logger - INFO - Cycle lag time: 4
+2024-01-17 22:46:23,616 - player_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Player Info!-------------------------------------
+2024-01-17 22:46:23,815 - player_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/a/
+2024-01-17 22:46:23,972 - player_scraper_logger - INFO - Scraped letter a | 176 players
+2024-01-17 22:46:23,974 - player_scraper_logger - INFO - Concatenated letter a | 176 players
+2024-01-17 22:46:23,974 - player_scraper_logger - INFO - Cycle lag time: 5
+2024-01-17 22:46:28,976 - player_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Player Info!-------------------------------------
+2024-01-17 22:46:28,977 - player_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-17 22:46:28,977 - player_scraper_logger - INFO - Total players scraped: 176
+2024-01-17 22:46:28,978 - player_scraper_logger - INFO - Total lag time: 5 seconds | 0.08 minutes | 0.0 hours
+2024-01-17 22:46:28,978 - player_scraper_logger - INFO - Failed letters: 0 out of 1 letters
+2024-01-17 22:46:28,979 - player_scraper_logger - INFO - Time elapsed: 5.360133647918701 seconds | 0.09 minutes | 0.0 hours
+2024-01-17 22:46:28,980 - player_scraper_logger - INFO - Averaged 5.36 seconds per letter
+------------------------------------------------------------------------------------------------------
+2024-01-17 22:47:51,257 - player_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Player Info!-------------------------------------
+2024-01-17 22:47:51,453 - player_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/a/
+2024-01-17 22:47:51,612 - player_scraper_logger - INFO - Scraped letter a | 176 players
+2024-01-17 22:47:51,615 - player_scraper_logger - INFO - Concatenated letter a | 176 players
+2024-01-17 22:47:51,616 - player_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Player Info!-------------------------------------
+2024-01-17 22:47:51,617 - player_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-17 22:47:51,617 - player_scraper_logger - INFO - Total players scraped: 176
+2024-01-17 22:47:51,618 - player_scraper_logger - INFO - Total lag time: 0 seconds | 0.0 minutes | 0.0 hours
+2024-01-17 22:47:51,619 - player_scraper_logger - INFO - Failed letters: 0 out of 1 letters
+2024-01-17 22:47:51,619 - player_scraper_logger - INFO - Time elapsed: 0.3597292900085449 seconds | 0.01 minutes | 0.0 hours
+2024-01-17 22:47:51,620 - player_scraper_logger - INFO - Averaged 0.36 seconds per letter
+------------------------------------------------------------------------------------------------------
+2024-01-17 22:55:56,247 - player_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Player Info!-------------------------------------
+2024-01-17 22:55:56,374 - player_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/a/
+2024-01-17 22:55:56,535 - player_scraper_logger - INFO - Scraped letter a | 176 players
+2024-01-17 22:55:56,537 - player_scraper_logger - INFO - Concatenated letter a | 176 players
+2024-01-17 22:55:56,539 - player_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Player Info!-------------------------------------
+2024-01-17 22:55:56,539 - player_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-17 22:55:56,540 - player_scraper_logger - INFO - Total players scraped: 176
+2024-01-17 22:55:56,540 - player_scraper_logger - INFO - Total lag time: 0 seconds | 0.0 minutes | 0.0 hours
+2024-01-17 22:55:56,541 - player_scraper_logger - INFO - Failed letters: 0 out of 1 letters
+2024-01-17 22:55:56,542 - player_scraper_logger - INFO - Time elapsed: 0.29148221015930176 seconds | 0.0 minutes | 0.0 hours
+2024-01-17 22:55:56,543 - player_scraper_logger - INFO - Averaged 0.29 seconds per letter
+------------------------------------------------------------------------------------------------------
+2024-01-17 22:56:05,499 - game_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Schedule Info!-------------------------------------
+2024-01-17 22:56:05,500 - game_scraper_logger - INFO - Scraping schedule data for 2019-january
+2024-01-17 22:56:05,706 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2019_games-january.html#schedule
+2024-01-17 22:56:05,913 - game_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Schedule Info!-------------------------------------
+2024-01-17 22:56:05,914 - game_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-17 22:56:05,914 - game_scraper_logger - INFO - Total schedule page scraped: 1
+2024-01-17 22:56:05,915 - game_scraper_logger - INFO - Total lag time: 0 seconds | 0.0 minutes | 0.0 hours
+2024-01-17 22:56:05,916 - game_scraper_logger - INFO - Failed Schedule Pages: 0 out of 1 schedule pages
+2024-01-17 22:56:05,916 - game_scraper_logger - INFO - Time elapsed: 0.41483497619628906 seconds | 0.01 minutes | 0.0 hours
+2024-01-17 22:56:05,917 - game_scraper_logger - INFO - Averaged 0.41 seconds per schedule page
+2024-01-17 22:56:05,917 - game_scraper_logger - WARNING - 
+------------------------------------------------------------------------------------------------------
+2024-01-17 22:56:19,768 - shots_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Shot Locations!-------------------------------------
+
+2024-01-17 22:56:19,770 - shots_scraper_logger - INFO - Scraping Charlotte Hornets on 2019-01-02: game_id 201901021900DALCHH
+2024-01-17 22:56:19,970 - shots_scraper_logger - ERROR - Request failed and retrying at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020CHH.html
+2024-01-17 22:56:21,170 - shots_scraper_logger - ERROR - Request failed and retrying at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020CHH.html
+2024-01-17 22:56:23,367 - shots_scraper_logger - ERROR - Request failed and retrying at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020CHH.html
+2024-01-17 22:56:27,380 - shots_scraper_logger - ERROR - Maximum number of retries reached at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020CHH.html
+2024-01-17 22:56:27,381 - shots_scraper_logger - ERROR - Failed to scrape shots for CHH on 2019-01-02: 'NoneType' object has no attribute 'content'
+
+2024-01-17 22:56:27,381 - shots_scraper_logger - ERROR - Error occurred for CHH on 2019-01-02: 'NoneType' object has no attribute 'find'
+2024-01-17 22:56:27,643 - shots_scraper_logger - ERROR - Request failed and retrying at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020CHA.html
+2024-01-17 22:56:28,858 - shots_scraper_logger - ERROR - Request failed and retrying at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020CHA.html
+2024-01-17 22:56:31,086 - shots_scraper_logger - ERROR - Request failed and retrying at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020CHA.html
+2024-01-17 22:56:35,101 - shots_scraper_logger - ERROR - Maximum number of retries reached at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020CHA.html
+2024-01-17 22:56:35,102 - shots_scraper_logger - ERROR - Failed to scrape shots for CHA on 2019-01-02: 'NoneType' object has no attribute 'content'
+
+2024-01-17 22:56:35,102 - shots_scraper_logger - ERROR - Error occurred for CHA on 2019-01-02: 'NoneType' object has no attribute 'find'
+2024-01-17 22:56:35,395 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020CHO.html
+2024-01-17 22:56:35,449 - shots_scraper_logger - INFO - Successfully processed 201901021900DALCHH shots!
+
+2024-01-17 22:56:35,450 - shots_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Shot Locations!-------------------------------------
+2024-01-17 22:56:35,450 - shots_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-17 22:56:35,451 - shots_scraper_logger - INFO - Total lag time: 0 seconds | 0.0 minutes | 0.0 hours
+2024-01-17 22:56:35,452 - shots_scraper_logger - INFO - Failed games: 0 games out of 1 games
+2024-01-17 22:56:35,453 - shots_scraper_logger - INFO - Time elapsed: 15.681617259979248 seconds | 0.26 minutes | 0.0 hours
+2024-01-17 22:56:35,453 - shots_scraper_logger - INFO - Averaged 15.68 seconds per game
+2024-01-17 22:56:35,454 - shots_scraper_logger - WARNING - 
+------------------------------------------------------------------------------------------------------
+2024-01-17 23:00:18,727 - player_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Player Info!-------------------------------------
+2024-01-17 23:00:18,836 - player_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/a/
+2024-01-17 23:00:18,993 - player_scraper_logger - INFO - Scraped letter a | 176 players
+2024-01-17 23:00:18,995 - player_scraper_logger - INFO - Concatenated letter a | 176 players
+2024-01-17 23:00:18,997 - player_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Player Info!-------------------------------------
+2024-01-17 23:00:18,997 - player_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-17 23:00:18,998 - player_scraper_logger - INFO - Total players scraped: 176
+2024-01-17 23:00:18,998 - player_scraper_logger - INFO - Total lag time: 0 seconds | 0.0 minutes | 0.0 hours
+2024-01-17 23:00:18,999 - player_scraper_logger - INFO - Failed letters: 0 out of 1 letters
+2024-01-17 23:00:18,999 - player_scraper_logger - INFO - Time elapsed: 0.2697007656097412 seconds | 0.0 minutes | 0.0 hours
+2024-01-17 23:00:19,000 - player_scraper_logger - INFO - Averaged 0.27 seconds per letter
+------------------------------------------------------------------------------------------------------
+2024-01-17 23:00:24,045 - game_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Schedule Info!-------------------------------------
+2024-01-17 23:00:24,046 - game_scraper_logger - INFO - Scraping schedule data for 2019-january
+2024-01-17 23:00:24,268 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2019_games-january.html#schedule
+2024-01-17 23:00:24,482 - game_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Schedule Info!-------------------------------------
+2024-01-17 23:00:24,483 - game_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-17 23:00:24,484 - game_scraper_logger - INFO - Total schedule page scraped: 1
+2024-01-17 23:00:24,484 - game_scraper_logger - INFO - Total lag time: 0 seconds | 0.0 minutes | 0.0 hours
+2024-01-17 23:00:24,484 - game_scraper_logger - INFO - Failed Schedule Pages: 0 out of 1 schedule pages
+2024-01-17 23:00:24,485 - game_scraper_logger - INFO - Time elapsed: 0.43764781951904297 seconds | 0.01 minutes | 0.0 hours
+2024-01-17 23:00:24,486 - game_scraper_logger - INFO - Averaged 0.44 seconds per schedule page
+2024-01-17 23:00:24,486 - game_scraper_logger - WARNING - 
+------------------------------------------------------------------------------------------------------
+2024-01-17 23:01:03,460 - shots_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Shot Locations!-------------------------------------
+
+2024-01-17 23:01:03,461 - shots_scraper_logger - INFO - Scraping Charlotte Hornets on 2019-01-02: game_id 201901021900DALCHH
+2024-01-17 23:01:03,718 - shots_scraper_logger - ERROR - Request failed and retrying at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020CHH.html
+2024-01-17 23:01:04,832 - shots_scraper_logger - ERROR - Request failed and retrying at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020CHH.html
+2024-01-17 23:01:06,839 - shots_scraper_logger - ERROR - Maximum number of retries reached at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020CHH.html
+2024-01-17 23:01:06,840 - shots_scraper_logger - ERROR - Failed to scrape shots for CHH on 2019-01-02: 'NoneType' object has no attribute 'content'
+
+2024-01-17 23:01:06,840 - shots_scraper_logger - ERROR - Error occurred for CHH on 2019-01-02: 'NoneType' object has no attribute 'find'
+2024-01-17 23:01:07,044 - shots_scraper_logger - ERROR - Request failed and retrying at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020CHA.html
+2024-01-17 23:01:08,291 - shots_scraper_logger - ERROR - Request failed and retrying at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020CHA.html
+2024-01-17 23:01:10,294 - shots_scraper_logger - ERROR - Maximum number of retries reached at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020CHA.html
+2024-01-17 23:01:10,294 - shots_scraper_logger - ERROR - Failed to scrape shots for CHA on 2019-01-02: 'NoneType' object has no attribute 'content'
+
+2024-01-17 23:01:10,294 - shots_scraper_logger - ERROR - Error occurred for CHA on 2019-01-02: 'NoneType' object has no attribute 'find'
+2024-01-17 23:01:10,590 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020CHO.html
+2024-01-17 23:01:10,646 - shots_scraper_logger - INFO - Successfully processed 201901021900DALCHH shots!
+
+2024-01-17 23:01:10,647 - shots_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Shot Locations!-------------------------------------
+2024-01-17 23:01:10,648 - shots_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-17 23:01:10,648 - shots_scraper_logger - INFO - Total lag time: 0 seconds | 0.0 minutes | 0.0 hours
+2024-01-17 23:01:10,649 - shots_scraper_logger - INFO - Failed games: 0 games out of 1 games
+2024-01-17 23:01:10,650 - shots_scraper_logger - INFO - Time elapsed: 7.188177108764648 seconds | 0.12 minutes | 0.0 hours
+2024-01-17 23:01:10,650 - shots_scraper_logger - INFO - Averaged 7.19 seconds per game
+2024-01-17 23:01:10,651 - shots_scraper_logger - WARNING - 
+------------------------------------------------------------------------------------------------------
+2024-01-17 23:16:50,395 - player_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Player Info!-------------------------------------
+2024-01-17 23:16:50,769 - player_scraper_logger - INFO - Scraped letter a | 176 players
+2024-01-17 23:16:50,771 - player_scraper_logger - INFO - Concatenated letter a | 176 players
+2024-01-17 23:16:50,773 - player_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Player Info!-------------------------------------
+2024-01-17 23:16:50,773 - player_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-17 23:16:50,774 - player_scraper_logger - INFO - Total players scraped: 176
+2024-01-17 23:16:50,774 - player_scraper_logger - INFO - Failed letters: 0 out of 1 letters
+2024-01-17 23:16:50,775 - player_scraper_logger - INFO - Time elapsed: 0.37735748291015625 seconds | 0.01 minutes | 0.0 hours
+2024-01-17 23:16:50,776 - player_scraper_logger - INFO - Averaged 0.38 seconds per letter
+------------------------------------------------------------------------------------------------------
+2024-01-17 23:16:55,768 - player_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Player Info!-------------------------------------
+2024-01-17 23:16:59,159 - player_scraper_logger - ERROR - Maximum number of retries reached at URL: https://www.basketball-reference.com/players/213/
+2024-01-17 23:16:59,159 - player_scraper_logger - ERROR - Failed to scrape letter 213: Maximum number of retries reached at URL: https://www.basketball-reference.com/players/213/
+
+2024-01-17 23:16:59,160 - player_scraper_logger - ERROR - Failed to scrape letter 213: 'NoneType' object has no attribute 'find_all'
+
+2024-01-17 23:16:59,161 - player_scraper_logger - ERROR - No player data scraped. Please check your input parameters.
+2024-01-17 23:18:10,692 - player_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Player Info!-------------------------------------
+2024-01-17 23:18:10,892 - player_scraper_logger - INFO - Scraped letter a | 176 players
+2024-01-17 23:18:10,894 - player_scraper_logger - INFO - Concatenated letter a | 176 players
+2024-01-17 23:18:14,295 - player_scraper_logger - ERROR - Maximum number of retries reached at URL: https://www.basketball-reference.com/players/123/
+2024-01-17 23:18:14,295 - player_scraper_logger - ERROR - Failed to scrape letter 123: Maximum number of retries reached at URL: https://www.basketball-reference.com/players/123/
+
+2024-01-17 23:18:14,296 - player_scraper_logger - ERROR - Failed to scrape letter 123: 'NoneType' object has no attribute 'find_all'
+
+2024-01-17 23:18:14,298 - player_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Player Info!-------------------------------------
+2024-01-17 23:18:14,299 - player_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-17 23:18:14,300 - player_scraper_logger - INFO - Total players scraped: 176
+2024-01-17 23:18:14,300 - player_scraper_logger - INFO - Failed letters: 1 out of 2 letters
+2024-01-17 23:18:14,301 - player_scraper_logger - INFO - Time elapsed: 3.606498956680298 seconds | 0.06 minutes | 0.0 hours
+2024-01-17 23:18:14,302 - player_scraper_logger - INFO - Averaged 1.8 seconds per letter
+------------------------------------------------------------------------------------------------------
+2024-01-17 23:19:01,960 - game_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Schedule Info!-------------------------------------
+2024-01-17 23:19:01,960 - game_scraper_logger - INFO - Scraping schedule data for 2019-january
+2024-01-17 23:19:02,355 - game_scraper_logger - INFO - Scraping schedule data for 2018-january
+2024-01-17 23:19:03,240 - game_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Schedule Info!-------------------------------------
+2024-01-17 23:19:03,241 - game_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-17 23:19:03,241 - game_scraper_logger - INFO - Total schedule page scraped: 2
+2024-01-17 23:19:03,242 - game_scraper_logger - INFO - Failed Schedule Pages: 0 out of 2 schedule pages
+2024-01-17 23:19:03,242 - game_scraper_logger - INFO - Time elapsed: 1.2803521156311035 seconds | 0.02 minutes | 0.0 hours
+2024-01-17 23:19:03,243 - game_scraper_logger - INFO - Averaged 0.64 seconds per schedule page
+2024-01-17 23:19:03,244 - game_scraper_logger - WARNING - 
+------------------------------------------------------------------------------------------------------
+2024-01-17 23:19:54,764 - game_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Schedule Info!-------------------------------------
+2024-01-17 23:19:54,765 - game_scraper_logger - INFO - Scraping schedule data for 2019-january
+2024-01-17 23:19:55,183 - game_scraper_logger - INFO - Scraping schedule data for 123sad-january
+2024-01-17 23:19:58,464 - game_scraper_logger - ERROR - Maximum number of retries reached at URL: https://www.basketball-reference.com/leagues/NBA_123sad_games-january.html#schedule
+2024-01-17 23:19:58,465 - game_scraper_logger - ERROR - Failed to scrape 123sad-january: Maximum number of retries reached at URL: https://www.basketball-reference.com/leagues/NBA_123sad_games-january.html#schedule
+
+2024-01-17 23:19:58,466 - game_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Schedule Info!-------------------------------------
+2024-01-17 23:19:58,467 - game_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-17 23:19:58,468 - game_scraper_logger - INFO - Total schedule page scraped: 2
+2024-01-17 23:19:58,468 - game_scraper_logger - INFO - Failed Schedule Pages: 1 out of 2 schedule pages
+2024-01-17 23:19:58,469 - game_scraper_logger - INFO - Time elapsed: 3.701570510864258 seconds | 0.06 minutes | 0.0 hours
+2024-01-17 23:19:58,469 - game_scraper_logger - INFO - Averaged 1.85 seconds per schedule page
+2024-01-17 23:19:58,470 - game_scraper_logger - WARNING - 
+------------------------------------------------------------------------------------------------------
+2024-01-17 23:20:24,359 - shots_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Shot Locations!-------------------------------------
+
+2024-01-17 23:20:24,360 - shots_scraper_logger - INFO - Scraping Charlotte Hornets on 2019-01-02: game_id 201901021900DALCHH
+2024-01-17 23:20:27,679 - shots_scraper_logger - ERROR - Maximum number of retries reached at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020CHH.html
+2024-01-17 23:20:27,679 - shots_scraper_logger - ERROR - Failed to scrape shots for CHH on 2019-01-02: Maximum number of retries reached at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020CHH.html
+
+2024-01-17 23:20:27,680 - shots_scraper_logger - ERROR - Failed to get shot area from BeautifulSoup object
+2024-01-17 23:20:27,681 - shots_scraper_logger - ERROR - No shots data scraped. Please check your input parameters.
+2024-01-17 23:26:37,470 - player_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Player Info!-------------------------------------
+2024-01-17 23:26:37,867 - player_scraper_logger - INFO - Scraped letter a | 176 players
+2024-01-17 23:26:37,869 - player_scraper_logger - INFO - Concatenated letter a | 176 players
+2024-01-17 23:26:41,259 - player_scraper_logger - ERROR - Maximum number of retries reached at URL: https://www.basketball-reference.com/players/123/
+2024-01-17 23:26:41,260 - player_scraper_logger - ERROR - Failed to scrape letter 123: Maximum number of retries reached at URL: https://www.basketball-reference.com/players/123/
+
+2024-01-17 23:26:41,260 - player_scraper_logger - ERROR - Failed to scrape letter 123: 'NoneType' object has no attribute 'find_all'
+
+2024-01-17 23:26:41,261 - player_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Player Info!-------------------------------------
+2024-01-17 23:26:41,262 - player_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-17 23:26:41,263 - player_scraper_logger - INFO - Total players scraped: 176
+2024-01-17 23:26:41,263 - player_scraper_logger - INFO - Failed letters: 1 out of 2 letters
+2024-01-17 23:26:41,264 - player_scraper_logger - INFO - Time elapsed: 3.791795253753662 seconds | 0.06 minutes | 0.0 hours
+2024-01-17 23:26:41,265 - player_scraper_logger - INFO - Averaged 1.9 seconds per letter
+------------------------------------------------------------------------------------------------------
+2024-01-17 23:26:41,296 - game_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Schedule Info!-------------------------------------
+2024-01-17 23:26:41,296 - game_scraper_logger - INFO - Scraping schedule data for 2019-january
+2024-01-17 23:26:41,690 - game_scraper_logger - INFO - Scraping schedule data for 123sad-january
+2024-01-17 23:26:45,086 - game_scraper_logger - ERROR - Maximum number of retries reached at URL: https://www.basketball-reference.com/leagues/NBA_123sad_games-january.html#schedule
+2024-01-17 23:26:45,086 - game_scraper_logger - ERROR - Failed to scrape 123sad-january: Maximum number of retries reached at URL: https://www.basketball-reference.com/leagues/NBA_123sad_games-january.html#schedule
+
+2024-01-17 23:26:45,088 - game_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Schedule Info!-------------------------------------
+2024-01-17 23:26:45,088 - game_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-17 23:26:45,089 - game_scraper_logger - INFO - Total schedule page scraped: 2
+2024-01-17 23:26:45,089 - game_scraper_logger - INFO - Failed Schedule Pages: 1 out of 2 schedule pages
+2024-01-17 23:26:45,090 - game_scraper_logger - INFO - Time elapsed: 3.7919349670410156 seconds | 0.06 minutes | 0.0 hours
+2024-01-17 23:26:45,091 - game_scraper_logger - INFO - Averaged 1.9 seconds per schedule page
+2024-01-17 23:26:45,091 - game_scraper_logger - WARNING - 
+------------------------------------------------------------------------------------------------------
+2024-01-17 23:26:48,166 - shots_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Shot Locations!-------------------------------------
+
+2024-01-17 23:26:48,168 - shots_scraper_logger - INFO - Scraping Charlotte Hornets on 2019-01-02: game_id 201901021900DALCHH
+2024-01-17 23:26:51,603 - shots_scraper_logger - ERROR - Maximum number of retries reached at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020CHH.html
+2024-01-17 23:26:51,604 - shots_scraper_logger - ERROR - Failed to scrape shots for CHH on 2019-01-02: Maximum number of retries reached at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020CHH.html
+
+2024-01-17 23:26:51,604 - shots_scraper_logger - ERROR - No shots data scraped. Please check your input parameters.
+2024-01-17 23:32:37,899 - game_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Schedule Info!-------------------------------------
+2024-01-17 23:32:37,900 - game_scraper_logger - INFO - Scraping schedule data for 2019-january
+2024-01-17 23:32:38,426 - game_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Schedule Info!-------------------------------------
+2024-01-17 23:32:38,427 - game_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-17 23:32:38,427 - game_scraper_logger - INFO - Total schedule page scraped: 1
+2024-01-17 23:32:38,428 - game_scraper_logger - INFO - Failed Schedule Pages: 0 out of 1 schedule pages
+2024-01-17 23:32:38,428 - game_scraper_logger - INFO - Time elapsed: 0.5272319316864014 seconds | 0.01 minutes | 0.0 hours
+2024-01-17 23:32:38,429 - game_scraper_logger - INFO - Averaged 0.53 seconds per schedule page
+2024-01-17 23:32:38,430 - game_scraper_logger - WARNING - 
+------------------------------------------------------------------------------------------------------
+2024-01-17 23:32:38,431 - shots_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Shot Locations!-------------------------------------
+
+2024-01-17 23:32:38,432 - shots_scraper_logger - INFO - Scraping Charlotte Hornets on 2019-01-02: game_id 201901021900DALCHH
+2024-01-17 23:32:41,827 - shots_scraper_logger - ERROR - Maximum number of retries reached at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020CHH.html
+2024-01-17 23:32:41,827 - shots_scraper_logger - ERROR - Failed to scrape shots for CHH on 2019-01-02: Maximum number of retries reached at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020CHH.html
+
+2024-01-17 23:32:41,828 - shots_scraper_logger - ERROR - No shots data scraped. Please check your input parameters.
+2024-01-17 23:33:51,439 - game_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Schedule Info!-------------------------------------
+2024-01-17 23:33:51,439 - game_scraper_logger - INFO - Scraping schedule data for 2019-january
+2024-01-17 23:33:51,930 - game_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Schedule Info!-------------------------------------
+2024-01-17 23:33:51,931 - game_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-17 23:33:51,931 - game_scraper_logger - INFO - Total schedule page scraped: 1
+2024-01-17 23:33:51,932 - game_scraper_logger - INFO - Failed Schedule Pages: 0 out of 1 schedule pages
+2024-01-17 23:33:51,932 - game_scraper_logger - INFO - Time elapsed: 0.4914863109588623 seconds | 0.01 minutes | 0.0 hours
+2024-01-17 23:33:51,933 - game_scraper_logger - INFO - Averaged 0.49 seconds per schedule page
+2024-01-17 23:33:51,934 - game_scraper_logger - WARNING - 
+------------------------------------------------------------------------------------------------------
+2024-01-17 23:33:51,934 - shots_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Shot Locations!-------------------------------------
+
+2024-01-17 23:33:51,936 - shots_scraper_logger - INFO - Scraping Charlotte Hornets on 2019-01-02: game_id 201901021900DALCHH
+2024-01-17 23:33:55,371 - shots_scraper_logger - ERROR - Maximum number of retries reached at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020CHH.html
+2024-01-17 23:33:55,371 - shots_scraper_logger - ERROR - Failed to scrape shots for CHH on 2019-01-02: Maximum number of retries reached at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020CHH.html
+
+2024-01-17 23:33:55,372 - shots_scraper_logger - ERROR - No shots data scraped. Please check your input parameters.
+2024-01-17 23:38:51,048 - game_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Schedule Info!-------------------------------------
+2024-01-17 23:38:51,049 - game_scraper_logger - INFO - Scraping schedule data for 2019-january
+2024-01-17 23:38:51,405 - game_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Schedule Info!-------------------------------------
+2024-01-17 23:38:51,405 - game_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-17 23:38:51,405 - game_scraper_logger - INFO - Total schedule page scraped: 1
+2024-01-17 23:38:51,407 - game_scraper_logger - INFO - Failed Schedule Pages: 0 out of 1 schedule pages
+2024-01-17 23:38:51,408 - game_scraper_logger - INFO - Time elapsed: 0.35648441314697266 seconds | 0.01 minutes | 0.0 hours
+2024-01-17 23:38:51,408 - game_scraper_logger - INFO - Averaged 0.36 seconds per schedule page
+2024-01-17 23:38:51,409 - game_scraper_logger - WARNING - 
+------------------------------------------------------------------------------------------------------
+2024-01-17 23:38:51,410 - shots_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Shot Locations!-------------------------------------
+
+2024-01-17 23:38:51,411 - shots_scraper_logger - INFO - Scraping Charlotte Hornets on 2019-01-02: game_id 201901021900DALCHH
+2024-01-17 23:38:54,813 - shots_scraper_logger - ERROR - Error occurred for CHH on 2019-01-02: Failed to scrape shots for CHH on 2019-01-02: Maximum number of retries reached at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020CHH.html
+2024-01-17 23:38:58,207 - shots_scraper_logger - ERROR - Error occurred for CHA on 2019-01-02: Failed to scrape shots for CHA on 2019-01-02: Maximum number of retries reached at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020CHA.html
+2024-01-17 23:38:58,541 - shots_scraper_logger - INFO - Successfully processed 201901021900DALCHH shots!
+
+2024-01-17 23:38:58,542 - shots_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Shot Locations!-------------------------------------
+2024-01-17 23:38:58,542 - shots_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-17 23:38:58,543 - shots_scraper_logger - INFO - Failed games: 0 games out of 1 games
+2024-01-17 23:38:58,544 - shots_scraper_logger - INFO - Time elapsed: 7.1323230266571045 seconds | 0.12 minutes | 0.0 hours
+2024-01-17 23:38:58,545 - shots_scraper_logger - INFO - Averaged 7.13 seconds per game
+2024-01-17 23:38:58,545 - shots_scraper_logger - WARNING - 
+------------------------------------------------------------------------------------------------------
+2024-01-17 23:43:09,287 - player_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Player Info!-------------------------------------
+2024-01-17 23:43:09,403 - player_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/a/
+2024-01-17 23:43:09,560 - player_scraper_logger - INFO - Scraped letter a | 176 players
+2024-01-17 23:43:09,562 - player_scraper_logger - INFO - Concatenated letter a | 176 players
+2024-01-17 23:43:09,771 - player_scraper_logger - ERROR - HTTP error occurred: 404 Client Error: Not Found for url: https://www.basketball-reference.com/players/123/
+2024-01-17 23:43:10,860 - player_scraper_logger - ERROR - HTTP error occurred: 404 Client Error: Not Found for url: https://www.basketball-reference.com/players/123/
+2024-01-17 23:43:12,874 - player_scraper_logger - ERROR - Failed to scrape letter 123: Maximum number of retries reached at URL: https://www.basketball-reference.com/players/123/
+
+2024-01-17 23:43:12,874 - player_scraper_logger - ERROR - Failed to scrape letter 123: 'NoneType' object has no attribute 'find_all'
+
+2024-01-17 23:43:12,876 - player_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Player Info!-------------------------------------
+2024-01-17 23:43:12,876 - player_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-17 23:43:12,877 - player_scraper_logger - INFO - Total players scraped: 176
+2024-01-17 23:43:12,877 - player_scraper_logger - INFO - Failed letters: 1 out of 2 letters
+2024-01-17 23:43:12,878 - player_scraper_logger - INFO - Time elapsed: 3.5886247158050537 seconds | 0.06 minutes | 0.0 hours
+2024-01-17 23:43:12,878 - player_scraper_logger - INFO - Averaged 1.79 seconds per letter
+------------------------------------------------------------------------------------------------------
+2024-01-17 23:45:45,584 - player_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Player Info!-------------------------------------
+2024-01-17 23:45:45,674 - player_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/a/
+2024-01-17 23:45:45,849 - player_scraper_logger - INFO - Scraped letter a | 176 players
+2024-01-17 23:45:45,852 - player_scraper_logger - INFO - Concatenated letter a | 176 players
+2024-01-17 23:45:45,952 - player_scraper_logger - ERROR - HTTP error occurred: 404 Client Error: Not Found for url: https://www.basketball-reference.com/players/123/
+2024-01-17 23:45:47,042 - player_scraper_logger - ERROR - HTTP error occurred: 404 Client Error: Not Found for url: https://www.basketball-reference.com/players/123/
+2024-01-17 23:45:49,053 - player_scraper_logger - ERROR - Failed to scrape letter 123: Maximum number of retries reached at URL: https://www.basketball-reference.com/players/123/
+
+2024-01-17 23:45:49,053 - player_scraper_logger - ERROR - Failed to scrape letter 123: 'NoneType' object has no attribute 'find_all'
+
+2024-01-17 23:45:49,055 - player_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Player Info!-------------------------------------
+2024-01-17 23:45:49,056 - player_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-17 23:45:49,056 - player_scraper_logger - INFO - Total players scraped: 176
+2024-01-17 23:45:49,057 - player_scraper_logger - INFO - Failed letters: 1 out of 2 letters
+2024-01-17 23:45:49,058 - player_scraper_logger - INFO - Time elapsed: 3.471043586730957 seconds | 0.06 minutes | 0.0 hours
+2024-01-17 23:45:49,058 - player_scraper_logger - INFO - Averaged 1.74 seconds per letter
+------------------------------------------------------------------------------------------------------
+2024-01-17 23:52:28,544 - player_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Player Info!-------------------------------------
+2024-01-17 23:52:28,767 - player_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/players/a/
+2024-01-17 23:52:28,942 - player_scraper_logger - INFO - Scraped letter a | 176 players
+2024-01-17 23:52:28,944 - player_scraper_logger - INFO - Concatenated letter a | 176 players
+2024-01-17 23:52:29,132 - player_scraper_logger - ERROR - HTTP error occurred: 404 Client Error: Not Found for url: https://www.basketball-reference.com/players/123/
+2024-01-17 23:52:30,366 - player_scraper_logger - ERROR - HTTP error occurred: 404 Client Error: Not Found for url: https://www.basketball-reference.com/players/123/
+2024-01-17 23:52:32,376 - player_scraper_logger - ERROR - Failed to scrape letter 123: Invalid input of letter=123: Maximum number of retries reached at URL: https://www.basketball-reference.com/players/123/
+2024-01-17 23:52:32,378 - player_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Player Info!-------------------------------------
+2024-01-17 23:52:32,378 - player_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-17 23:52:32,378 - player_scraper_logger - INFO - Total players scraped: 176
+2024-01-17 23:52:32,380 - player_scraper_logger - INFO - Failed letters: 1 out of 2 letters
+2024-01-17 23:52:32,380 - player_scraper_logger - INFO - Time elapsed: 3.83355975151062 seconds | 0.06 minutes | 0.0 hours
+2024-01-17 23:52:32,381 - player_scraper_logger - INFO - Averaged 1.92 seconds per letter
+------------------------------------------------------------------------------------------------------
+2024-01-17 23:52:57,911 - game_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Schedule Info!-------------------------------------
+2024-01-17 23:52:57,912 - game_scraper_logger - INFO - Scraping schedule data for 2019-january
+2024-01-17 23:52:58,010 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2019_games-january.html#schedule
+2024-01-17 23:52:58,226 - game_scraper_logger - INFO - Scraping schedule data for 123sad-january
+2024-01-17 23:52:58,415 - game_scraper_logger - ERROR - HTTP error occurred: 404 Client Error: Not Found for url: https://www.basketball-reference.com/leagues/NBA_123sad_games-january.html#schedule
+2024-01-17 23:52:59,502 - game_scraper_logger - ERROR - HTTP error occurred: 404 Client Error: Not Found for url: https://www.basketball-reference.com/leagues/NBA_123sad_games-january.html#schedule
+2024-01-17 23:53:01,509 - game_scraper_logger - ERROR - Failed to scrape 123sad-january: Maximum number of retries reached at URL: https://www.basketball-reference.com/leagues/NBA_123sad_games-january.html#schedule
+
+2024-01-17 23:53:01,510 - game_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Schedule Info!-------------------------------------
+2024-01-17 23:53:01,510 - game_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-17 23:53:01,511 - game_scraper_logger - INFO - Total schedule page scraped: 2
+2024-01-17 23:53:01,511 - game_scraper_logger - INFO - Failed Schedule Pages: 1 out of 2 schedule pages
+2024-01-17 23:53:01,512 - game_scraper_logger - INFO - Time elapsed: 3.5989434719085693 seconds | 0.06 minutes | 0.0 hours
+2024-01-17 23:53:01,512 - game_scraper_logger - INFO - Averaged 1.8 seconds per schedule page
+2024-01-17 23:53:01,513 - game_scraper_logger - WARNING - 
+------------------------------------------------------------------------------------------------------
+2024-01-17 23:53:57,868 - shots_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Shot Locations!-------------------------------------
+
+2024-01-17 23:53:57,869 - shots_scraper_logger - INFO - Scraping Charlotte Hornets on 2019-01-02: game_id 201901021900DALCHH
+2024-01-17 23:53:58,066 - shots_scraper_logger - ERROR - HTTP error occurred: 404 Client Error: Not Found for url: https://www.basketball-reference.com/boxscores/shot-chart/201901020CHH.html
+2024-01-17 23:53:59,264 - shots_scraper_logger - ERROR - HTTP error occurred: 404 Client Error: Not Found for url: https://www.basketball-reference.com/boxscores/shot-chart/201901020CHH.html
+2024-01-17 23:54:01,267 - shots_scraper_logger - ERROR - Error occured for CHH on 2019-01-02: Invalid input of team=CHH: Maximum number of retries reached at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020CHH.html
+2024-01-17 23:54:01,468 - shots_scraper_logger - ERROR - HTTP error occurred: 404 Client Error: Not Found for url: https://www.basketball-reference.com/boxscores/shot-chart/201901020CHA.html
+2024-01-17 23:54:02,565 - shots_scraper_logger - ERROR - HTTP error occurred: 404 Client Error: Not Found for url: https://www.basketball-reference.com/boxscores/shot-chart/201901020CHA.html
+2024-01-17 23:54:04,569 - shots_scraper_logger - ERROR - Error occured for CHA on 2019-01-02: Invalid input of team=CHA: Maximum number of retries reached at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020CHA.html
+2024-01-17 23:54:04,750 - shots_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/boxscores/shot-chart/201901020CHO.html
+2024-01-17 23:54:04,813 - shots_scraper_logger - INFO - Successfully processed 201901021900DALCHH shots!
+
+2024-01-17 23:54:04,814 - shots_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Shot Locations!-------------------------------------
+2024-01-17 23:54:04,814 - shots_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-17 23:54:04,815 - shots_scraper_logger - INFO - Failed games: 0 games out of 1 games
+2024-01-17 23:54:04,815 - shots_scraper_logger - INFO - Time elapsed: 6.945969820022583 seconds | 0.12 minutes | 0.0 hours
+2024-01-17 23:54:04,816 - shots_scraper_logger - INFO - Averaged 6.95 seconds per game
+2024-01-17 23:54:04,817 - shots_scraper_logger - WARNING - 
+------------------------------------------------------------------------------------------------------
+2024-01-18 00:02:58,790 - game_scraper_logger - WARNING - 
+-------------------------------------Start of Scraping Schedule Info!-------------------------------------
+2024-01-18 00:02:58,790 - game_scraper_logger - INFO - Scraping schedule data for 2019-october
+2024-01-18 00:02:59,054 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2019_games-october.html#schedule
+2024-01-18 00:02:59,170 - game_scraper_logger - INFO - Scraping schedule data for 2019-november
+2024-01-18 00:02:59,383 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2019_games-november.html#schedule
+2024-01-18 00:02:59,661 - game_scraper_logger - INFO - Scraping schedule data for 2019-december
+2024-01-18 00:02:59,851 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2019_games-december.html#schedule
+2024-01-18 00:03:00,070 - game_scraper_logger - INFO - Scraping schedule data for 2019-january
+2024-01-18 00:03:00,185 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2019_games-january.html#schedule
+2024-01-18 00:03:00,391 - game_scraper_logger - INFO - Scraping schedule data for 2019-february
+2024-01-18 00:03:00,591 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2019_games-february.html#schedule
+2024-01-18 00:03:00,802 - game_scraper_logger - INFO - Scraping schedule data for 2019-march
+2024-01-18 00:03:00,991 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2019_games-march.html#schedule
+2024-01-18 00:03:01,199 - game_scraper_logger - INFO - Scraping schedule data for 2019-april
+2024-01-18 00:03:01,395 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2019_games-april.html#schedule
+2024-01-18 00:03:01,532 - game_scraper_logger - INFO - Scraping schedule data for 2019-may
+2024-01-18 00:03:01,715 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2019_games-may.html#schedule
+2024-01-18 00:03:01,772 - game_scraper_logger - INFO - Scraping schedule data for 2019-june
+2024-01-18 00:03:01,958 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2019_games-june.html#schedule
+2024-01-18 00:03:01,997 - game_scraper_logger - INFO - Scraping schedule data for 2019-july
+2024-01-18 00:03:02,186 - game_scraper_logger - ERROR - HTTP error occurred: 404 Client Error: Not Found for url: https://www.basketball-reference.com/leagues/NBA_2019_games-july.html#schedule
+2024-01-18 00:03:03,399 - game_scraper_logger - ERROR - HTTP error occurred: 404 Client Error: Not Found for url: https://www.basketball-reference.com/leagues/NBA_2019_games-july.html#schedule
+2024-01-18 00:03:05,409 - game_scraper_logger - ERROR - Failed to scrape 2019-july: Maximum number of retries reached at URL: https://www.basketball-reference.com/leagues/NBA_2019_games-july.html#schedule
+
+2024-01-18 00:03:05,409 - game_scraper_logger - INFO - Scraping schedule data for 2019-august
+2024-01-18 00:03:05,607 - game_scraper_logger - ERROR - HTTP error occurred: 404 Client Error: Not Found for url: https://www.basketball-reference.com/leagues/NBA_2019_games-august.html#schedule
+2024-01-18 00:03:06,801 - game_scraper_logger - ERROR - HTTP error occurred: 404 Client Error: Not Found for url: https://www.basketball-reference.com/leagues/NBA_2019_games-august.html#schedule
+2024-01-18 00:03:08,804 - game_scraper_logger - ERROR - Failed to scrape 2019-august: Maximum number of retries reached at URL: https://www.basketball-reference.com/leagues/NBA_2019_games-august.html#schedule
+
+2024-01-18 00:03:08,804 - game_scraper_logger - INFO - Scraping schedule data for 2019-september
+2024-01-18 00:03:09,146 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2019_games-september.html#schedule
+2024-01-18 00:03:09,179 - game_scraper_logger - INFO - Scraping schedule data for 2020-october
+2024-01-18 00:03:09,351 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2020_games-october.html#schedule
+2024-01-18 00:03:09,414 - game_scraper_logger - ERROR - Failed to get schedule table from BeautifulSoup object
+2024-01-18 00:03:09,414 - game_scraper_logger - INFO - Scraping schedule data for 2020-november
+2024-01-18 00:03:09,637 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2020_games-november.html#schedule
+2024-01-18 00:03:09,860 - game_scraper_logger - INFO - Scraping schedule data for 2020-december
+2024-01-18 00:03:10,114 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2020_games-december.html#schedule
+2024-01-18 00:03:10,317 - game_scraper_logger - INFO - Scraping schedule data for 2020-january
+2024-01-18 00:03:10,839 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2020_games-january.html#schedule
+2024-01-18 00:03:11,096 - game_scraper_logger - INFO - Scraping schedule data for 2020-february
+2024-01-18 00:03:11,434 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2020_games-february.html#schedule
+2024-01-18 00:03:11,591 - game_scraper_logger - INFO - Scraping schedule data for 2020-march
+2024-01-18 00:03:11,795 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2020_games-march.html#schedule
+2024-01-18 00:03:11,887 - game_scraper_logger - INFO - Scraping schedule data for 2020-april
+2024-01-18 00:03:12,333 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2020_games-april.html#schedule
+2024-01-18 00:03:12,437 - game_scraper_logger - INFO - Scraping schedule data for 2020-may
+2024-01-18 00:03:12,632 - game_scraper_logger - ERROR - HTTP error occurred: 404 Client Error: Not Found for url: https://www.basketball-reference.com/leagues/NBA_2020_games-may.html#schedule
+2024-01-18 00:03:13,719 - game_scraper_logger - ERROR - HTTP error occurred: 404 Client Error: Not Found for url: https://www.basketball-reference.com/leagues/NBA_2020_games-may.html#schedule
+2024-01-18 00:03:15,726 - game_scraper_logger - ERROR - Failed to scrape 2020-may: Maximum number of retries reached at URL: https://www.basketball-reference.com/leagues/NBA_2020_games-may.html#schedule
+
+2024-01-18 00:03:15,726 - game_scraper_logger - INFO - Scraping schedule data for 2020-june
+2024-01-18 00:03:59,004 - game_scraper_logger - ERROR - HTTP error occurred: 404 Client Error: Not Found for url: https://www.basketball-reference.com/leagues/NBA_2020_games-june.html#schedule
+2024-01-18 00:04:00,195 - game_scraper_logger - ERROR - HTTP error occurred: 404 Client Error: Not Found for url: https://www.basketball-reference.com/leagues/NBA_2020_games-june.html#schedule
+2024-01-18 00:04:02,200 - game_scraper_logger - ERROR - Failed to scrape 2020-june: Maximum number of retries reached at URL: https://www.basketball-reference.com/leagues/NBA_2020_games-june.html#schedule
+
+2024-01-18 00:04:02,201 - game_scraper_logger - INFO - Scraping schedule data for 2020-july
+2024-01-18 00:04:02,381 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2020_games-july.html#schedule
+2024-01-18 00:04:02,420 - game_scraper_logger - INFO - Scraping schedule data for 2020-august
+2024-01-18 00:04:02,621 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2020_games-august.html#schedule
+2024-01-18 00:04:02,816 - game_scraper_logger - INFO - Scraping schedule data for 2020-september
+2024-01-18 00:04:03,004 - game_scraper_logger - INFO - Request successful at URL: https://www.basketball-reference.com/leagues/NBA_2020_games-september.html#schedule
+2024-01-18 00:04:03,067 - game_scraper_logger - WARNING - 
+-------------------------------------End of Scraping Schedule Info!-------------------------------------
+2024-01-18 00:04:03,068 - game_scraper_logger - WARNING - 
+-------------------------------------Scraping Summary-------------------------------------
+2024-01-18 00:04:03,068 - game_scraper_logger - INFO - Total schedule page scraped: 24
+2024-01-18 00:04:03,069 - game_scraper_logger - INFO - Failed Schedule Pages: 5 out of 24 schedule pages
+2024-01-18 00:04:03,070 - game_scraper_logger - INFO - Time elapsed: 64.27732706069946 seconds | 1.07 minutes | 0.02 hours
+2024-01-18 00:04:03,070 - game_scraper_logger - INFO - Averaged 2.68 seconds per schedule page
+2024-01-18 00:04:03,071 - game_scraper_logger - WARNING - 
+------------------------------------------------------------------------------------------------------

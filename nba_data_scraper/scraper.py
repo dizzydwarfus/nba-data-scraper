@@ -1,8 +1,13 @@
-from ._data_scraper import PlayerDataScraper, ScheduleDataScraper, GameDataScraper
-from typing import List, Union
-from ._constants import MONTHS
+# Built-in Libraries
 import datetime as dt
+from typing import List, Union
+
+# Third-party Libraries
 from pandas import DataFrame
+
+# Internal Imports
+from ._constants import MONTHS, TEAM_ABBS
+from ._data_scraper import PlayerDataScraper, ScheduleDataScraper, GameDataScraper
 
 
 class NBAScraper:
@@ -11,6 +16,7 @@ class NBAScraper:
         self.schedule_scraper = ScheduleDataScraper()
         self.game_scraper = GameDataScraper()
         self._all_letters = None
+        self._teams = None
         self.months = MONTHS
         self._player_failed_letters = None
         self._schedule_failed_dates = None
@@ -23,6 +29,12 @@ class NBAScraper:
         if not self._all_letters:
             self._all_letters = [chr(i) for i in range(ord('a'), ord('z') + 1)]
         return self._all_letters
+
+    @property
+    def teams(self):
+        if not self._teams:
+            self._teams = TEAM_ABBS
+        return self._teams
 
     @property
     def player_failed_letters(self):
