@@ -2,9 +2,9 @@
 import re
 import time
 import datetime as dt
+from typing import Union, List
 
 # Third-party Libraries
-from typing import Union, List
 from bs4 import BeautifulSoup
 from bs4.element import Tag
 import pandas as pd
@@ -31,7 +31,7 @@ class PlayerDataScraper(AbstractScraper):
 
         except Exception as e:
             raise ValueError(
-                f'Invalid input of letter={letter}: {e}')
+                f'{e}')
 
     def _scrape_letter(self, letter: str):
         try:
@@ -63,6 +63,10 @@ class PlayerDataScraper(AbstractScraper):
         """
         if isinstance(letter, str):
             letter = [letter]
+
+        if not letter:
+            raise TypeError(
+                f'Invalid input type of letter: {type(letter)}')
 
         self.player_failed_letters = []
         players_df = pd.DataFrame()
@@ -116,7 +120,7 @@ class ScheduleDataScraper(AbstractScraper):
         self.months = ['october', 'november', 'december', 'january', 'february',
                        'march', 'april', 'may', 'june', 'july', 'august', 'september']
 
-    def _get_schedule_html(self, year: str, month: str,):
+    def _get_schedule_html(self, year: Union[str, int], month: str,):
         try:
             games = self.rate_limited_request(
                 self.base_url.format(year=year, month=month))
@@ -143,7 +147,7 @@ class ScheduleDataScraper(AbstractScraper):
         try:
             df = df.loc[df['Date'] != 'Playoffs'].copy()
             df['DateTime'] = pd.to_datetime(
-                df['Date'] + ' ' + df['Start (ET)'] + 'm')
+                df['Date'] + ' ' + df['Start (ET)'] + 'm', infer_datetime_format=True)
             df['DateStr'] = [dt.datetime.strftime(
                 i, "%Y%m%d%H%M") for i in df['DateTime']]
             df = df.drop(['Date', 'Start (ET)', 'Notes'], axis=1)
@@ -164,17 +168,17 @@ class ScheduleDataScraper(AbstractScraper):
                 f'Failed to process daily schedule: {e}')
             return None
 
-    def scrape(self, year: Union[str, List[str]], month: Union[str, List[str]],):
+    def scrape(self, year: Union[str, List[str], int, List[int]], month: Union[str, List[str]],):
         """Scrape schedule data from basketball-reference.com
 
         Args:
-            year (Union[str, List[str]]): input year or list of years in string format yyyy, e.g. '2023' or ['2022', '2023'].
+            year (Union[str, List[str]]): input year or list of years in string or int format yyyy, e.g. '2023' or ['2022', '2023'].
             month (Union[str, List[str]]): input month or list of months in en-US full month name format, e.g. 'october'.
 
         Returns:
             pd.DataFrame: Pandas DataFrame containing schedule data.
         """
-        if isinstance(year, str):
+        if isinstance(year, str) or isinstance(year, int):
             year = [year]
         if isinstance(month, str):
             month = [month]

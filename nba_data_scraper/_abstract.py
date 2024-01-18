@@ -17,7 +17,7 @@ class AbstractScraper(ABC):
 
     # Adjust the rate limit as per the website's policy 20req/60sec
     @sleep_and_retry
-    @limits(calls=20, period=60)
+    @limits(calls=15, period=60)
     def rate_limited_request(self, url: str, headers: dict = None, max_retries: int = 2):
         """Rate limited request to the website. (20 requests/min)
 
@@ -41,6 +41,10 @@ class AbstractScraper(ABC):
             except Exception as err:
                 self.scrape_logger.error(f'Other error occurred: {err}')
             time.sleep(2**i)
+
+        if response.status_code == 429:
+            raise Exception(
+                f'Rate limit reached at URL: {url}')
 
         raise Exception(
             f'Maximum number of retries reached at URL: {url}')

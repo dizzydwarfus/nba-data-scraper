@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "nba-data-scraper"
+version = "1.0.0"
+description = "A tool to scrape a basketball website for player, schedule, and game data. Legal implications apply. Please look at README.md for more information."
+authors = ["dizzydwarfus <67429119+dizzydwarfus@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "nba_data_scraper"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+beautifulsoup4 = "^4.12.3"
+pandas = "^2.1.4"
+numpy = "^1.26.3"
+ratelimit = "^2.2.1"
+requests = "^2.31.0"
+poetry-plugin-export = "^1.6.0"
+lxml = "^5.1.0"
+
+[tool.poetry.group.dev.dependencies]
+python = "^3.9"
+beautifulsoup4 = "^4.12.3"
+pandas = "^2.1.4"
+numpy = "^1.26.3"
+ratelimit = "^2.2.1"
+pytest = "^7.4.4"
+ipykernel = "^6.29.0"
+jupyter = "^1.0.0"
+lxml = "^5.1.0"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.4"
+requests-mock = "^1.11.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
