@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nba-data-scraper"
-version = "1.0.0"
+version = "1.0.2"
 description = "A tool to scrape a basketball website for player, schedule, and game data. Legal implications apply. Please look at README.md for more information."
 authors = ["dizzydwarfus <67429119+dizzydwarfus@users.noreply.github.com>"]
 license = "MIT"
