@@ -147,7 +147,7 @@ class ScheduleDataScraper(AbstractScraper):
         try:
             df = df.loc[df['Date'] != 'Playoffs'].copy()
             df['DateTime'] = pd.to_datetime(
-                df['Date'] + ' ' + df['Start (ET)'] + 'm', infer_datetime_format=True)
+                df['Date'] + ' ' + df['Start (ET)'] + 'm', format='%a, %b %d, %Y %I:%M%p')
             df['DateStr'] = [dt.datetime.strftime(
                 i, "%Y%m%d%H%M") for i in df['DateTime']]
             df = df.drop(['Date', 'Start (ET)', 'Notes'], axis=1)

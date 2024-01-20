@@ -116,30 +116,27 @@ class TestScheduleScraperInputs:
             scraper.scrape_schedule_data(year=year, month=month)
 
 
-@pytest.fixture(scope='session')
+@pytest.fixture()
 def game_scraper():
     s = NBAScraper()
     s.scrape_schedule_data(year=['2018'], month='november')
     return s
 
 
-@pytest.fixture(scope='session')
+@pytest.fixture()
 def schedule_df(game_scraper):
     return game_scraper.schedule_df.iloc[:1]
 
 
 class TestGameScraperInputs:
-    @pytest.mark.parametrize('input', [
-        (schedule_df)
-    ])
-    def test_game_data_scraper_success_df_input(self, scraper, input):
-        result = scraper.scrape_game_data(
-            schedule_df=input)
+    def test_game_data_scraper_success_df_input(self, game_scraper, schedule_df):
+        result = game_scraper.scrape_game_data(
+            schedule_df=schedule_df)
 
         is_dataframe = isinstance(result, DataFrame)
         len_result = len(result) > 0
 
-        assert is_dataframe and len_result and scraper.games_failed_game_ids == []
+        assert is_dataframe and len_result and game_scraper.games_failed_game_ids == []
 
     @pytest.mark.parametrize('input', [
         (DataFrame()),

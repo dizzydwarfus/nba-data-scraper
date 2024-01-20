@@ -34,8 +34,7 @@ nba-data-scraper/
 ```
 
 
-## 🔧 Installation (not available yet)
-(Instructions on how to install the library, e.g., using pip or by cloning the repo)
+## 🔧 Installation
 ```
 pip install nba-data-scraper
 ```
@@ -71,11 +70,6 @@ schedule_data = nba_scraper.scrape_schedule_data(year='2023', month='january')
 ## Second: use return DataFrame as input to scrape_game_data method
 game_data = nba_scraper.scrape_game_data(schedule_df=schedule_data)
 ```
-
-## Work in Progress
-- Further documentation in the docs/ folder.
-- Additional examples in the examples/ folder.
-- Comprehensive tests in the tests/ folder.
 
 ## License
 See the [LICENSE](LICENSE) file for details.
