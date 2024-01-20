@@ -14,16 +14,11 @@ nba-data-scraper/
 │ │ └── _logger.py
 │ ├── _abstract.py
 │ ├── _data_scraper.py
+│ ├── _constants_.py
 │ └── scraper.py
 │
 ├── tests/
 │ ├── init.py
-│ └── ...
-│
-├── docs/
-│ └── ...
-│
-├── examples/
 │ └── ...
 │
 ├── .gitignore
